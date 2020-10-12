@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.3">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-10-12T17:35:27-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Portfolio Jekyll Theme</title><subtitle>Powered by Jekyll and GitHub Pages</subtitle><author><name>Paul Le</name></author><entry><title type="html">Getting Started</title><link href="http://localhost:4000/getting-started.html" rel="alternate" type="text/html" title="Getting Started" /><published>2017-01-01T00:00:00-05:00</published><updated>2017-01-01T00:00:00-05:00</updated><id>http://localhost:4000/getting-started</id><content type="html" xml:base="http://localhost:4000/getting-started.html">&lt;p&gt;This is a portfolio Jekyll theme built from the ground up, using the &lt;a href=&quot;http://devtipsstarterkit.com/&quot;&gt;DevTips Starter Kit&lt;/a&gt; as a foundation for starting, and following closely the amazing tutorial by &lt;a href=&quot;https://www.youtube.com/watch?v=T6jKLsxbFg4&amp;amp;list=PL0CB3OvPhDA_STygmp3sDenx3UpdOMk7P&quot;&gt;Travis Neilson over at DevTips&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;quick-start-guide&quot;&gt;Quick-Start Guide&lt;/h4&gt;
+
+&lt;p&gt;To start using this theme right away, &lt;a href=&quot;https://github.com/LeNPaul/portfolio-jekyll-theme/fork&quot;&gt;fork the repository&lt;/a&gt;. From there, you can rename the repository to &lt;code class=&quot;highlighter-rouge&quot;&gt;USERNAME.github.io&lt;/code&gt;, where &lt;code class=&quot;highlighter-rouge&quot;&gt;USERNAME&lt;/code&gt; is your GitHub username, and edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;_settings.yml&lt;/code&gt; file (in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data folder&lt;/code&gt;) to your liking. Ensure that you have a branch named &lt;code class=&quot;highlighter-rouge&quot;&gt;gh-pages&lt;/code&gt;. Your website should be ready immediately at &lt;code class=&quot;highlighter-rouge&quot;&gt;http://USERNAME.github.io&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;Head over to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory to view all the blog posts that are currently on the website, and to see examples of what post files generally look like. Project content is added in the &lt;code class=&quot;highlighter-rouge&quot;&gt;projects&lt;/code&gt; folder.  You can simply just duplicate the template posts and start adding your own content.&lt;/p&gt;
+
+&lt;h4 id=&quot;full-installation-guide&quot;&gt;Full Installation Guide&lt;/h4&gt;
+
+&lt;p&gt;For a full local installation of this theme, &lt;a href=&quot;https://github.com/LeNPaul/portfolio-jekyll-theme/archive/gh-pages.zip&quot;&gt;download your own copy of the Portfolio Jekyll Theme&lt;/a&gt; and unzip it into it’s own directory. From there, open up your favorite command line tool, and enter &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;. Your site should be up and running locally at &lt;a href=&quot;http://localhost:4000&quot;&gt;http://localhost:4000&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;posts&quot;&gt;Posts&lt;/h4&gt;
+
+&lt;p&gt;You will find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+
+&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works. If you already have a website built with Jekyll, simply copy over your posts.&lt;/p&gt;
+
+&lt;h4 id=&quot;configuration&quot;&gt;Configuration&lt;/h4&gt;
+
+&lt;p&gt;To change site settings, edit the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file found in the root of your repository and the &lt;code class=&quot;highlighter-rouge&quot;&gt;_settings.yml&lt;/code&gt; file found in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_data&lt;/code&gt; folder. Anything under &lt;code class=&quot;highlighter-rouge&quot;&gt;Site Settings&lt;/code&gt; can be tweaked to your liking.&lt;/p&gt;
+
+&lt;p&gt;If you are hosting your site on GitHub Pages, then committing a change to the &lt;code class=&quot;highlighter-rouge&quot;&gt;_config.yml&lt;/code&gt; file will force a rebuild of your site with Jekyll. Any changes made should be viewable soon after. If you are hosting your site locally, then you must run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt; again for the changes to take place.&lt;/p&gt;
+
+&lt;p&gt;In the &lt;code class=&quot;highlighter-rouge&quot;&gt;_settings.yml&lt;/code&gt; file, you’ll be able to change the title of your site along with any tagline you want, which shows up in the site header, as well as the description of your site for SEO purposes. You can also change the social media information, and add your own social media icons.&lt;/p&gt;
+
+&lt;h4 id=&quot;everything-else&quot;&gt;Everything Else&lt;/h4&gt;
+
+&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h4 id=&quot;questions&quot;&gt;Questions?&lt;/h4&gt;
+
+&lt;p&gt;This theme is completely free and open source software. You may use it however you want, as it is distributed under the &lt;a href=&quot;http://choosealicense.com/licenses/mit/&quot;&gt;MIT License&lt;/a&gt;. If you are having any problems, any questions or suggestions, feel free to &lt;a href=&quot;https://twitter.com/intent/tweet?text=My%question%about%Millennial%is:%&amp;amp;via=paululele&quot;&gt;tweet at me&lt;/a&gt;, or &lt;a href=&quot;https://github.com/lenpaul/portfolio-jekyll-theme/issues/new&quot;&gt;file a GitHub issue&lt;/a&gt;.&lt;/p&gt;</content><author><name>Paul Le</name></author><summary type="html">This is a portfolio Jekyll theme built from the ground up, using the DevTips Starter Kit as a foundation for starting, and following closely the amazing tutorial by Travis Neilson over at DevTips.</summary></entry><entry><title type="html">Text Formatting Examples</title><link href="http://localhost:4000/text-formatting-examples.html" rel="alternate" type="text/html" title="Text Formatting Examples" /><published>2014-01-01T00:00:00-05:00</published><updated>2014-01-01T00:00:00-05:00</updated><id>http://localhost:4000/text-formatting-examples</id><content type="html" xml:base="http://localhost:4000/text-formatting-examples.html">&lt;h1 id=&quot;markdown-support&quot;&gt;Markdown Support&lt;/h1&gt;
+
+&lt;p&gt;As always, Jekyll offers support for GitHub Flavored Markdown, which allows you to format your posts using the &lt;a href=&quot;https://guides.github.com/features/mastering-markdown/&quot;&gt;Markdown syntax&lt;/a&gt;. Examples of these text formatting features can be seen below. You can find this post in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory.&lt;/p&gt;
+
+&lt;h2 id=&quot;basic-formatting&quot;&gt;Basic Formatting&lt;/h2&gt;
+
+&lt;p&gt;With Markdown, it is possible to emphasize words by making them &lt;em&gt;italicized&lt;/em&gt;, using &lt;em&gt;astericks&lt;/em&gt; or &lt;em&gt;underscores&lt;/em&gt;, or making them &lt;strong&gt;bold&lt;/strong&gt;, using &lt;strong&gt;double astericks&lt;/strong&gt; or &lt;strong&gt;double underscores&lt;/strong&gt;. Of course, you can combine those two formats, with both &lt;em&gt;&lt;strong&gt;bold and italicized&lt;/strong&gt;&lt;/em&gt; text, using any combination of the above syntax. You can also add a strikethrough to text using a &lt;del&gt;double tilde&lt;/del&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;paragraphs&quot;&gt;Paragraphs&lt;/h2&gt;
+
+&lt;p&gt;This is what a paragraph looks like. For the purpose of demonstration, the rest of this paragraph and the next paragraph after will mean absolutely nothing. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;p&gt;Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Mauris lobortis nulla et felis ullamcorper bibendum. Phasellus et hendrerit mauris. Proin eget nibh a massa vestibulum pretium. Suspendisse eu nisl a ante aliquet bibendum quis a nunc. Praesent varius interdum vehicula. Aenean risus libero, placerat at vestibulum eget, ultricies eu enim. Praesent nulla tortor, malesuada adipiscing adipiscing sollicitudin, adipiscing eget est.&lt;/p&gt;
+
+&lt;h2 id=&quot;headings&quot;&gt;Headings&lt;/h2&gt;
+
+&lt;p&gt;Sometimes it is useful to have different levels of headings to structure your documents. Start lines with &lt;code class=&quot;highlighter-rouge&quot;&gt;#&lt;/code&gt; to create headings. Multiple &lt;code class=&quot;highlighter-rouge&quot;&gt;##&lt;/code&gt; in a row denote smaller heading size. The following demonstrate the full range of heading sizes:&lt;/p&gt;
+
+&lt;h1 id=&quot;heading-one-h1&quot;&gt;Heading One (h1)&lt;/h1&gt;
+
+&lt;h2 id=&quot;heading-two-h2&quot;&gt;Heading Two (h2)&lt;/h2&gt;
+
+&lt;h3 id=&quot;heading-three-h3&quot;&gt;Heading Three (h3)&lt;/h3&gt;
+
+&lt;h4 id=&quot;heading-four-h4&quot;&gt;Heading Four (h4)&lt;/h4&gt;
+
+&lt;h5 id=&quot;heading-five-h5&quot;&gt;Heading Five (h5)&lt;/h5&gt;
+
+&lt;h6 id=&quot;heading-six-h6&quot;&gt;Heading Six (h6)&lt;/h6&gt;
+
+&lt;h2 id=&quot;links&quot;&gt;Links&lt;/h2&gt;
+
+&lt;p&gt;You can create an inline link by wrapping link text in square brackets &lt;code class=&quot;highlighter-rouge&quot;&gt;[ ]&lt;/code&gt;, and then wrapping the URL in parentheses &lt;code class=&quot;highlighter-rouge&quot;&gt;( )&lt;/code&gt;. For example, it is very easy to &lt;a href=&quot;http://google.com&quot;&gt;link to Google!&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;blockquotes&quot;&gt;Blockquotes&lt;/h2&gt;
+
+&lt;p&gt;Blockquotes are useful for denoting quotes, or highlighting a large block of text. Single line blockquote:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This quote will change your life.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Multi line blockquote with a cite reference:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;People think focus means saying yes to the thing you’ve got to focus on. But that’s not what it means at all. It means saying no to the hundred other good ideas that there are. You have to pick carefully. I’m actually as proud of the things we haven’t done as the things I have done. Innovation is saying no to 1,000 things.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;code-and-syntax-highlighting&quot;&gt;Code and Syntax Highlighting&lt;/h2&gt;
+
+&lt;p&gt;Code blocks are part of the Markdown spec, but syntax highlighting isn’t. However, many renderers - like GitHub or most Jekyll themes - support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. You can find the full list of supported programming languages &lt;a href=&quot;https://github.com/jneen/rouge/wiki/List-of-supported-languages-and-lexers&quot;&gt;here&lt;/a&gt;. Also, it is possible to do &lt;code class=&quot;highlighter-rouge&quot;&gt;inline code blocks&lt;/code&gt;, by wrapping the text in ` ` ` quotations.&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;No language indicated, so no syntax highlighting.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;a&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;return a + b&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+
+&lt;span class=&quot;c1&quot;&gt;// Call the function&lt;/span&gt;
+&lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;mi&quot;&gt;6&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;// &amp;gt; 8&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Another option is to embed your code through &lt;a href=&quot;https://en.support.wordpress.com/gist/&quot;&gt;Gist&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;unordered-and-numbered-lists&quot;&gt;Unordered and Numbered Lists&lt;/h2&gt;
+
+&lt;p&gt;You can make an unordered and nested list by preceding one or more lines of text with &lt;code class=&quot;highlighter-rouge&quot;&gt;-&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;*&lt;/code&gt;, or &lt;code class=&quot;highlighter-rouge&quot;&gt;+&lt;/code&gt;, and indenting sublists. The following lists show the full range of possible list formats.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;List item one
+    &lt;ul&gt;
+      &lt;li&gt;List item one
+        &lt;ul&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+          &lt;li&gt;List item three&lt;/li&gt;
+          &lt;li&gt;List item four&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+      &lt;li&gt;List item three&lt;/li&gt;
+      &lt;li&gt;List item four&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+  &lt;li&gt;List item four&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Numbered lists are made by using numbers instead of bullet points.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;List item one
+    &lt;ol&gt;
+      &lt;li&gt;List item one
+        &lt;ol&gt;
+          &lt;li&gt;List item one&lt;/li&gt;
+          &lt;li&gt;List item two&lt;/li&gt;
+          &lt;li&gt;List item three&lt;/li&gt;
+          &lt;li&gt;List item four&lt;/li&gt;
+        &lt;/ol&gt;
+      &lt;/li&gt;
+      &lt;li&gt;List item two&lt;/li&gt;
+      &lt;li&gt;List item three&lt;/li&gt;
+      &lt;li&gt;List item four&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;List item two&lt;/li&gt;
+  &lt;li&gt;List item three&lt;/li&gt;
+  &lt;li&gt;List item four&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;mathjax-example&quot;&gt;MathJax Example&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation&quot;&gt;Schrödinger equation&lt;/a&gt; is a partial differential equation that describes how the quantum state of a quantum system changes with time:&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;i\hbar\frac{\partial}{\partial t} \Psi(\mathbf{r},t) = \left [ \frac{-\hbar^2}{2\mu}\nabla^2 + V(\mathbf{r},t)\right ] \Psi(\mathbf{r},t)&lt;/script&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Joseph-Louis_Millennial&quot;&gt;Joseph-Louis Millennial&lt;/a&gt; was an Italian mathematician and astronomer who was responsible for the formulation of Lagrangian mechanics, which is a reformulation of Newtonian mechanics.&lt;/p&gt;
+
+&lt;script type=&quot;math/tex; mode=display&quot;&gt;\frac{\mathrm{d}}{\mathrm{d}t} \left ( \frac {\partial  L}{\partial \dot{q}_j} \right ) =  \frac {\partial L}{\partial q_j}&lt;/script&gt;
+
+&lt;h2 id=&quot;tables&quot;&gt;Tables&lt;/h2&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Title 1&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;Title 2&lt;/th&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt;Title 3&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;Title 4&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lorem&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lorem ipsum&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;lorem ipsum dolor&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;lorem ipsum dolor sit&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&quot;embedding&quot;&gt;Embedding&lt;/h2&gt;
+
+&lt;p&gt;Plenty of social media sites offer the option of embedding certain parts of their site on your own site, such as YouTube and Twitter:&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/mthtn1X4eUY&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a class=&quot;twitter-grid&quot; data-partner=&quot;tweetdeck&quot; href=&quot;https://twitter.com/paululele/timelines/755079130027352064&quot;&gt;New Collection&lt;/a&gt; &lt;script async=&quot;&quot; src=&quot;//platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;inline-html-elements&quot;&gt;Inline HTML elements&lt;/h2&gt;
+
+&lt;p&gt;HTML defines a long list of available inline tags, which you can mix with Markdown if you like. A complete list of which can be found on the &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/HTML/Element&quot;&gt;Mozilla Developer Network&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&quot;useful-resources&quot;&gt;Useful Resources&lt;/h2&gt;
+
+&lt;p&gt;More information on Markdown can be found at the following links:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet#code&quot;&gt;Markdown Here Cheatsheet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.unexpected-vortices.com/sw/rippledoc/quick-markdown-example.html&quot;&gt;Quick Markdown Example&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daringfireball.net/projects/markdown/basics&quot;&gt;Markdown Basics&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.github.com/gfm/&quot;&gt;GitHub Flavoured Markdown Spec&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://help.github.com/articles/basic-writing-and-formatting-syntax/#lists&quot;&gt;Basic writing and formatting syntax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>Paul Le</name></author><summary type="html">Markdown Support</summary></entry><entry><title type="html">More Jekyll Themes!</title><link href="http://localhost:4000/more-jekyll-themes.html" rel="alternate" type="text/html" title="More Jekyll Themes!" /><published>2013-01-01T00:00:00-05:00</published><updated>2013-01-01T00:00:00-05:00</updated><id>http://localhost:4000/more-jekyll-themes</id><content type="html" xml:base="http://localhost:4000/more-jekyll-themes.html">&lt;h4 id=&quot;lagrange&quot;&gt;Lagrange&lt;/h4&gt;
+
+&lt;p&gt;Lagrange is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused blogging platform for your personal site or blog.&lt;/p&gt;
+
+&lt;p&gt;Feel free to check out &lt;a href=&quot;https://lenpaul.github.io/Lagrange/&quot; target=&quot;_blank&quot;&gt;the demo&lt;/a&gt;, where you’ll also find instructions on &lt;a href=&quot;https://lenpaul.github.io/Lagrange/journal/getting-started.html&quot;&gt;how to use install&lt;/a&gt; and use the theme.&lt;/p&gt;
+
+&lt;h4 id=&quot;millennial&quot;&gt;Millennial&lt;/h4&gt;
+
+&lt;p&gt;Millennial is a minimalist Jekyll blog theme that I built from scratch. The purpose of this theme is to provide a simple, clean, content-focused publishing platform for a publication or blog.&lt;/p&gt;
+
+&lt;p&gt;Feel free to check out &lt;a href=&quot;https://lenpaul.github.io/Millennial/&quot; target=&quot;_blank&quot;&gt;the demo&lt;/a&gt;, where you’ll also find instructions on &lt;a href=&quot;https://lenpaul.github.io/Millennial/documentation/getting-started.html&quot;&gt;how to use install&lt;/a&gt; and use the theme.&lt;/p&gt;
+
+&lt;h4 id=&quot;jekyll-starter-kit&quot;&gt;Jekyll Starter Kit&lt;/h4&gt;
+
+&lt;p&gt;The Jekyll Starter Kit is a simple framework for starting your own Jekyll project using all of the best practices that I learned from building my other Jekyll themes.&lt;/p&gt;
+
+&lt;p&gt;Feel free to check out &lt;a href=&quot;https://github.com/LeNPaul/jekyll-starter-kit&quot; target=&quot;_blank&quot;&gt;the GitHub repository&lt;/a&gt;, where you’ll also find instructions on how to use install and use the theme.&lt;/p&gt;</content><author><name>Paul Le</name></author><summary type="html">Lagrange</summary></entry></feed>
