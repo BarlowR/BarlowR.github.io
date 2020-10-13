@@ -490,13 +490,13 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: -2px; }
 
 .huge, h1 {
-  font-size: 68px;
-  line-height: 1.05;
+  font-size: 42px;
+  line-height: 1.14;
   letter-spacing: -1px; }
 
 .large, h2 {
-  font-size: 42px;
-  line-height: 1.14; }
+  font-size: 26px;
+  line-height: 1.38; }
 
 .bigger, h3 {
   font-size: 26px;
@@ -504,14 +504,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .big, h4 {
   font-size: 22px;
-  line-height: 1.38; }
+  line-height: 0;
+  margin: 40px 0 20px 0; }
 
 .small, small {
   font-size: 10px;
   line-height: 1.2; }
 
 p {
-  margin: 0 0 20px 0; }
+  margin: 0 0 20px 0;
+  font-family: "Roboto Mono", monospace; }
+
+ul {
+  font-family: "Roboto Mono", monospace; }
 
 em {
   font-style: italic; }
@@ -529,20 +534,20 @@ hr {
 /* Links
  * ------------------------------------	 */
 a {
-  color: #c99065;
+  color: #c99000;
   text-decoration: none;
   outline: 0; }
 
 a:hover, a:focus {
-  color: #e3c6b1; }
+  color: #ffc430; }
 
 /* Selection colors (easy to forget)
  * ------------------------------------	 */
 ::selection {
-  background: #f1e2d6; }
+  background: #ffd363; }
 
 ::-moz-selection {
-  background: #f1e2d6; }
+  background: #ffd363; }
 
 img::selection {
   background: transparent; }
@@ -551,15 +556,14 @@ img::-moz-selection {
   background: transparent; }
 
 body {
-  -webkit-tap-highlight-color: #f1e2d6; }
+  -webkit-tap-highlight-color: #ffd363; }
 
 /* Basic Styles
  * ------------------------------------	 */
 body {
   background: #fff;
   font-size: 14px;
-  line-height: 1.6;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #666;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%; }
@@ -569,7 +573,7 @@ svg {
   width: 100%; }
 
 h3 {
-  color: #e1c285;
+  color: #fff202;
   text-align: center;
   padding: 100px 0 30px; }
 
@@ -585,7 +589,7 @@ section:nth-child(odd) {
   background: #e5eaee;
   padding-bottom: 100px; }
   section:nth-child(odd) h3 {
-    color: #d7ae5c; }
+    color: #cec400; }
 
 h3 {
   font-size: 14px;
@@ -597,6 +601,7 @@ header {
   header .logo {
     float: left;
     margin: 30px;
+    font-family: "Roboto Mono", monospace;
     font-size: 24px;
     font-weight: 700; }
     header .logo a {
@@ -611,7 +616,8 @@ header {
       display: inline-block;
       margin-left: 20px;
       color: black;
-      font-size: 24px;
+      font-family: "Roboto Mono", monospace;
+      font-size: 15px;
       font-weight: 700; }
       header nav a:hover {
         color: #BD5248; }
@@ -739,10 +745,12 @@ body {
   width: 450px;
   margin: 30px; }
   .page-content h1 {
-    line-height: 1.5;
+    line-height: 1;
     color: black;
     font-size: 30px;
     font-weight: 700; }
+  .page-content h2 {
+    line-height: 0; }
   .page-content p {
     line-height: 1.5;
     font-size: 16px; }
