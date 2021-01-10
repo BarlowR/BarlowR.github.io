@@ -1,17 +1,9 @@
-# Build settings
-
+theme: jekyll-theme-minimal
 markdown: kramdown
-permalink: none
-plugins:             [jekyll-sitemap, jekyll-feed,  jekyll-seo-tag]
 
-port: 4000
+title: Global Biodiversity Decline & Individual Action
+description: Final project website for Foundational Biology at Olin College, Fall 2020
 
-sass:
-  sass_dir: assets/css
-  style: :nested
+logo: "logo.JPG"
+show_downloads: "false"
 
-# Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-
-title:		           "Robert Barlow"
-description:	       "Powered by Jekyll and GitHub Pages"
-author:              "Robert Barlow"
