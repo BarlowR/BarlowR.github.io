@@ -1,0 +1,9 @@
+<div class = "project_grid">
+  {%for project in project_list%}
+  <a href = "{{project.url}}">
+    <div class = "project_box" style="background-image: url({{project.cover_image}});" href = "link">
+        <div class ="project_name"> {{project.title}} </div>
+    </div>
+  </a>
+  {% endfor %}    
+</div>

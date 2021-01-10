@@ -1,0 +1,29 @@
+<header>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        
+        <div class = "profile">
+            <img src="/images/profile.jpg" alt="Logo" />
+        </div>
+
+        <div class = "info">
+            <p> <h2>Robotic Engineer</h2> </p>
+            <p> Olin College of Engineering 2021 </p>
+            <h4>
+                {% assign project_pages = site.pages | where: "type", "field" %}
+                {%for page in project_pages%}
+                <p><a href = {{page.url}}> {{page.title}} </a></p>
+                {%endfor%}
+
+                {% assign project_pages = site.pages | where: "type", "field_p" %}
+                {%for page in project_pages%}
+                <p><a href = {{page.url}}> {{page.title}} </a></p>
+                {%endfor%}
+
+                {% assign other = site.pages | where: "type", "other" %}
+                {%for page in other%}
+                <p><a href = {{page.url}}> {{page.title}} </a></p>
+                {%endfor%}
+
+            <h4>
+        </div>
+</header>

@@ -1,0 +1,42 @@
+.project_grid{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-evenly;
+}
+.project_box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 364px;
+    height: 224px;
+    border-radius: 5px;
+    position: relative;
+    margin: 16px;
+    box-shadow: 4px 4px 15px #7D7D7D;
+    }
+
+.project_name{
+    display: none;
+
+}
+
+.project_box:hover .project_name{
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    text-align: center;
+
+    margin: auto;
+    font-size: 50px;
+    display: inline;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgba(10,10,10, 0.8);
+
+    color: rgb(255,255,255);
+    line-height: 150px;
+}
+
+
+@media print, screen and (max-width: 720px) {

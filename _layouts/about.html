@@ -12,9 +12,11 @@
   </head>
   <body>
     <div class="wrapper">
-      
+      {% include sidebar.html %}
       <section>
+        <div class = "block_text">
         {{content}}    
+        </div>
       </section>
       <footer>
         {% if site.github.is_project_page %}
