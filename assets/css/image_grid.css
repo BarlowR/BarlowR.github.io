@@ -1,0 +1,13 @@
+.image_grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.image_box{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    margin: 16px;
+}

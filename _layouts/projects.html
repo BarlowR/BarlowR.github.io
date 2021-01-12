@@ -14,7 +14,9 @@
     <div class="wrapper">
       {% include sidebar.html %}
       <section>
+        <img class = "project_image" src = {{page.cover_image}}>
         {{content}}
+        {% include image_grid.html %}
       </section>
       <footer>
         {% if site.github.is_project_page %}

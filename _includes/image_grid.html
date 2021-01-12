@@ -1,0 +1,13 @@
+
+{% comment %}
+Assign image folder path to image_folder in page before including this block
+{% endcomment %}
+
+<div class = "image grid">
+{% for image in site.static_files %}
+    {% if image.path contains page.image_folder %}
+        <div class = "image_box">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="image" />
+        </div>
+    {% endif %}
+{% endfor %}
