@@ -1,6 +1,7 @@
 ---
 layout: projects
 title: Control Surface Research
+type: mechanical
 cover_image: /images/drag.jpg
 image_folder: /images/drag/
 ---

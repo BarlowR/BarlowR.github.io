@@ -4,6 +4,7 @@
     justify-content: space-evenly;
 }
 .image_box{
+    width:350px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

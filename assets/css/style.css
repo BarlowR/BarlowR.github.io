@@ -1,5 +1,5 @@
 @import "project_grid.css";
-@import "image_grid.css"
+@import "image_grid.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 
@@ -119,6 +119,10 @@ header {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+iframe{
+  display: block;
+  margin: 0 auto;
+}
 
 
 strong {
