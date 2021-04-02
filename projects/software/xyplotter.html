@@ -1,0 +1,28 @@
+---
+layout: projects
+title: XY Plotter
+type: software
+cover_image: /images/xyplotter.jpg
+image_folder: /images/xyplotter/
+---
+
+<h2> XY Pen Plotter </h2>
+
+<p>
+
+I recently picked up a cheap clone of an <a href = "https://www.youtube.com/watch?v=5492ZjivAQ0&t=26s">AxiDraw V3</a>, and I've been playing around with it and exploring some of its capabilities. One cool application of these that I'd like to explore is plotting computer generative art; Matt Deslauriers has a fantastic writeup on the subject, along with some really good illustrations on his <a href = "https://mattdesl.svbtle.com/pen-plotter-1">blog</a>. I'm particularly interested in the augmentation of human art by a set of algorithms to create something that's a mix of human and machine; I think there are some really cool drawings to be made in the intersection of the two spaces.
+
+</p>
+
+<p> The first part of the project was setting up the plotter. The plotter uses two stepper motors mounted at ends of an aluminum extrusion in a core xy configuration, with x and y axis rails and a belted gantry for moving the pen. The pen sits on a z axis linear rail, which is actuate dup and down with a small servo. The stepper motors and servo are controlled with an arduino and a stepper motor shield. At some point, I'd like to write a control firmware for the unit, but for now I'm just using GRBL, which seems to work very well out of the box.
+
+<p>
+
+After getting the machine setup, I wrote a python module for conversion between raster images, vector images, and g-code. In essence, the module can take in images and spit out g-code. I've also written functionality for translating and scaling the intermediate vector format, and for adding text to the images using the hershey fonts as provided by <a href = "http://paulbourke.net/dataformats/hershey/"> Paul Bourke</a>. I did a brief writeup on the translation process in the github repository for the project, which can be found <a href = "https://github.com/BarlowR/xy_plotter"> in the write_up folder here</a>.
+</p>
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/_YpRzGqfn18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
