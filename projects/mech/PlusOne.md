@@ -1,7 +1,7 @@
 ---
 layout: projects
 title: PlusOne
-type: mechanical
+type: hidden
 cover_image: /images/plusone.png
 image_folder: /images/plusone/
 ---
