@@ -165,6 +165,7 @@ section {
 }
 .profile img{
   border-radius: 8px;
+  transform: translate(0%, -10%);
 }
 
 .home_box{
@@ -179,7 +180,7 @@ section {
 }
 
 .home_box .profile{
-  height: 280px;
+  height: 290px;
   border-radius: 10px;
 }
 
