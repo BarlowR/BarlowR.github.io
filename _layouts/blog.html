@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <![endif]-->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111001288-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-111001288-5');
+    </script>
+
+  </head>
+
+
+  <body>
+    <div class="wrapper">
+      {% include sidebar.html %}
+      <section>
+        <img class = "project_image" src = {{page.cover_image}}>
+        <div class = "page_title"> <h1> {{page.title}} </h1> </div>
+        <h2 > {{page.date}} </h2>
+        {{content}}
+        <br>
+        <h4>Recent Posts:</h4> 
+        {% assign blog_list = site.pages | where: "type", "blog_post" | sort: 'date' | reverse %}
+        {% assign post_limit = 1 %}
+        {% include blog_l.html %}
+
+      </section>
+      <footer>
+
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+  </body>
+</html>

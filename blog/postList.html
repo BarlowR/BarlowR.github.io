@@ -1,0 +1,9 @@
+---
+layout: projects
+title: Blog
+type: none
+---
+
+{% assign blog_list = site.pages | where: "type", "blog_post" | sort: 'date' | reverse %}
+{% assign post_limit = 20 %}
+{% include blog_l.html %}

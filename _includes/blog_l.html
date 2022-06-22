@@ -1,0 +1,13 @@
+<div class = blog_list>
+{%for blog in blog_list limit: post_limit%}
+  <a href = "{{blog.url}}">
+    <div class = "blog_post_rect">
+      <div class = "post_img"></div>
+      <div class ="post_name"> {{blog.title}} </div>
+      <div class ="post_date">{{blog.date}}</div> 
+      <div class ="post_preview"> {{blog.desc}} </div>
+    </div>
+  </a>
+  <br>
+{% endfor %}    
+</div>
