@@ -1,0 +1,37 @@
+---
+layout: projects
+title: Coffee Roaster
+type: software
+cover_image: /images/coffeeroaster.jpg
+image_folder: /images/coffeeroaster/
+---
+
+<p>
+    I've fallen deep into the coffee world, from <a href = "https://www.baristahustle.com/blog/diy-water-recipes-redux/">making my own coffee water</a> to <a href = "https://www.youtube.com/watch?v=AI4ynXzkSQo">perfecting my pour over technique</a>. In the pursuit of a fantastic cup of coffee, I read an article about <a href = "https://library.sweetmarias.com/air-popper-coffee-roaster-resource-page/">using a popcorn popper to roast your own coffee beans</a>, and picked up a popper along with a sample order of green beans from Sweet Maria's. 
+</p>
+<br>
+
+<p>
+    If you've never had freshly roasted coffee, you should make a beeline for your local roaster. Despite how many grocery stores treat it, coffee is a perishable item and loses quality over time. After trying out my popper to roast beans, I was hooked pretty quickly. 
+</p>
+<br>
+<p> 
+    I was getting some inconsistent results with the popper, so I decided to add a bit more functionality by controlling the fan and heating elements through relays, and using thermistors to monitor temperature at a few points in the system. I bought a Raspberry Pi Zero 2w to control the system, soldered up IO interfaces and added in a web based user interface to be able to create roasting profiles and monitor the roasts in real time. 
+</p>
+<br>
+
+<p>
+    The Pi runs a controller in the backend, and hosts controller API endpoints and two web pages with Flask. One page is a profile creation tool, where I can create and move around nodes for different fan and heater levels at different points in time, and save profiles to text files. The other page is a live monitor of the system where I can load in roasting files and watch the bean temperatures and the control points as the system runs. The temperature readings are fairly noisy from the bare signal wires being so close to AC lines, so I use a Kalman filter to maintain an estimate of the true temperatures at the thermistors.
+</p>
+<br>
+
+<p>
+    For now, I have a janky protoboard setup for the ADC chip and the transistors driving the relay coils. Next steps are to create an enclosure, get a PCB made, and implement a temperature controller in the backend.
+</p>
+
+<h2><a href = "https://github.com/BarlowR/coffee_roaster"> GitHub Repo</a></h2>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/watch?v=ScFyub3VSsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+

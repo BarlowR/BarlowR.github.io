@@ -1,6 +1,6 @@
 ---
 layout: projects
-title: Design
+title: Woodworking
 type: field
 ---
 

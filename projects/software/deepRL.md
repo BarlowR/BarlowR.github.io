@@ -5,7 +5,6 @@ type: software
 cover_image: /images/deeprl.png
 ---
 
-# Deep Reinforcement Learning
 
 As a final project for Olin's Computational Robotics course, a fellow student and I took a dive into reinforcement learning. We started with implementations of Q-learning agents as described by Richard Sutton in his textbook on reinforcement learning. After familiarizing ourselves with the ideas, we then split off down two separate paths of deep reinforcement learning. My partner worked towards an implementation of Deep Q learning, while I chose to work with policy gradient methods. Our website on the project can be found here:
 
