@@ -1,11 +1,11 @@
 ---
 layout: projects
 title: PlusOne
-type: hidden
+type: Software
 cover_image: /images/plusone.png
 image_folder: /images/plusone/
 ---
 
 
-
-youtu.be/eyGGG-2F01A![img](https://lh6.googleusercontent.com/Pl9EqDuPWsRyG6c2CLNNwJ2ejYeEOY3ryOZaDokGWwns1qNanAItf78-2Sj3q-oRFnEgce598y3An5tEYz6V-Uytt83D53LJe8cilysIQAfzSvxEpIXjnv67SkM5SFEkS81mbhrC)
+<iframe width="420" height="315" src="https://www.youtube.com/embed/eyGGG-2F01A">
+</iframe>
