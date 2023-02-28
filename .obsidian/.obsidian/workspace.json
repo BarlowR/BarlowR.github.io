@@ -1,0 +1,189 @@
+{
+  "main": {
+    "id": "4f52ed32d8b01eee",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb19f37b17f29cc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bb543f84f4b332a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/blog_template.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ad35b7b8f35dece",
+    "type": "split",
+    "children": [
+      {
+        "id": "eba85505735b0302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f12d03a30e45e3c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65bae81a82c1f478",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a765cb6ebd6e5adf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4a0d849a6c78b17",
+    "type": "split",
+    "children": [
+      {
+        "id": "24bc23b5bb3e6cf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "123240a697b569c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "templates/blog_template.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28f8f85c3588a47c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "templates/blog_template.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6534c5f942546358",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "202b6cd496c5516a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "templates/blog_template.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f12d03a30e45e3c6",
+  "lastOpenFiles": [
+    "barlowr-obsidian/templates/project_report_template.md",
+    "barlowr-obsidian/templates/blog_template.md",
+    "barlowr-obsidian/templates/trip_report_template.md",
+    "barlowr-obsidian/templates/project_post_template.md",
+    "barlowr-obsidian/content/trips",
+    "barlowr-obsidian/content/projects",
+    "barlowr-obsidian/content/posts/Feb/Test_photos",
+    "barlowr-obsidian/content/posts/Feb/Test.md",
+    "barlowr-obsidian/content/posts/Feb",
+    "barlowr-obsidian/content/posts",
+    "barlowr-obsidian/templates",
+    "barlowr-obsidian/content",
+    "templates copy/project_report_template.md",
+    "templates copy/blog_template.md",
+    "templates copy/trip_report_template.md",
+    "templates copy/project_post_template.md",
+    "content copy/trips",
+    "content copy/projects",
+    "content copy/posts/Feb/Test_photos",
+    "content copy/posts/Feb/Test.md",
+    "templates/project_post_template.md",
+    "templates/project_report_template.md",
+    "templates/trip_report_template.md",
+    "templates/blog_template.md",
+    "content/posts/Feb/Test.md",
+    "content/posts/02/SDFadsf.md",
+    "content/posts/ds.md",
+    "content/posts/ASaSD.md",
+    "content/posts/asdkj.md",
+    "content/posts/WeekinFebruary.md",
+    "content/posts/WeekwithMaggie.md",
+    "templates/listProjFolders.md",
+    "content/pro.md",
+    "content/projects/You/ASDl/ASDlFinal.md",
+    "content/projects/You/ASDl/Lfa;dsf.md",
+    "content/trips/Castel20230227/Castel20230227.md"
+  ]
+}

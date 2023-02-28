@@ -1,0 +1,11 @@
+{
+  "templater-obsidian:templates/trip_report_template.md": [],
+  "templater-obsidian:create-new-note-from-template": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "T"
+    }
+  ]
+}

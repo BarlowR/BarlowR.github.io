@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "4f52ed32d8b01eee",
+    "type": "split",
+    "children": [
+      {
+        "id": "bb19f37b17f29cc3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2bb543f84f4b332a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1ad35b7b8f35dece",
+    "type": "split",
+    "children": [
+      {
+        "id": "eba85505735b0302",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f12d03a30e45e3c6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "65bae81a82c1f478",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a765cb6ebd6e5adf",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4a0d849a6c78b17",
+    "type": "split",
+    "children": [
+      {
+        "id": "24bc23b5bb3e6cf5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "123240a697b569c7",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "28f8f85c3588a47c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6534c5f942546358",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "202b6cd496c5516a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "templater-obsidian:Templater": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f12d03a30e45e3c6",
+  "lastOpenFiles": [
+    "content/trips/ASD20230227/photos/cover_photo",
+    "content/trips/ASD20230227/photos",
+    "content/trips/ASD20230227",
+    "content/trips/ASD20230227/ASD20230227.md",
+    "templates/project_report_template.md",
+    "templates/blog_template.md",
+    "templates/trip_report_template.md",
+    "templates/project_post_template.md",
+    "content/trips",
+    "content/projects",
+    "content/posts/Feb/Test_photos",
+    "content/posts/Feb/Test.md",
+    "content/posts/Feb",
+    "content/posts",
+    "templates",
+    "content",
+    "barlowr-obsidian/templates/project_report_template.md",
+    "barlowr-obsidian/templates/blog_template.md",
+    "barlowr-obsidian/templates/trip_report_template.md",
+    "barlowr-obsidian/templates/project_post_template.md",
+    "barlowr-obsidian/content/trips",
+    "barlowr-obsidian/content/posts/Feb/Test.md",
+    "templates copy/project_report_template.md",
+    "templates copy/blog_template.md",
+    "templates copy/trip_report_template.md",
+    "templates copy/project_post_template.md",
+    "content copy/posts/Feb/Test.md",
+    "content/posts/02/SDFadsf.md",
+    "content/posts/ds.md",
+    "content/posts/ASaSD.md",
+    "content/posts/asdkj.md",
+    "content/posts/WeekinFebruary.md",
+    "content/posts/WeekwithMaggie.md",
+    "templates/listProjFolders.md",
+    "content/pro.md",
+    "content/projects/You/ASDl/ASDlFinal.md"
+  ]
+}
