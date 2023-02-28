@@ -36,3 +36,12 @@ Write about your trip here!
 
 * Add photos to the <% photoFolder %> folder
 * Add a single cover photo to the <% coverPhotoFolder %> folder
+
+
+```button
+name (Mostly) Complete!
+type line(3) text
+action visibility: visible
+color green
+remove true
+```

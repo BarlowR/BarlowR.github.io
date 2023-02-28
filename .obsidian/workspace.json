@@ -11,8 +11,12 @@
             "id": "2bb543f84f4b332a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md"
+              }
             }
           }
         ]
@@ -139,29 +147,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f12d03a30e45e3c6",
+  "active": "2bb543f84f4b332a",
   "lastOpenFiles": [
+    "templates/trip_report_template.md",
+    "templates/project_report_template.md",
+    "templates/project_post_template.md",
+    "templates/blog_template.md",
+    "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
+    "content/projects/Outdoor Gear/SkiTraversePack",
+    "content/projects/Outdoor Gear",
     "content/trips/ASD20230227/photos/cover_photo",
     "content/trips/ASD20230227/photos",
     "content/trips/ASD20230227",
     "content/trips/ASD20230227/ASD20230227.md",
-    "templates/project_report_template.md",
-    "templates/blog_template.md",
-    "templates/trip_report_template.md",
-    "templates/project_post_template.md",
     "content/trips",
     "content/projects",
     "content/posts/Feb/Test_photos",
     "content/posts/Feb/Test.md",
     "content/posts/Feb",
     "content/posts",
-    "templates",
-    "content",
     "barlowr-obsidian/templates/project_report_template.md",
     "barlowr-obsidian/templates/blog_template.md",
     "barlowr-obsidian/templates/trip_report_template.md",
     "barlowr-obsidian/templates/project_post_template.md",
-    "barlowr-obsidian/content/trips",
     "barlowr-obsidian/content/posts/Feb/Test.md",
     "templates copy/project_report_template.md",
     "templates copy/blog_template.md",
@@ -175,7 +183,6 @@
     "content/posts/WeekinFebruary.md",
     "content/posts/WeekwithMaggie.md",
     "templates/listProjFolders.md",
-    "content/pro.md",
-    "content/projects/You/ASDl/ASDlFinal.md"
+    "content/pro.md"
   ]
 }
