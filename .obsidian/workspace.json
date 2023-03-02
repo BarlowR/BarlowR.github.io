@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md"
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md"
               }
             }
           }
@@ -149,40 +149,42 @@
   },
   "active": "2bb543f84f4b332a",
   "lastOpenFiles": [
+    "_site/jekyll/update/2023/03/02/welcome-to-jekyll.html",
+    "_site/jekyll/update/2023/03/02",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.html",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Shoulder_Straps.html",
+    "_site/jekyll/update/2023/03",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.html",
+    "_site/content/posts/Feb/Test.md",
+    "_site/content/posts/Feb/Test.html",
+    "_site/templates/scripts/get_folders.js",
+    "_site/jekyll/update/2023",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
+    "_site/templates/trip_report_template.md",
+    "_site/templates/project_report_template.md",
+    "_site/templates/project_post_template.md",
+    "_site/templates/get_folders_test.md",
+    "_site/templates/blog_template.md",
+    "_site/assets/minima-social-icons.svg",
     "templates/trip_report_template.md",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "content/trips/ASDj20230302/ASDj20230302.md",
     "templates/project_report_template.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Shoulder_Straps.md",
     "templates/project_post_template.md",
-    "templates/blog_template.md",
+    "Outdoor_Gear/Shoulder_Straps.md",
+    "Outdoor_Gear/Ski_Traverse_Pack_Report.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_PackFinal.md",
+    "templates/get_folders_test.md",
+    "templates/project_post_template copy.md",
+    "templates/Untitled.md",
+    "content/projects/Outdoor_Gear/SkiTraversePack/SkiTraversePackFinal.md",
+    "content/projects/Outdoor Gear/SkiTraversePack/Fastpack.md",
     "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
-    "content/projects/Outdoor Gear/SkiTraversePack",
-    "content/projects/Outdoor Gear",
-    "content/trips/ASD20230227/photos/cover_photo",
-    "content/trips/ASD20230227/photos",
-    "content/trips/ASD20230227",
-    "content/trips/ASD20230227/ASD20230227.md",
-    "content/trips",
-    "content/projects",
-    "content/posts/Feb/Test_photos",
-    "content/posts/Feb/Test.md",
-    "content/posts/Feb",
-    "content/posts",
-    "barlowr-obsidian/templates/project_report_template.md",
-    "barlowr-obsidian/templates/blog_template.md",
-    "barlowr-obsidian/templates/trip_report_template.md",
-    "barlowr-obsidian/templates/project_post_template.md",
-    "barlowr-obsidian/content/posts/Feb/Test.md",
-    "templates copy/project_report_template.md",
-    "templates copy/blog_template.md",
-    "templates copy/trip_report_template.md",
-    "templates copy/project_post_template.md",
-    "content copy/posts/Feb/Test.md",
-    "content/posts/02/SDFadsf.md",
-    "content/posts/ds.md",
-    "content/posts/ASaSD.md",
-    "content/posts/asdkj.md",
-    "content/posts/WeekinFebruary.md",
-    "content/posts/WeekwithMaggie.md",
-    "templates/listProjFolders.md",
-    "content/pro.md"
+    "templates/blog_template.md",
+    "content/trips/ASD20230227/ASD20230227.md"
   ]
 }

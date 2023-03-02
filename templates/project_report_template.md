@@ -1,57 +1,64 @@
 <%* 
-	let basePath = "content/projects"
-	let projectCategories = ["New"];
-	let projectFolders = await this.app.vault.fileMap[basePath].children;
-	for (let i = 0; i < projectFolders.length; i++){
-		projectCategories.push(projectFolders[i].name);
-	}
-	let projectCategory = await tp.system.suggester(projectCategories, projectCategories);
-	let projectName = "";
+	var projectName, projectNameString, projectCategory, projectCategoryString, postTitle, postTitleString;
+	var basePath, categoryPath, projectPath, photoPath, coverPhotoPath;
+	
+	basePath = "content/projects";
+	let projectCategories = 
+		tp.user.get_folders(this.app.vault, basePath, true);
+	projectCategories.push("New");
+	projectCategory = 
+		await tp.system.suggester(projectCategories, projectCategories);
 	if (projectCategory == "New"){
 		projectCategory = await tp.system.prompt("Enter the new category name:");
-		projectName = await tp.system.prompt("Enter the new Project Name");
-	} else {
-		let currentProjects = ["New"];
-		let projectsInCategory = 
-			await this.app.vault.fileMap[basePath + "/" + projectCategory].children;
-		for (let i = 0; i < projectsInCategory.length; i++){
-			currentProjects.push(projectsInCategory[i].name);
-		}
-		projectName = await tp.system.suggester(currentProjects, currentProjects);
-		if (projectName == "New"){
-			projectName = await tp.system.prompt("Enter the new Project Name");
-		}
 	}
+	projectCategoryString = projectCategory.replaceAll(" ", "_");
+	categoryPath = basePath + "/" + projectCategoryString;
+
+	let projectsInCategory = 
+		tp.user.get_folders(this.app.vault, categoryPath, true);
+
+	if (projectsInCategory.length == 0){
+		projectName = "New";
+	} else {
+		projectsInCategory.push("New");
+		projectName = 
+			await tp.system.suggester(projectsInCategory, projectsInCategory);
+	}
+	if (projectName == "New"){
+		projectName = await tp.system.prompt("Enter the new Project name:");
+	}
+	projectNameString = projectName.replaceAll(" ", "_");
 	
-	let projectNameString = projectName.replaceAll(" ", "");
-	let projectPath = basePath + "/" + projectCategory + "/" + projectNameString;
-	let photoFolder = projectPath + "/photos"
-	let coverPhotoFolder = photoFolder + "/cover_photo"
+	projectPath = categoryPath + "/" + projectNameString;
+	photoPath = projectPath + "/photos";
+	coverPhotoPath = photoPath + "/cover_photo";
 	
-	for (path in [projectPath, photoFolder, coverPhotoFolder]){
+	for (path in [projectPath, photoPath, coverPhotoPath]){
 		if (!this.app.vault.exists(path)){
 			await this.app.vault.createFolder(path);
 		}
 	}
-	
-	let projectFinalString = projectNameString + "Final";
-	await tp.file.move(projectPath + "/" + projectFinalString);
+
+	postTitle = projectName + " Report"
+	postTitleString = postTitle.replaceAll(" ", "_");
+	await tp.file.move(projectPath + "/" + postTitleString);
 
 -%>
 ---
-tag:  project, report, <%projectNameString + ", " + projectCategory%>
-project_category : <% projectCategory %>
+tag:  project, report, <%projectNameString + ", " + projectCategoryString%>
+project_category : <% projectCategoryString %>
 date: <% moment() %>
 ---
 
 
-## <% projectName %> 
+## <% postTitle %> 
 
 
 Write about your project here!
 
-* Add photos to the <% photoFolder %> folder
-* Add a single cover photo to the <% coverPhotoFolder %> folder
+- Add photos to the *<% photoPath %>* folder
+- Add a single cover photo to the *<% coverPhotoPath %>* folder
+
 
 
 

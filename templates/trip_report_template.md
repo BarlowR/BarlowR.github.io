@@ -3,6 +3,7 @@
 	let basePath = "content/trips";
 	let today = tp.date.now().format('YYYY-MM-DD');
 	let tripLocation = await tp.system.prompt("Trip Location:");
+	let tripLocationString = tripLocation.replaceAll(" ", "");
 	let tripDateString = await tp.system.prompt(
 		"Trip Date (YYYY-MM-DD):", 
 		default_value = today);
@@ -12,7 +13,7 @@
 			default_value = today);
 	}
 	let tripDate = moment(tripDateString);
-	let tripString = tripLocation.replace(" ", "")+tripDate.format('YYYYMMDD');
+	let tripString = tripLocationString + tripDate.format('YYYYMMDD');
 	let folderPath = basePath + "/" + tripString;
 	let photoFolder = folderPath + "/photos"
 	let coverPhotoFolder = photoFolder + "/cover_photo"
@@ -24,11 +25,11 @@
 -%>
 
 ---
-tag:  trip, post, tripLocation
+tag:  trip, post, <% tripLocationString %>
 date: <% moment() %>
 ---
 
-## <% tripLocation %> Trip
+## <% tripLocation %>
 ## <% tripDate.format('YYYY-MM-DD') %>
 
 
