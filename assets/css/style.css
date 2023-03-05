@@ -1,0 +1,77 @@
+body {
+  --full-width: min(100vw, 1100px);
+  --radius : calc(0.01 * var(--full-width));
+  --padding : calc(0.02 * var(--full-width));
+  --main-light: #e7e7e7;
+  --main-dark: #140c0c;
+  --accent-light: #e6ebff;
+  --accent-dark: #3e2f2f;
+    background-color: var(--main-light);
+    padding-top:10vh;
+    font: 14px/1.5 "Roboto", sans-serif;
+    font-weight:400;
+    width: var(--full-width);
+    max-width: var(--full-width);
+    margin: auto;
+    height: 90vh;
+  }
+#main {
+  --sidebar-percentage: 0.25;
+  box-sizing: border-box;
+
+}
+
+#sidebar {
+  --sidebar-width: calc(var(--sidebar-percentage) * var(--full-width));
+  width: var(--sidebar-width);
+  float: left;
+  box-shadow:inset 0px 0px 0px 1px var(--main-dark);
+  border-radius:  var(--radius);
+
+  box-sizing: border-box;
+}
+
+#navigation-image-rect {
+  box-shadow:inset 0px 0px 0px 1px var(--main-dark);
+  border-radius: var(--radius);
+
+  height: calc( .62 * var(--sidebar-width));
+  margin: 0px;
+  overflow: hidden;
+}
+
+#navigation-image-rect > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: var(--sidebar-width);
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#navigation-sidebar {
+  box-shadow:inset 0px 0px 0px 1px var(--main-dark);
+  border-radius: var(--radius);
+
+  padding: var(--padding);
+  box-sizing: border-box;
+}
+
+#content-body {
+    --content-body-width: calc((1 - var(--sidebar-percentage)) * var(--full-width));
+    width: var(--content-body-width);
+    float: left;
+    box-shadow:inset 0px 0px 0px 1px var(--main-dark);
+    border-radius:  var(--radius);
+
+    padding: var(--padding);
+    box-sizing: border-box;
+}
+
+#content-body > h2 {
+  padding: 0;
+  margin: 0;
+}
+

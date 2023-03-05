@@ -31,10 +31,13 @@
 	
 	projectPath = categoryPath + "/" + projectNameString;
 	photoPath = projectPath + "/photos";
-	coverPhotoPath = photoPath + "/cover_photo";
+	coverPhotoPath = photoPath + "/cover_photo.jpg";
 	
-	for (path in [projectPath, photoPath, coverPhotoPath]){
-		if (!this.app.vault.exists(path)){
+	for (path of [projectPath, photoPath]){
+		//console.log("checking "+ path);
+		let exists = await this.app.vault.exists(path);
+		//console.log(exists);
+		if (!exists){
 			await this.app.vault.createFolder(path);
 		}
 	}
@@ -45,14 +48,16 @@
 
 -%>
 ---
+published: false
 tag:  project, report, <%projectNameString + ", " + projectCategoryString%>
 project_category : <% projectCategoryString %>
 date: <% moment() %>
+title: <% postTitle %>
+cover_photo: <% "/" + coverPhotoPath %>
+layout: project-report
 ---
 
-
-## <% postTitle %> 
-
+## <% postTitle %>
 
 Write about your project here!
 
@@ -62,11 +67,11 @@ Write about your project here!
 
 
 
-
 ```button
 name (Mostly) Complete!
-type line(3) text
-action visibility: visible
+type line(2) text
+action published: true
+replace [2, 2]
 color green
 remove true
 ```

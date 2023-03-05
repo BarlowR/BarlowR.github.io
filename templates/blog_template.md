@@ -18,12 +18,14 @@
 -%>
 
 ---
+published: false
 tag:  blog, post, 
 date: <% moment() %>
+title: <% postTitle %>
+layout: post
 ---
 
 
-## <% postTitle %> 
 <% moment().format("YYYY-MM-DD") %>
 
 
@@ -32,8 +34,9 @@ Write here!
 
 ```button
 name (Mostly) Complete!
-type line(3) text
-action visibility: visible
+type line(2) text
+action published: true
+replace [2, 2]
 color green
 remove true
 ```

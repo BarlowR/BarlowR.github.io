@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/projects/Software/Things/Things_Report.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/projects/Software/Things/Things_Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/projects/Software/Things/Things_Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md"
+                "file": "content/projects/Software/Things/Things_Report.md"
               }
             }
           }
@@ -149,42 +149,49 @@
   },
   "active": "2bb543f84f4b332a",
   "lastOpenFiles": [
-    "_site/jekyll/update/2023/03/02/welcome-to-jekyll.html",
-    "_site/jekyll/update/2023/03/02",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.html",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Shoulder_Straps.html",
-    "_site/jekyll/update/2023/03",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.html",
-    "_site/content/posts/Feb/Test.md",
-    "_site/content/posts/Feb/Test.html",
-    "_site/templates/scripts/get_folders.js",
-    "_site/jekyll/update/2023",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
-    "_site/templates/trip_report_template.md",
-    "_site/templates/project_report_template.md",
-    "_site/templates/project_post_template.md",
-    "_site/templates/get_folders_test.md",
-    "_site/templates/blog_template.md",
-    "_site/assets/minima-social-icons.svg",
-    "templates/trip_report_template.md",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/trips/ASDj20230302/ASDj20230302.md",
+    "_site/content/projects/Software/Things/Things_Report.html",
+    "content/projects/Software/Things/First_Progress.md",
+    "content/projects/Software/Things/Things_Report.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/making_a_new_post.md",
     "templates/project_report_template.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Shoulder_Straps.md",
+    "content/projects/Software/Things/photos/cover_photo.jpg",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "_site/content/projects/Software/Things/First_Progress.html",
+    "_site/content/projects/Software/Things",
+    "_site/content/projects/Software",
+    "templates/trip_report_template.md",
+    "content/projects/Software/Things/photos",
+    "content/projects/Software/Things",
+    "content/projects/Software",
     "templates/project_post_template.md",
-    "Outdoor_Gear/Shoulder_Straps.md",
-    "Outdoor_Gear/Ski_Traverse_Pack_Report.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_PackFinal.md",
-    "templates/get_folders_test.md",
-    "templates/project_post_template copy.md",
-    "templates/Untitled.md",
-    "content/projects/Outdoor_Gear/SkiTraversePack/SkiTraversePackFinal.md",
-    "content/projects/Outdoor Gear/SkiTraversePack/Fastpack.md",
-    "content/projects/Outdoor Gear/SkiTraversePack/DesignSketches.md",
-    "templates/blog_template.md",
-    "content/trips/ASD20230227/ASD20230227.md"
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.html",
+    "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
+    "_layouts/project-post.html",
+    "_layouts/trip-report.html",
+    "content/trips/trip_directory.md",
+    "content/trip_directory.md",
+    "content/trips/EastMoleraTraip20230301/EastMoleraTraip20230301.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Directory.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Main.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Outdoor_Gear.md",
+    "_site/content/trips/EastMoleraTraip20230301/EastMoleraTraip20230301.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/A_New_Post.md",
+    "content/trips/EmigrantWilderness20230305/EmigrantWilderness20230305.md",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "_site/content/trips/EmigrantWilderness20230305/EmigrantWilderness20230305.md",
+    "_site/content/projects/Outdoor_Gear.md",
+    "content/projects/Outdoor_Gear.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Published_Post.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Making_a_new_Post.md",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover_photo.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover_photo.jpg",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/a;jdas.md",
+    "_site/assets/minima-social-icons.svg"
   ]
 }
