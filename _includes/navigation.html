@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="{{ "/assets/css/navigation.css"}}">
+
+{% assign published_pages = site.pages | where: "published", "true" %}
+    
+{% assign project_pages = published_pages | where: "category", "project"%}
+{% assign trip_pages = published_pages | where: "category", "trip" %}
+{% assign post_pages = published_pages | where: "category", "blog_post" %}
+
+{% assign project_categories = project_pages | map: "project_category" | uniq %}
+
+<div class="navigation-category accordion"> Projects</div>
+<div class="project-categories accordion-sub">
+{%for project_category in project_categories %}
+
+    <div class="navigation-subcategory accordion"> -- {{project_category}}</div>
+    <div class="projects accordion-sub">
+    {% assign project_pages_in_category = project_pages | where: "project_category", project_category %}
+    
+    {% assign projects_in_category = project_pages_in_category | map: "project_name" | uniq %}
+    {% for project in projects_in_category %}
+        {% assign posts_in_project = project_pages_in_category | where: "project_name", project_name %}
+        {% assign post_report = project_pages_in_category | where: "layout", "project-report" | first %}
+        
+         <div class="navigation-subcategory accordion"> 
+            ----
+            {% if post_report %}
+                 <a href = {{post_report.url}}>{{project}}</a>
+            {% else %}
+                {{project}}
+            {% endif %}
+           </div>
+        <div class = "project-posts accordion-sub">
+        {% for post in posts_in_project %}
+            {% if post.layout == "project-report" %}
+            {% else %}
+                ------ <a href = {{post.url}} > {{post.title}}</a> <br>
+            {% endif %}
+        {% endfor %}
+        </div>
+    {%endfor%}
+    </div>  
+{%endfor%}
+</div>
+
+<div class="navigation-category accordion">Trip Reports</div>
+<div class="trips accordion-sub">
+{% for post in trip_pages %}
+    ------ <a href = {{post.url}} > {{post.title}} </a> <br>
+{% endfor %}
+</div>
+
+<div class="navigation-category accordion">Thoughts & Notes</div>
+<div class="notes accordion-sub">
+{% for post in post_pages %}
+    ------ <a href = {{post.url}} > {{post.title}} </a> <br>
+{% endfor %}
+</div>
+
+<div class="navigation-category accordion" >Recent Posts</div>
+<div class="recent-posts accordion-sub">
+{% assign recent_sorted = published_pages | sort, "date" | slice: 0, 5 %}
+{% for post in recent_sorted %}
+    -- <a href = {{post.url}} > {{post.title}} </a> <br>
+{% endfor %}
+</div>
+

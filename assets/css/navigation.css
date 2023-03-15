@@ -1,0 +1,14 @@
+.navigation-category {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  
+  .navigation-subcategory {
+    font-weight: bold;
+    font-size: medium;
+  }
+
+  .accordion-sub {
+    display: none;
+  }

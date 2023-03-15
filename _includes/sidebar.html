@@ -1,31 +1,12 @@
 
 {% assign cover_photo_path = page.cover_photo %}
 {% assign cover_photo_path_exists = site.static_files | where: "path", cover_photo_path | first %}
-{% if cover_photo_path && cover_photo_path_exists %}
+{% if cover_photo_path and cover_photo_path_exists %}
 <div id="navigation-image-rect">
     <img src={{cover_photo_path}}>
 </div>
 {% endif %}
 <div id="navigation-sidebar">
-    {% assign projects = site.pages | where: "layout", "project-report" %}
-    {% assign trip_pages = site.pages | where: "layout", "trip-report" %}
-    {% assign last_5 = site.pages | where: "published", "true" %}
-    
-    Projects <br>
-    {%for project in projects%}
-        -- <a href = {{project.url}}>{{project.parent}} : {{project.title}} </a><br>
-    {%endfor%}
-    
-    Trip Reports </br>
-    {%for page in trip_pages%}
-    -- <a href = {{page.url}}>{{page.title}} </a><br>
-    {%endfor%}
+    {%- include navigation.html -%}
 
-    Recent Posts <br>
-    {%for page in last_5%}
-    -- <a href = {{page.url}}>{{page.title}} </a><br>
-    {%endfor%}
-    
-
-    Recent Posts
 </div>    

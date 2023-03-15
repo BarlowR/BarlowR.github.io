@@ -14,11 +14,10 @@
 	let tripDate = moment(tripDateString);
 	let tripString = tripLocationString + tripDate.format('YYYYMMDD');
 	let folderPath = basePath + "/" + tripString;
-	let photoFolder = folderPath + "/photos"
-	let coverPhotoFolder = photoFolder + "/cover_photo"
+	let photoPath = folderPath + "/photos"
+	let coverPhotoPath = photoPath + "/cover_photo.jpg"
 	await this.app.vault.createFolder(folderPath);
 	await this.app.vault.createFolder(photoFolder);
-	await this.app.vault.createFolder(coverPhotoFolder);
 	await tp.file.move(folderPath + "/" + tripString);
 
 	let postTitle = tripLocation + " " +tripDate.format('YYYY-MM-DD');
@@ -26,9 +25,10 @@
 -%>
 ---
 published: false
-tag:  trip, post, <% tripLocationString %>
+category: trip
 date: <% moment() %>
-postTitle: <% postTitle %>
+title: <% postTitle %>
+cover_photo: <% "/" + coverPhotoPath %>
 layout: trip-report
 ---
 
@@ -37,8 +37,8 @@ layout: trip-report
 
 Write about your trip here!
 
-* Add photos to the <% photoFolder %> folder
-* Add a single cover photo to the <% coverPhotoFolder %> folder
+* Add photos to the <% photoPath %> folder
+* Add a single cover photo to the <% coverPhotoPath %> folder
 
 ```button
 name (Mostly) Complete!

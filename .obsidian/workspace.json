@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/projects/Software/Things/Things_Report.md",
+                "file": "templates/blog_template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/projects/Software/Things/Things_Report.md",
+                "file": "templates/blog_template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/projects/Software/Things/Things_Report.md",
+                "file": "templates/blog_template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/projects/Software/Things/Things_Report.md"
+                "file": "templates/blog_template.md"
               }
             }
           }
@@ -149,27 +149,30 @@
   },
   "active": "2bb543f84f4b332a",
   "lastOpenFiles": [
-    "_site/content/projects/Software/Things/Things_Report.html",
-    "content/projects/Software/Things/First_Progress.md",
-    "content/projects/Software/Things/Things_Report.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/making_a_new_post.md",
     "templates/project_report_template.md",
-    "content/projects/Software/Things/photos/cover_photo.jpg",
+    "templates/trip_report_template.md",
+    "templates/blog_template.md",
+    "templates/project_post_template.md",
+    "content/projects/Software/MVP_Component/MVP_Component_Report.md",
+    "content/posts/Mar/FirstPosttoSite_photos",
+    "content/posts/Mar",
     "_site/Untitled.md",
     "_site/Untitled.html",
-    "_site/content/projects/Software/Things/First_Progress.html",
-    "_site/content/projects/Software/Things",
+    "content/posts/Mar/FirstPosttoSite.md",
+    "_site/content/projects/Software/MVP_Component/MVP_Component_Report.html",
+    "content/projects/Software/MVP_Component/Initial_Post.md",
+    "_site/content/projects/Software/MVP_Component/Initial_Post.html",
+    "_site/content/projects/Software/MVP_Component",
     "_site/content/projects/Software",
-    "templates/trip_report_template.md",
-    "content/projects/Software/Things/photos",
-    "content/projects/Software/Things",
-    "content/projects/Software",
-    "templates/project_post_template.md",
+    "_site/content/projects",
+    "content/projects/Software/MVP_Component/photos",
+    "content/projects/Software/MVP_Component",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/making_a_new_post.md",
+    "content/projects/Software/Things/Things_Report.md",
+    "content/projects/Software/Things/First_Progress.md",
+    "content/projects/Software/Things/photos/cover_photo.jpg",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.html",
     "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
-    "_layouts/project-post.html",
-    "_layouts/trip-report.html",
     "content/trips/trip_directory.md",
     "content/trip_directory.md",
     "content/trips/EastMoleraTraip20230301/EastMoleraTraip20230301.md",
@@ -182,16 +185,12 @@
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
     "_site/content/trips/EmigrantWilderness20230305/EmigrantWilderness20230305.md",
     "_site/content/projects/Outdoor_Gear.md",
-    "content/projects/Outdoor_Gear.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Published_Post.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Making_a_new_Post.md",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover_photo.jpg",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover_photo.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover.jpg",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo/cover.jpg",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/a;jdas.md",
     "_site/assets/minima-social-icons.svg"
   ]
 }

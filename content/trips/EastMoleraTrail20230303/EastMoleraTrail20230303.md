@@ -1,6 +1,7 @@
 ---
 parent: trips
 published: true
+category: trip
 tag:  trip, post, EastMoleraTrail
 date: Sun Mar 05 2023 13:32:45 GMT-0800
 postTitle: East Molera Trail 2023-03-03

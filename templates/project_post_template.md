@@ -8,8 +8,10 @@
 	projectCategories.push("New");
 	projectCategory = 
 		await tp.system.suggester(projectCategories, projectCategories);
+	let newCategory = false;
 	if (projectCategory == "New"){
 		projectCategory = await tp.system.prompt("Enter the new category name:");
+		newCategory = true;
 	}
 	projectCategoryString = projectCategory.replaceAll(" ", "_");
 	categoryPath = basePath + "/" + projectCategoryString;
@@ -17,7 +19,7 @@
 	let projectsInCategory = 
 		tp.user.get_folders(this.app.vault, categoryPath, true);
 
-	if (projectsInCategory.length == 0){
+	if (newCategory){
 		projectName = "New";
 	} else {
 		projectsInCategory.push("New");
@@ -48,12 +50,12 @@
 -%>
 ---
 published: false
-tags:  project, post, <%projectNameString + ", " + projectCategoryString%>
-project_category : <% projectCategoryString %>
+category: project
+project_category : <% projectCategory %>
+project_name : <% projectName %>
 date: <% moment() %>
 title: <% postTitle %>
 cover_photo: <% "/" + coverPhotoPath %>
-
 layout: project-post
 ---
 
