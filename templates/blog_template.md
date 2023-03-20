@@ -10,11 +10,8 @@
 ---
 published: false
 category: blog_post
-project_category : <% projectCategory %>
-project_name : <% projectName %>
 date: <% moment() %>
 title: <% postTitle %>
-cover_photo: <% "/" + coverPhotoPath %>
 layout: blog-post
 ---
 
