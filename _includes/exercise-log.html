@@ -1,0 +1,156 @@
+
+<form id="exercise-log" style="display: none;" onsubmit="submitForm(); return false;">
+    <label for="date">Select date:</label>
+    <input id="date" type="date"></select><br>
+
+    <label for="activity-type">Select a workout type:</label>
+    <select id="activity-type" onchange="changeForm()">
+            <option value="Running">Running</option>
+            <option value="Trail Running">Trail Running</option>
+            <option value="Cycling">Cycling</option>
+            <option value="Climbing">Climbing</option>
+            <option value="Strength">Strength</option>
+            <option value="Downhill Skiing">Downhill Skiing</option>
+            <option value="XC Ski">XC Ski</option>
+            <option value="Hike">Hike</option>
+            <option value="Mini-wing Sled Laps">Mini-wing Sled Laps</option>
+    </select><br>
+
+    <label for="body-battery">Body Battery:</label>
+    <input type="number" id="body-battery" name="body-battery"><br>
+
+    <label for="grade">Grade:</label>
+    <select id="grade" name="grade">
+    <option value="A">A</option>
+    <option value="B">B</option>
+    <option value="C">C</option>
+    <option value="D">D</option>
+    <option value="F">F</option>
+    </select><br>
+
+    <label for="duration">Duration:</label>
+    <input type="number" id="duration" name="duration"><br>
+
+    <label for="distance">Distance:</label>
+    <input type="number" id="distance" name="distance"><br>
+
+    <label for="elevation">Elevation:</label>
+    <input type="number" id="elevation" name="elevation"><br>
+
+    <label for="primary-hr-zone">HR Zone:</label>
+    <select id="primary-hr-zone" name="primary-hr-zone">
+    <option value="Zone 1">Zone 1</option>
+    <option value="Zone 2">Zone 2</option>
+    <option value="Zone 3">Zone 3</option>
+    <option value="Zone 4">Zone 4</option>
+    <option value="Zone 5">Zone 5</option>
+    </select><br>
+    <input type="submit" value="Submit">
+</form>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script>
+    let ACCESS_TOKEN = getAccessToken();
+    function resolveActivityType(activity) {
+        switch(activity) {
+        case "Running":
+        case "Trail Running":
+        case "Cycling":
+        case "XC Ski":
+        case "Hike":
+        case "Mini-wing Sled Laps":
+            return "Aerobic";
+        case "Climbing":
+        case "Strength":
+        case "Downhill Skiing":
+            return "Strength";
+        default:
+            return "Unknown";
+        }
+    }
+
+    function changeForm() {
+        var formType = resolveActivityType(document.getElementById("activity-type").value);
+        if (formType === "Aerobic") {
+            document.getElementById("distance").style.display = "block";
+            document.getElementById("distance").previousElementSibling.style.display = "block";
+            document.getElementById("elevation").style.display = "block";
+            document.getElementById("elevation").previousElementSibling.style.display = "block";
+            document.getElementById("primary-hr-zone").style.display = "block";
+            document.getElementById("primary-hr-zone").previousElementSibling.style.display = "block";
+        } else if (formType === "Strength") {
+            document.getElementById("distance").style.display = "none";
+            document.getElementById("distance").previousElementSibling.style.display = "none";
+            document.getElementById("distance").value = "";
+            document.getElementById("elevation").style.display = "none";
+            document.getElementById("elevation").previousElementSibling.style.display = "none";
+            document.getElementById("elevation").value = "";
+            document.getElementById("primary-hr-zone").style.display = "none";
+            document.getElementById("primary-hr-zone").previousElementSibling.style.display = "none";
+            document.getElementById("primary-hr-zone").value = "";
+        }
+    }
+
+    async function submitForm() {
+        var date = $('#date').val();
+        var activity_type = $('#activity-type').val();
+        var body_battery = $('#body-battery').val();
+        var grade = $('#grade').val();
+        var duration = $('#duration').val();
+        var distance = $('#distance').val();
+        var elevation = $('#elevation').val();
+        var primary_hr_zone = $('#primary-hr-zone').val();
+
+        if (resolveActivityType(activity_type) == "Strength"){
+            distance = "";
+            elevation = "";
+            primary_hr_zone = "";
+        }
+
+        let body = {
+            range: "Sheet1!A1:H1",
+            majorDimension: "ROWS",
+            values: [[
+                date,
+                activity_type,
+                body_battery,
+                grade,
+                duration,
+                distance,
+                elevation,
+                primary_hr_zone
+            ]]
+        }
+
+        console.log(body);
+
+        $.ajax({
+            url: 'https://sheets.googleapis.com/v4/spreadsheets/1InnWL1ZRtnCqenYMoA2QNlxfLivT2MW8AXZxS8LCxLg/values/Sheet1!A1:H1:append?valueInputOption=USER_ENTERED',
+            type: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'Authorization': 'Bearer ' + ACCESS_TOKEN,
+            },
+            data: JSON.stringify(body),
+            success: function(response) {
+                alert('Data added to Google Sheet!');
+            },
+            error: function(response) {
+                console.log(response);
+                alert('Error adding data to Google Sheet.')
+            }
+        });
+    }
+
+    function showForm(){
+        document.getElementById("exercise-log").style.display = "block";
+    }
+
+</script>
+
+<script async defer src="https://apis.google.com/js/api.js" onload="showForm()"></script>
+
+
+
+

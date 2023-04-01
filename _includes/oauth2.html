@@ -1,0 +1,48 @@
+
+    <script type="text/javascript">
+        
+        let CLIENT_ID = '1028894433475-7iekog1jgee1n8dege1mr1gje3721m9a.apps.googleusercontent.com';
+        let API_KEY = 'AIzaSyBZ4rvWmIa2inQhUtNdyTRRcqwGW8N0J-c';
+        const SCOPES = 'https://www.googleapis.com/auth/spreadsheets';
+
+
+        function oauthSignIn() {
+            // Google's OAuth 2.0 endpoint for requesting an access token
+            var oauth2Endpoint = 'https://accounts.google.com/o/oauth2/v2/auth';
+
+            // Create <form> element to submit parameters to OAuth 2.0 endpoint.
+            var form = document.createElement('form');
+            form.setAttribute('method', 'GET'); // Send as a GET request.
+            form.setAttribute('action', oauth2Endpoint);
+
+            // Parameters to pass to OAuth 2.0 endpoint.
+            var params = {'client_id': CLIENT_ID,
+                            'redirect_uri': 'http://localhost:4000',
+                            'response_type': 'token',
+                            'scope': SCOPES};
+
+            // Add form parameters as hidden input values.
+            for (var p in params) {
+                var input = document.createElement('input');
+                input.setAttribute('type', 'hidden');
+                input.setAttribute('name', p);
+                input.setAttribute('value', params[p]);
+                form.appendChild(input);
+            }
+
+            // Add form to page and submit it to open the OAuth 2.0 endpoint.
+            document.body.appendChild(form);
+            form.submit();
+        }
+        
+        function getAccessToken(){
+            let params = new URLSearchParams(window.location.hash.split("#")[1]);
+            access_token = params.get('access_token');
+            if (!access_token){
+                oauthSignIn();
+            }
+            return access_token;
+        }
+    </script>
+  </body>
+</html>

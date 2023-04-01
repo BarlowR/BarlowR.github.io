@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+                "file": "content/posts/Mar/Week_1_NLP_Training.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+                "file": "content/posts/Mar/Week_1_NLP_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+                "file": "content/posts/Mar/Week_1_NLP_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md"
+                "file": "content/posts/Mar/Week_1_NLP_Training.md"
               }
             }
           }
@@ -149,8 +149,19 @@
   },
   "active": "45158d84b66fb90f",
   "lastOpenFiles": [
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
+    "_site/content/posts/Mar/Week_1_NLP_Training.html",
+    "content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.md",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "content/posts/Mar/Week_1_NLP_Training.md",
+    "_site/content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.html",
+    "content/posts/Mar/Marathon_Training_from_a_NLP_model.md",
+    "().md",
+    "_site/().md",
+    "_site/().html",
+    "_site/content/posts/Mar/Marathon_Training_from_a_NLP_model.html",
     "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html.md",
@@ -158,8 +169,6 @@
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html.html",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/photos",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two",
-    "_site/Untitled.md",
-    "_site/Untitled.html",
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.png",
@@ -170,10 +179,7 @@
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_Two",
     "content/trips/MusselRockParagliding20230316",
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.html",
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos",
     "content/posts/Mar/ladj.md",
     "templates/blog_template.md",
     "content/posts/Mar/Finding_Beauty_in_Industrial_Sprawl.md",
@@ -187,12 +193,6 @@
     "content/projects/Software/Things/Things_Report.md",
     "content/projects/Software/Things/First_Progress.md",
     "content/projects/Software/Things/photos/cover_photo.jpg",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
-    "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
-    "content/trips/trip_directory.md",
-    "content/trip_directory.md",
-    "content/trips/EastMoleraTraip20230301/EastMoleraTraip20230301.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Directory.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg"
   ]
