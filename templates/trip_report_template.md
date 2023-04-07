@@ -2,7 +2,7 @@
 	let basePath = "content/trips";
 	let today = tp.date.now().format('YYYY-MM-DD');
 	let tripLocation = await tp.system.prompt("Trip Location:");
-	let tripLocationString = tripLocation.replaceAll(" ", "");
+	let tripLocationString = tripLocation.replaceAll(" ", "_");
 	let tripDateString = await tp.system.prompt(
 		"Trip Date (YYYY-MM-DD):", 
 		default_value = today);
@@ -17,7 +17,7 @@
 	let photoPath = folderPath + "/photos"
 	let coverPhotoPath = photoPath + "/cover_photo.jpg"
 	await this.app.vault.createFolder(folderPath);
-	await this.app.vault.createFolder(photoFolder);
+	await this.app.vault.createFolder(photoPath);
 	await tp.file.move(folderPath + "/" + tripString);
 
 	let postTitle = tripLocation + " " +tripDate.format('YYYY-MM-DD');
