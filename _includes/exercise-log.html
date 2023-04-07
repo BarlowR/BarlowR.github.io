@@ -1,7 +1,7 @@
 
 <form id="exercise-log" style="display: none;" onsubmit="submitForm(); return false;">
     <label for="date">Select date:</label>
-    <input id="date" type="date"></select><br>
+    <input id="date" type="date"><br>
 
     <label for="activity-type">Select a workout type:</label>
     <select id="activity-type" onchange="changeForm()">
@@ -45,7 +45,12 @@
     <option value="Zone 4">Zone 4</option>
     <option value="Zone 5">Zone 5</option>
     </select><br>
+
+    <label for="workout-note"> Note: </label>
+    <input type="text" id="workout-note" name="workout-note" style="width: 240px; height: 100px;"><br>
+
     <input type="submit" value="Submit">
+
 </form>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
@@ -73,21 +78,21 @@
     function changeForm() {
         var formType = resolveActivityType(document.getElementById("activity-type").value);
         if (formType === "Aerobic") {
-            document.getElementById("distance").style.display = "block";
-            document.getElementById("distance").previousElementSibling.style.display = "block";
-            document.getElementById("elevation").style.display = "block";
-            document.getElementById("elevation").previousElementSibling.style.display = "block";
-            document.getElementById("primary-hr-zone").style.display = "block";
-            document.getElementById("primary-hr-zone").previousElementSibling.style.display = "block";
+            document.getElementById("distance").style.visibility = "visible";
+            document.getElementById("distance").previousElementSibling.style.visibility = "visible";
+            document.getElementById("elevation").style.visibility = "visible";
+            document.getElementById("elevation").previousElementSibling.style.visibility = "visible";
+            document.getElementById("primary-hr-zone").style.visibility = "visible";
+            document.getElementById("primary-hr-zone").previousElementSibling.style.visibility = "visible";
         } else if (formType === "Strength") {
-            document.getElementById("distance").style.display = "none";
-            document.getElementById("distance").previousElementSibling.style.display = "none";
+            document.getElementById("distance").style.visibility = "hidden";
+            document.getElementById("distance").previousElementSibling.style.visibility = "hidden";
             document.getElementById("distance").value = "";
-            document.getElementById("elevation").style.display = "none";
-            document.getElementById("elevation").previousElementSibling.style.display = "none";
+            document.getElementById("elevation").style.visibility = "hidden";
+            document.getElementById("elevation").previousElementSibling.style.visibility = "hidden";
             document.getElementById("elevation").value = "";
-            document.getElementById("primary-hr-zone").style.display = "none";
-            document.getElementById("primary-hr-zone").previousElementSibling.style.display = "none";
+            document.getElementById("primary-hr-zone").style.visibility = "hidden";
+            document.getElementById("primary-hr-zone").previousElementSibling.style.visibility = "hidden";
             document.getElementById("primary-hr-zone").value = "";
         }
     }
@@ -138,7 +143,9 @@
             },
             error: function(response) {
                 console.log(response);
-                alert('Error adding data to Google Sheet.')
+                alert('Error adding data to Google Sheet. Login again');
+                window.location.replace(window.location.href.split("#")[0]);
+
             }
         });
     }

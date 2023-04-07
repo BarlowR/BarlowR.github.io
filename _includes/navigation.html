@@ -1,6 +1,5 @@
-<link rel="stylesheet" href="{{ "/assets/css/navigation.css"}}">
 
-{% assign published_pages = site.pages | where: "published", "true" %}
+{% assign published_pages = site.pages | where: "published", "true"%}
     
 {% assign project_pages = published_pages | where: "category", "project"%}
 {% assign trip_pages = published_pages | where: "category", "trip" %}
@@ -48,22 +47,29 @@
 <div class="navigation-category accordion">Trip Reports</div>
 <div class="trips accordion-sub">
 {% for post in trip_pages %}
-    ------ <a href = {{post.url}} > {{post.title}} </a> <br>
+    -- <a href = {{post.url}} > {{post.title}} </a> <br>
 {% endfor %}
 </div>
 
 <div class="navigation-category accordion">Thoughts & Notes</div>
 <div class="notes accordion-sub">
 {% for post in post_pages %}
-    ------ <a href = {{post.url}} > {{post.title}} </a> <br>
+    -- <a href = {{post.url}} > {{post.title}} </a> <br>
 {% endfor %}
 </div>
 
 <div class="navigation-category accordion" >Recent Posts</div>
 <div class="recent-posts accordion-sub">
-{% assign recent_sorted = published_pages | sort, "date" | reverse | slice: 0, 5 %}
+{% assign recent_sorted = published_pages | sort, "date" | reverse %}
+{% assign count = 0 %}
 {% for post in recent_sorted %}
-    -- <a href = {{post.url}} > {{post.title}} </a> <br>
+    {% unless post.category contains "training_log" %}
+        {% assign count = count | plus: 1 %}
+         -- <a href = {{post.url}} > {{post.title}} </a> <br>
+        {% if count == 5 %} 
+            {% break %} 
+        {% endif %}
+    {% endunless %}
 {% endfor %}
 </div>
 

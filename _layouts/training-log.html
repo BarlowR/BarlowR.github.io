@@ -1,0 +1,17 @@
+---
+layout: base
+---
+
+
+{{ content }}
+
+<hr>
+<h4> Training Logs: </h4>
+{% assign training_log_pages = site.pages | where: "published", "true" | where: "category", "training_log" %}
+{% for log in training_log_pages %}
+{{log.date | date: "%Y-%m-%d"}} <a href = {{log.url}}> {{log.title}} </a> 
+{% endfor %}
+
+<hr>
+
+<h3><a href="/content/training_log/log"> Log Training </a></h3>

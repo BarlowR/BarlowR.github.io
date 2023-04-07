@@ -1,31 +1,97 @@
 body {
-  --full-width: min(100vw, 1100px);
+  --full-width: min(100vw, 900px);
   --radius : calc(0.01 * var(--full-width));
-  --padding : calc(0.02 * var(--full-width));
+  --padding : calc(0.01 * var(--full-width));
+  --margin : calc(0.02 * var(--full-width));
+
+  --font-base-size : 12px;
+  --font-subtitle-size : calc(var(--font-base-size)*1.618);
+  --font-title-size : calc(var(--font-base-size)*2.618);
+  --font-body-text : var(--font-base-size)/1.5 "Roboto", sans-serif;
+
+  --sidebar-percentage: 0.33;
+  --header-height: 98px;
+
   --main-light: #e7e7e7;
   --main-dark: #140c0c;
   --accent-light: #e6ebff;
   --accent-dark: #3e2f2f;
     background-color: var(--main-light);
     padding-top:10vh;
-    font: 14px/1.5 "Roboto", sans-serif;
-    font-weight:400;
+    font: var(--font-body-text);
+    font-weight:200;
     width: var(--full-width);
     max-width: var(--full-width);
     margin: auto;
     height: 90vh;
-  }
+}
+
 #main {
-  --sidebar-percentage: 0.25;
   box-sizing: border-box;
 
 }
 
+#title-section {
+  height: calc(var(--header-height) + var(--margin));
+  color: var(--accent-dark);
+}
+
+#title-block {
+  width: calc((1 - var(--sidebar-percentage)) * var(--full-width) - 2*var(--margin));
+  height: var(--header-height);
+  padding: var(--padding);
+  margin: var(--margin);
+  box-sizing: border-box;
+  border-left-style: solid;
+  border-bottom-style: solid;
+
+  position: relative;
+  float: left;
+}
+
+#title-img-block {
+  width: calc((var(--sidebar-percentage)) * var(--full-width) - 2*var(--margin));
+  height: var(--header-height);
+  /* border-radius: var(--radius); */
+
+  border-right-style: solid;
+  border-top-style: solid;
+  margin: var(--margin);
+  box-sizing: border-box;
+  float: right;
+  
+}
+
+#title-img-block img{
+  width: var(--header-height);
+  height: 100%;
+  object-fit: contain;
+  float: right;
+}
+
+#title-section #title {
+  font-size: var(--font-title-size);
+  font-weight: 100;
+  
+}
+#title-section #sub-title {
+  font-size: var(--font-base-size);
+  font-weight: 100;
+}
+#title-section #signature {
+  font-size: calc(var(--font-base-size)/1.2);
+  font-weight: 200;
+}
+
 #sidebar {
   --sidebar-width: calc(var(--sidebar-percentage) * var(--full-width));
-  width: var(--sidebar-width);
+  margin: var(--margin);
+  width: calc(var(--sidebar-width) - 2*var(--margin));
   float: left;
-  border-radius:  var(--radius);
+  /* border-radius:  var(--radius); */
+  border-top-style: solid;
+  border-left-style: solid;
+
 
   box-sizing: border-box;
 }
@@ -33,10 +99,11 @@ body {
 #navigation-image-rect {
   box-shadow:inset 0px 0px 0px 1px var(--main-dark);
   border-radius: var(--radius);
-
+  margin: var(--margin);
   height: calc( .62 * var(--sidebar-width));
-  margin: 0px;
   overflow: hidden;
+  border-style: solid;
+
 }
 
 #navigation-image-rect > img {
@@ -48,24 +115,52 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  box-shadow:inset 0px 0px 0px 1px var(--main-dark);
-
 }
 
 #navigation-sidebar {
-  box-shadow:inset 0px 0px 0px 1px var(--main-dark);
-  border-radius: var(--radius);
+  /* border-radius: var(--radius); */
+
 
   padding: var(--padding);
   box-sizing: border-box;
 }
 
+h2 {
+  font-weight:400;
+  font-size: calc(var(--font-subtitle-size)); 
+}
+
+.navigation-menu {
+  font-weight:100;
+  font-size: var(--font-base-size);
+
+}
+
+.navigation-category {
+  font-weight:400;
+  font-size: calc(var(--font-base-size) * 1.2);
+}
+
+.navigation-subcategory {
+  font-weight:200;
+  font-size: calc(var(--font-base-size) * 1.2);
+}
+
+.accordion-sub {
+  display: none;
+}
+
+
 #content-body {
     --content-body-width: calc((1 - var(--sidebar-percentage)) * var(--full-width));
-    width: var(--content-body-width);
+    margin: var(--margin);
+    width: calc(var( --content-body-width) - 2*var(--margin));
     float: left;
-    box-shadow:inset 0px 0px 0px 1px var(--main-dark);
-    border-radius:  var(--radius);
+    /* box-shadow:inset 0px 0px 0px 1px var(--main-dark); */
+    border-right-style : solid;
+    border-bottom-style : solid;
+
+    /* border-radius:  var(--radius); */
 
     padding: var(--padding);
     box-sizing: border-box;

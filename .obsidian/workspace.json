@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "301fe41d7bf12ea6",
+        "id": "d7ac395ce7eea71e",
         "type": "tabs",
         "children": [
           {
-            "id": "45158d84b66fb90f",
+            "id": "0ed74cae0ce59877",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/posts/Mar/Week_1_NLP_Training.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Mar/Week_1_NLP_Training.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Mar/Week_1_NLP_Training.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/posts/Mar/Week_1_NLP_Training.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,53 +139,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "45158d84b66fb90f",
+  "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
-    "_site/content/posts/Mar/Week_1_NLP_Training.html",
-    "content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.md",
+    "_site/assets/img/home-placeholder.jpg",
+    "assets/img/home-placeholder.jpg",
+    "_site/assets/img/20230317_190042 (1).jpg",
+    "assets/img/20230317_190042 (1).jpg",
+    "_site/assets/img/logo.png",
+    "_site/assets/img",
+    "assets/img/logo.png",
+    "assets/img",
+    "assets/untitled folder",
+    "content/training_log/Apr2023/Trail_Run.md",
+    "content/training_log/Apr2023/Mini-wing_Laps.md",
     "_site/Untitled.md",
     "_site/Untitled.html",
+    "_site/content/training_log/log.html",
+    "content/training_log/log.markdown",
+    "content/training_log/training-log.markdown",
+    "_site/content/training_log/training-log.html",
+    "content/training_log/training-log.md",
+    "_site/content/training_log/log-training.html",
+    "content/training_log/log-training.md",
+    "_site/content/training_log/index.html",
+    "content/training_log/Untitled.md",
+    "_site/content/training_log/Untitled.md",
+    "content/training_log/Apr2023/Running.md",
+    "templates/training_log_template.md",
+    "content/training_log/Apr/Running.md",
+    "templates/blog_template.md",
+    "templates/project_post_template.md",
+    "templates/trip_report_template.md",
+    "templates/project_report_template.md",
+    "_site/templates/training_log_template.md",
+    "_site/templates/blog_template 1.md",
+    "content/posts/Apr/Running_4/7/23.md",
+    "content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.md",
     "content/posts/Mar/Week_1_NLP_Training.md",
-    "_site/content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.html",
     "content/posts/Mar/Marathon_Training_from_a_NLP_model.md",
     "().md",
     "_site/().md",
-    "_site/().html",
-    "_site/content/posts/Mar/Marathon_Training_from_a_NLP_model.html",
     "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html.md",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html.md",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.html.html",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/photos",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two",
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.png",
     "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.png",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/Screen Shot 2023-03-11 at 3.40.59 PM.png",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.html",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_Two",
-    "content/trips/MusselRockParagliding20230316",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
-    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg",
-    "content/posts/Mar/ladj.md",
-    "templates/blog_template.md",
-    "content/posts/Mar/Finding_Beauty_in_Industrial_Sprawl.md",
-    "templates/project_report_template.md",
-    "templates/trip_report_template.md",
-    "templates/project_post_template.md",
-    "content/projects/Software/MVP_Component/MVP_Component_Report.md",
-    "content/posts/Mar/FirstPosttoSite.md",
-    "content/projects/Software/MVP_Component/Initial_Post.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/making_a_new_post.md",
-    "content/projects/Software/Things/Things_Report.md",
-    "content/projects/Software/Things/First_Progress.md",
-    "content/projects/Software/Things/photos/cover_photo.jpg",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.jpg"
+    "_site/content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/Screen Shot 2023-03-11 at 3.40.59 PM.png"
   ]
 }
