@@ -18,13 +18,13 @@ layout: project-post
 
 My first ski pack is nearly two years old now, and it's been a great pack. I've taken it up Mount Washington, in the backcountry of Jay Peak, on multiple cross-country skiing traverses, and up a couple of Sierra peaks. For most of last summer, it was also my go-to biking backpack. The straps fit well, it has just the right capacity, and it's super lightweight.
 
-However, after using it for two years, I've worked out a couple of things in the design of the pack that I think could be better. I started off with just the thought that the cinch top would be better as a roll top, but as I used it more I kept coming across areas of improvement. Next I wanted a dedicated pocket for an avalanche shovel an probe, and then I wanted a hip belt. With spring ski traverse season quickly approaching, I decided to dive into making a second version of the pack. 
+After using it for two years, I keep stumbling across things things about the pack that I think could be better. I started off with just the thought that the cinch top would be better as a roll top. Next I wanted a dedicated pocket for an avalanche shovel an probe, and then I wanted a hip belt. With spring ski traverse season quickly approaching, I decided to dive into making a second version of the pack. 
 
 <a href = "/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg">
 <img src = "/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg" width = "40%" style = "float: right;  margin: 5px;">
 </a>
 
-I began my design as I often do in my sketchbook, with both a rough sketch of my design for the pack and with a list of the features that I was looking to include. Here's my initial sketch above and to the right. I've listed the features I wrote down below. Nearly all of them made their way into my final design.
+I began my design as I often do in my sketchbook, with both a rough sketch of my design for the pack and with a list of the features that I was looking to include. Here's my initial page to the right. I've listed the features I wrote down below. Nearly all of them made their way into my final design.
 
 * External strap for skis
 * Zippered avalanche gear pocket
@@ -39,8 +39,7 @@ I began my design as I often do in my sketchbook, with both a rough sketch of my
 * Sternum strap
 
 
-
-My first ski pack used 1000d Cordura for the side panels for it's abrasion resistance, and that had worked very well in withstanding constant abuse from the edges of my skis. I found some 500d Cordura in a black camo print on sale at Rocky Woods, and decided to use it as the first primary fabric of the pack. I went with an X-Pac VX07 for the rest of the main panels. When I first got into making gear, I had purchased some blaze orange Gutermann Mara thread because it was on sale, and the blaze orange color has been accent in most of my work since then. The blaze orange choice here was a bit of a nod to that. In my previous work, I've skewed towards earthy tones or blacks or whites, but I'm excited now to do more work in bright, vibrant colors.
+My first ski pack used 1000d Cordura for the side panels for it's abrasion resistance, and that had worked very well in withstanding constant abuse from the edges of my skis. I found some 500d Cordura in a black camo print on sale at Rocky Woods, and decided to use it as the first primary fabric of the pack. I went with an X-Pac VX07 for the rest of the main panels. When I first got into making gear, I had purchased some blaze orange Gutermann Mara thread on sale, and the blaze orange color has been an accent in most of my work since then. The blaze orange choice here was a bit of a nod to that. In my previous work, I've skewed towards earthy tones or monochrome, but I've been interested recently in doing more work in bright, vibrant colors.
 
 <a href = "/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png">
 <img src = "/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png" width = "20%" style = "float: right; margin: 5px;">

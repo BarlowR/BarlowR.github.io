@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md"
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md"
               }
             }
           }
@@ -149,6 +149,18 @@
   },
   "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
+    "Untitled.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "templates/photo_link.md",
+    "templates/project_post_template.md",
+    "templates/project_report_template.md",
+    "_site/templates/photo_link.md",
+    "_site/templates/photo_link.html",
+    "_site/templates/Untitled.md",
+    "_site/templates/Untitled.html",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/drawing.jpg",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/drawing.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fullPack.png",
@@ -159,11 +171,9 @@
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/20230316_165811.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/Default_Modelist_6.png",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/Back Panel with Straps_2.png",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.html",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
     "templates/trip_report_template.md",
     "templates/training_log_template.md",
@@ -173,10 +183,6 @@
     "_site/content/trips/Mt_Tallac20230325",
     "_site/content/trips",
     "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
-    "content/trips/Mt_Tallac20230325/photos",
-    "content/trips/Mt_Tallac20230325",
-    "_site/Untitled.md",
-    "_site/Untitled.html",
     "content/trips/Mt._Tallac20230325/Mt._Tallac20230325.md",
     "content/training_log/Apr2023/Trail_Run.md",
     "content/training_log/Apr2023/Mini-wing_Laps.md",
@@ -186,14 +192,7 @@
     "_site/content/training_log/Untitled.md",
     "content/training_log/Apr2023/Running.md",
     "content/training_log/Apr/Running.md",
-    "templates/project_post_template.md",
-    "templates/project_report_template.md",
     "_site/templates/training_log_template.md",
-    "_site/templates/blog_template 1.md",
-    "content/posts/Apr/Running_4/7/23.md",
-    "content/posts/Mar/Marathon_Training_from_an_NLP_Model,_Week_1-4.md",
-    "content/posts/Mar/Week_1_NLP_Training.md",
-    "content/posts/Mar/Marathon_Training_from_a_NLP_model.md",
-    "().md"
+    "_site/templates/blog_template 1.md"
   ]
 }
