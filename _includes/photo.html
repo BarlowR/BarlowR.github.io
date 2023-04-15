@@ -1,0 +1,8 @@
+{% assign base_path = page.url | split: "/" %}
+{% assign img_path = base_path | join: "/" | replace: base_path.last, include.path %}
+
+<a        href = "{{ img_path }}">
+    <img   src = "{{ img_path }}" 
+         style = "width: 20%; margin: 5px; float:right;{{ include.style }}">
+</a>
+    
