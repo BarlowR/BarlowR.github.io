@@ -14,6 +14,8 @@ layout: project-post
 
 {%- include photo.html 
     path="photos/drawing.jpg"
+    style = "float: right"
+
 -%}
 
 My first ski pack is nearly two years old now, and it's been a great pack. I've taken it up Mount Washington, in the backcountry of Jay Peak, on multiple cross-country skiing traverses, and up a couple of Sierra peaks. For most of last summer, it was also my go-to biking backpack. The straps fit well, it has just the right capacity, and it's super lightweight.
@@ -44,6 +46,7 @@ My first ski pack used 1000d Cordura for the side panels for it's abrasion resis
 
 {%- include photo.html 
     path="photos/AvyPocket.png"
+    style = "float: right;"
 -%}
 
 After picking out the fabrics, I incrementally built up the pack in CLO3D. First, I designed the avalanche pocket in the front panel of the backpack. Next, I used my experience from my running vest prototypes to design a set of well-fitting straps using the 3D avatar. The pack itself drew heavily from my experience both in the first version of the ski touring pack, and from my PCT backpack. 
@@ -58,6 +61,7 @@ After picking out the fabrics, I incrementally built up the pack in CLO3D. First
 I've written it here before, but having a 3D cloth simulation and patterning software is incredibly useful in designing a pack. I can play around with ideas much quicker and iterate faster than building smaller prototypes, and I can work out construction of everything much better than sketching things out in my design book. 
 {%- include photo.html 
     path="photos/fullPack.png"
+    style = "float: right;"
 -%}
 
 Having the avatar available for fit design is invalueable. Well fitting pack straps have been a crux of design for me, and being able to design them digitally and adjust the fit as needed has made my life much easier. No more guesswork regarding the fitment, nor anxiety about wasting expensive fabrics!
