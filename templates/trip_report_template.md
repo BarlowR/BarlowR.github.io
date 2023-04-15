@@ -30,8 +30,8 @@ published: false
 category: trip
 date: <% tripDate %>
 title: <% postTitle %>
-latitude: <% tripLatitude %>
-latitude: <% tripLatitude %>
+latitude: <% tripLat %>
+latitude: <% tripLong %>
 cover_photo: <% "/" + coverPhotoPath %>
 layout: trip-report
 ---

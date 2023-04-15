@@ -11,12 +11,8 @@
             "id": "0ed74cae0ce59877",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -147,40 +139,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ed74cae0ce59877",
+  "active": "f12d03a30e45e3c6",
   "lastOpenFiles": [
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg.sb-78725903-WenqWu",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg",
+    "_site/20230225_174857.jpg",
+    "20230225_174857.jpg",
+    "content/trips/Mt_Tallac20230325/photos/cover_photo.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.html",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
+    "templates/trip_report_template.md",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos",
+    "content/trips/East_Molera_Trail_Big_Sur20230225",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.html",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/9.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/8.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/7.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/6.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/5.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/4.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/3.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/2.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/11.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/10.jpg",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab",
     "_includes/photo.html",
-    "_includes/photo",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/untitled folder",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg.sb-78725903-ueXE8c",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/drawing.jpg.sb-78725903-Afa4N4",
-    "Untitled.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
-    "_site/Untitled.md",
-    "_site/Untitled.html",
     "templates/photo_link.md",
     "templates/project_post_template.md",
     "templates/project_report_template.md",
     "_site/templates/photo_link.md",
-    "_site/templates/photo_link.html",
     "_site/templates/Untitled.md",
-    "_site/templates/Untitled.html",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
-    "templates/trip_report_template.md",
     "templates/training_log_template.md",
     "templates/blog_template.md",
     "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
@@ -193,7 +185,6 @@
     "_site/content/training_log/Untitled.md",
     "content/training_log/Apr2023/Running.md",
     "content/training_log/Apr/Running.md",
-    "_site/templates/training_log_template.md",
-    "_site/templates/blog_template 1.md"
+    "_site/templates/training_log_template.md"
   ]
 }
