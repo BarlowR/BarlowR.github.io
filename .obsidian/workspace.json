@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md"
+                "file": "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md"
               }
             }
           }
@@ -149,33 +149,35 @@
   },
   "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
-    "_site/content/trips/Mt_Tallac20230325/photos/cover_photo.jpg",
-    "content/trips/Mt_Tallac20230325/photos/cover_photo.jpg",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/20230316_165811.jpg",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/Default_Modelist_6.png",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/Back Panel with Straps_2.png",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.html",
+    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/20230316_165811.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/Default_Modelist_6.png",
+    "20230316_165807.jpg",
+    "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
+    "templates/trip_report_template.md",
+    "templates/training_log_template.md",
+    "templates/blog_template.md",
     "_site/content/trips/Mt_Tallac20230325/Mt_Tallac20230325.html",
-    "_site/content/trips/Mt_Tallac20230325/photos/cover_image.jpg",
-    "content/trips/Mt_Tallac20230325/photos/cover_image.jpg",
-    "_site/content/trips/Mt_Tallac20230325/photos/cover_tallac.jpg",
     "_site/content/trips/Mt_Tallac20230325/photos",
     "_site/content/trips/Mt_Tallac20230325",
     "_site/content/trips",
-    "content/trips/Mt_Tallac20230325/photos/cover_tallac.jpg",
     "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
     "content/trips/Mt_Tallac20230325/photos",
     "content/trips/Mt_Tallac20230325",
     "_site/Untitled.md",
     "_site/Untitled.html",
-    "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
     "content/trips/Mt._Tallac20230325/Mt._Tallac20230325.md",
-    "templates/trip_report_template.md",
-    "content/trips/Mt._Tallac20230325/photos",
-    "content/trips/Mt._Tallac20230325",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
-    "content/trips/Mt.Tallac20230325",
-    "_site/assets/img/home-placeholder.jpg",
-    "assets/img/home-placeholder.jpg",
-    "_site/assets/img/20230317_190042 (1).jpg",
-    "assets/img/20230317_190042 (1).jpg",
-    "_site/assets/img/logo.png",
     "content/training_log/Apr2023/Trail_Run.md",
     "content/training_log/Apr2023/Mini-wing_Laps.md",
     "content/training_log/training-log.md",
@@ -183,9 +185,7 @@
     "content/training_log/Untitled.md",
     "_site/content/training_log/Untitled.md",
     "content/training_log/Apr2023/Running.md",
-    "templates/training_log_template.md",
     "content/training_log/Apr/Running.md",
-    "templates/blog_template.md",
     "templates/project_post_template.md",
     "templates/project_report_template.md",
     "_site/templates/training_log_template.md",

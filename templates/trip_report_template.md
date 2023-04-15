@@ -2,6 +2,8 @@
 	let basePath = "content/trips";
 	let today = tp.date.now().format('YYYY-MM-DD');
 	let tripLocation = await tp.system.prompt("Trip Location:");
+	let tripLat = await tp.system.prompt("Trip Latitude:");
+	let tripLong = await tp.system.prompt("Trip Longitude:");
 	let tripLocationString = tripLocation.replaceAll(" ", "_");
 	let tripDateString = await tp.system.prompt(
 		"Trip Date (YYYY-MM-DD):", 
@@ -26,8 +28,10 @@
 ---
 published: false
 category: trip
-date: <% moment() %>
+date: <% tripDate %>
 title: <% postTitle %>
+latitude: <% tripLatitude %>
+latitude: <% tripLatitude %>
 cover_photo: <% "/" + coverPhotoPath %>
 layout: trip-report
 ---
