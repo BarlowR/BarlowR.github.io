@@ -13,6 +13,9 @@ layout: project-post
 2023-04-14
 
 
+Here's a collection of photos from cutting up my materials and stitching everything together.
+
+
 {%- include photo.html 
     path="photos/fab/1.jpg"
     style="float:left; width:25%;"

@@ -11,8 +11,12 @@
             "id": "0ed74cae0ce59877",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md"
+              }
             }
           }
         ]
@@ -139,18 +147,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f12d03a30e45e3c6",
+  "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg.sb-78725903-WenqWu",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg",
-    "_site/20230225_174857.jpg",
-    "20230225_174857.jpg",
-    "content/trips/Mt_Tallac20230325/photos/cover_photo.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Sunset.jpg",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Snow.jpg",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Hiking.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Sunset.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Hiking.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Snow.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_175256.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_170550.jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_165749 (1).jpg",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/trips/Ralston_Peak20230408/photos",
+    "content/trips/Ralston_Peak20230408",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg.sb-78725903-WenqWu",
+    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos",
     "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.html",
     "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
     "templates/trip_report_template.md",
@@ -158,20 +174,12 @@
     "content/trips/East_Molera_Trail_Big_Sur20230225",
     "_site/Untitled.md",
     "_site/Untitled.html",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.html",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/9.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/8.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/7.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/6.jpg",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab",
-    "_includes/photo.html",
     "templates/photo_link.md",
     "templates/project_post_template.md",
     "templates/project_report_template.md",
     "_site/templates/photo_link.md",
     "_site/templates/Untitled.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
     "templates/training_log_template.md",
     "templates/blog_template.md",

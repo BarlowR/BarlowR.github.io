@@ -67,7 +67,7 @@ I've written it here before, but having a 3D cloth simulation and patterning sof
 Having the avatar available for fit design is invalueable. Well fitting pack straps have been a crux of design for me, and being able to design them digitally and adjust the fit as needed has made my life much easier. No more guesswork regarding the fitment, nor anxiety about wasting expensive fabrics!
 
 
-Once I had the front panel and the back panel designed, I worked out where I wanted my ski straps to be and added in the bottom panel and the side panels. From there, it was on to fabrication.
+Once I had the front panel and the back panel designed, I worked out where I wanted my ski straps to be and added in the bottom panel and the side panels. From there, it was on to fabrication [[content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication]]
 
 
 
