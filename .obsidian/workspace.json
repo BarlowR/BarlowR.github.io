@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md"
+                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md"
               }
             }
           }
@@ -149,20 +149,24 @@
   },
   "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
+    "_site/content/trips/Ralston_Peak20230408/photos/cover_photo.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/UpTheHill.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/UpRalston.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/SnowMorning.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/Pyramid.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/MailBoxPeak.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/Cruising.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/DroneTop.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/Charles2.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/Charles.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos/AtTop.jpg",
+    "_site/content/trips/Ralston_Peak20230408/photos",
+    "_site/content/trips/Ralston_Peak20230408/Ralston_Peak20230408.html",
+    "_site/content/trips/Ralston_Peak20230408",
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Sunset.jpg",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Snow.jpg",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos/Hiking.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Sunset.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Hiking.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/Snow.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_175256.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_170550.jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_165749 (1).jpg",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/cover_photo.jpg",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/trips/Ralston_Peak20230408/photos",
     "content/trips/Ralston_Peak20230408",
     "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg.sb-78725903-WenqWu",
@@ -171,10 +175,7 @@
     "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
     "templates/trip_report_template.md",
     "content/trips/East_Molera_Trail_Big_Sur20230225/photos",
-    "content/trips/East_Molera_Trail_Big_Sur20230225",
     "_site/Untitled.md",
-    "_site/Untitled.html",
-    "_site/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.html",
     "templates/photo_link.md",
     "templates/project_post_template.md",
     "templates/project_report_template.md",
