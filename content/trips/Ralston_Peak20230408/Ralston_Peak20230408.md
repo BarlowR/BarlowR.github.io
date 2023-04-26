@@ -77,7 +77,7 @@ Our next objective was to go check out cup lake. At one point we had planned to 
 
 It was now 3 or so, and so we decided to head back to the car. We skied down the path that we had skinned up, and with all of the solar radiation from the day, the hard pack from the morning had turned into corn slush. The snow was incredibly sticky, and required skiing with my knees bent at a 90° angle just to keep myself from going head over tips. When we got most of the way to the bottom, we decided to stop and skin back up for a section to hit 5K elevation for the day. Steven and Charles were really feeling it by the time we made the ascent, but we hit the mark and felt good about it. Last adventure of the day was skiing out back to the car along the burnt section of the side slope that we had skinned up before.  
   
-We made it back to the car, and I revelled in putting on a cotton sweatshirt and dry socks. Sometimes that's the best part of the day. Charles had brought a giant pack of Costco croissants, and as bad as the croissant were, it was one of the better croissants I've had in my life purely due to the circumstances. By this point it was around 6:00 p.m., so we packed up our things, headed down the hill to Placerville, and capped off the day with a hearty meal at a diner.
+We made it back to the car, and I reveled in putting on a cotton sweatshirt and dry socks. Sometimes that's the best part of the day. Charles had brought a giant pack of Costco croissants, and as bad as the croissant were, it was one of the better croissants I've had in my life purely due to the circumstances. By this point it was around 6:00 p.m., so we packed up our things, headed down the hill to Placerville, and capped off the day with a hearty meal at a diner.
 
 
 
