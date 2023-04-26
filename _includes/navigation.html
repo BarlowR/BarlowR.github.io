@@ -2,7 +2,7 @@
 {% assign published_pages = site.pages | where: "published", "true"%}
     
 {% assign project_pages = published_pages | where: "category", "project"%}
-{% assign trip_pages = published_pages | where: "category", "trip" %}
+{% assign trip_pages = published_pages | where: "category", "trip" | sort, "date" %}
 {% assign post_pages = published_pages | where: "category", "blog_post" %}
 
 {% assign project_categories = project_pages | map: "project_category" | uniq %}
@@ -60,7 +60,8 @@
 
 <div class="navigation-category accordion" >Recent Posts</div>
 <div class="recent-posts accordion-sub">
-{% assign recent_sorted = published_pages | sort, "date" | reverse %}
+{% assign recent_sorted = published_pages | sort, "date" %}
+{{ recent_sorted | map: 'title' }}
 {% assign count = 0 %}
 {% for post in recent_sorted %}
     {% unless post.category contains "training_log" %}
