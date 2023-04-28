@@ -1,7 +1,7 @@
 ---
 published: true
 category: trip
-date: Sat Apr 08 2023 00:00:00 GMT-0700
+date: 04-08-2023T00:00:0
 title: Ralston Peak 2023-04-08
 latitude: 38.832288
 latitude: -120.101897

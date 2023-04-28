@@ -15,7 +15,7 @@
 ---
 published: false
 category: training_log
-date: <% moment(trainingDateString) %>
+date: <% moment().format() %>
 title: <% postTitle %>
 layout: training-log
 ---

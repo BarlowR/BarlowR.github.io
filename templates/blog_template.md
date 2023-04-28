@@ -10,7 +10,7 @@
 ---
 published: false
 category: blog_post
-date: <% moment() %>
+date: <% moment().format() %>
 title: <% postTitle %>
 layout: blog-post
 ---

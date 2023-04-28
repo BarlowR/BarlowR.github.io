@@ -53,7 +53,7 @@ published: false
 category: project
 project_category : <% projectCategory %>
 project_name : <% projectName %>
-date: <% moment() %>
+date: <% moment().format() %>
 title: <% postTitle %>
 cover_photo: <% "/" + coverPhotoPath %>
 layout: project-post
