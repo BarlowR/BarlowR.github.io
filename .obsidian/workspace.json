@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+                "file": "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+                "file": "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+                "file": "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md"
+                "file": "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md"
               }
             }
           }
@@ -149,32 +149,33 @@
   },
   "active": "0ed74cae0ce59877",
   "lastOpenFiles": [
-    "_site/content/trips/Ralston_Peak20230408/photos/cover_photo.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/UpTheHill.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/UpRalston.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/SnowMorning.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/Pyramid.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/MailBoxPeak.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/Cruising.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/DroneTop.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/Charles2.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/Charles.jpg",
-    "_site/content/trips/Ralston_Peak20230408/photos/AtTop.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/photos/downhill.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/photos/maggie.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/photos/cover_photo.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/photos/coastal.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/photos/coast.jpg",
+    "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.html",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/uphill.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/tree.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/sunset.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/maggie.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/downhill.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos/cover_photo.jpg",
+    "_site/content/trips/North_Ridge_Big_Sur20230422/photos",
+    "_site/content/trips/North_Ridge_Big_Sur20230422",
+    "_site/IMG_4581.jpg.sb-230d4fb7-K5CVTf",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+    "IMG_4581.jpg.sb-230d4fb7-K5CVTf",
+    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/trips/North_Ridge_Big_Sur20230422/photos",
+    "content/trips/North_Ridge_Big_Sur20230422",
     "_site/content/trips/Ralston_Peak20230408/photos",
     "_site/content/trips/Ralston_Peak20230408/Ralston_Peak20230408.html",
     "_site/content/trips/Ralston_Peak20230408",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
-    "content/trips/Ralston_Peak20230408/photos",
-    "content/trips/Ralston_Peak20230408",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos/20230225_174857.jpg.sb-78725903-WenqWu",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/photos",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.html",
-    "_site/content/trips/East_Molera_Trail_Big_Sur20230225",
     "templates/trip_report_template.md",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/photos",
     "_site/Untitled.md",
     "templates/photo_link.md",
     "templates/project_post_template.md",
@@ -193,7 +194,6 @@
     "content/training_log/Untitled.md",
     "_site/content/training_log/Untitled.md",
     "content/training_log/Apr2023/Running.md",
-    "content/training_log/Apr/Running.md",
-    "_site/templates/training_log_template.md"
+    "content/training_log/Apr/Running.md"
   ]
 }
