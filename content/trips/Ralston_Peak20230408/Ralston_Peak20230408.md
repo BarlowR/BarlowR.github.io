@@ -12,6 +12,7 @@ layout: trip-report
 
 ## Ralston Peak 2023-04-08
 
+
 My friends Steven and Charles and I were looking at doing a ski tour out somewhere in Tahoe the weekend of the 8th. Steven and I had skied Mt. Tallac two weekends prior, and we had big aspirations to return to ski The Cross, a couloir off of the mountain. 
 
 
@@ -56,12 +57,12 @@ We made quick work down to the lake, where we hung out for a little while. I mad
 <div>
 {%- include photo.html 
     path="photos/MailBoxPeak.jpg"
-    style="float: left; width:40%;"
+    style="float: left; width:39%;"
 -%}
 
 {%- include photo.html 
     path="photos/Cruising.jpg"
-    style="float: left; width:55%;"
+    style="float: left; width:53%;"
 -%}
 </div>
 
@@ -79,5 +80,10 @@ It was now 3 or so, and so we decided to head back to the car. We skied down the
   
 We made it back to the car, and I reveled in putting on a cotton sweatshirt and dry socks. Sometimes that's the best part of the day. Charles had brought a giant pack of Costco croissants, and as bad as the croissant were, it was one of the better croissants I've had in my life purely due to the circumstances. By this point it was around 6:00 p.m., so we packed up our things, headed down the hill to Placerville, and capped off the day with a hearty meal at a diner.
 
+
+
+{%- include cesium_view.html 
+    gpx_file = "/content/trips/Ralston_Peak20230408/ralston.gpx" 
+    clamp_to_ground = "true" -%}
 
 
