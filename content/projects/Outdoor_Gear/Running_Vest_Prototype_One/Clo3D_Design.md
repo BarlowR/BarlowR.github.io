@@ -3,7 +3,7 @@ published: true
 category: project
 project_category : Outdoor Gear
 project_name : Running Vest Prototype One
-date: Tue Mar 14 2023 19:32:00 GMT-0700
+date: 2023-03-14T00:00:00-07:00
 title: Clo3D Design
 cover_photo: /content/projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg
 layout: project-post

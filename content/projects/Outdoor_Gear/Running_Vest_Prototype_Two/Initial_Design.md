@@ -3,7 +3,7 @@ published: false
 category: project
 project_category : Outdoor Gear
 project_name : Running Vest Prototype Two
-date: Mon Mar 20 2023 15:57:11 GMT-0700
+date: 2023-03-20T00:00:00-07:00
 title: Initial Design
 cover_photo: /content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/photos/cover_photo.jpg
 layout: project-post

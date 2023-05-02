@@ -28,7 +28,7 @@
 ---
 published: false
 category: trip
-date: <% tripDate..format() %>
+date: <% tripDate.format() %>
 title: <% postTitle %>
 latitude: <% tripLat %>
 latitude: <% tripLong %>

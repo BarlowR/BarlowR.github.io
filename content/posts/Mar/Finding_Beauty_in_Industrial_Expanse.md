@@ -1,7 +1,7 @@
 ---
 published: true
 category: blog_post
-date: Tue Mar 14 2023 19:18:12 GMT-0700
+date: 2023-03-14T00:00:00-07:00
 title: Finding Beauty in Industrial Expanse
 layout: blog-post
 cover_photo: /content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/photos/cover_photo.jpg

@@ -1,7 +1,7 @@
 ---
 published: true
 category: training_log
-date: Wed Apr 05 2023 00:00:00 GMT-0700
+date: 2023-04-05T00:00:00-07:00
 title: Mini-wing Laps
 layout: training-log
 ---

@@ -60,7 +60,7 @@
 
 <div class="navigation-category accordion" >Recent Posts</div>
 <div class="recent-posts accordion-sub">
-{% assign recent_sorted = published_pages | sort, "date" %}
+{% assign recent_sorted = published_pages | sort, "date" | reverse %}
 {% assign count = 0 %}
 {% for post in recent_sorted %}
     {% unless post.category contains "training_log" %}

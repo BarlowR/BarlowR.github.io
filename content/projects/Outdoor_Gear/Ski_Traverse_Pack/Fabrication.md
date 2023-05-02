@@ -3,7 +3,7 @@ published: true
 category: project
 project_category : Outdoor Gear
 project_name : Ski Traverse Pack
-date: Fri Apr 14 2023 22:15:44 GMT-0700
+date: 2023-04-07T00:00:00-07:00
 title: Fabrication
 cover_photo: /content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png
 layout: project-post
