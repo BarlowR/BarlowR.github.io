@@ -1,16 +1,16 @@
 body {
-  --full-width: min(100vw, 900px);
+  --full-width: min(100vw, 1100px);
   --radius : calc(0.01 * var(--full-width));
   --padding : calc(0.01 * var(--full-width));
   --margin : calc(0.02 * var(--full-width));
 
-  --font-base-size : 12px;
+  --font-base-size : 13px;
   --font-subtitle-size : calc(var(--font-base-size)*1.618);
   --font-title-size : calc(var(--font-base-size)*2.618);
   --font-body-text : var(--font-base-size)/1.5 "Roboto", sans-serif;
 
-  --sidebar-percentage: 0.33;
-  --header-height: 98px;
+  --sidebar-percentage: 0.28;
+  --header-height: 120px;
 
   --main-light: #e7e7e7;
   --main-dark: #140c0c;
@@ -28,6 +28,8 @@ body {
 
 img {
   border-radius: var(--radius);
+  border-style: solid;
+  border-color: var(--accent-dark);
 }
 
 #main {
@@ -71,6 +73,8 @@ img {
   height: 100%;
   object-fit: contain;
   float: right;
+  border-style: none;
+
 }
 
 #title-section #title {

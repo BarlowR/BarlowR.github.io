@@ -63,8 +63,7 @@
         )
         .then(function (dataSource) {
           viewer.flyTo(
-            dataSource.entities,
-            new Cesium.HeadingPitchRange(0.0, -1.0, 0.0)
+            dataSource.entities
             );
         });
       }
