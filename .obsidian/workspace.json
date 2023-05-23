@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d7ac395ce7eea71e",
+        "id": "7e015946a274b884",
         "type": "tabs",
         "children": [
           {
-            "id": "0ed74cae0ce59877",
+            "id": "0aa171b73e24ec05",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
                 "mode": "source",
                 "source": false
               }
@@ -64,6 +64,14 @@
               "type": "starred",
               "state": {}
             }
+          },
+          {
+            "id": "b84c15eb832f8aac",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ]
       }
@@ -85,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md"
+                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md"
               }
             }
           }
@@ -147,53 +155,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0ed74cae0ce59877",
+  "active": "0aa171b73e24ec05",
   "lastOpenFiles": [
-    "_site/content/trips/Desolation_Wilderness20230425/photos/cover_photo.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/WindowSelfie.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/Top2.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/Top.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/Spine.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/SkisCar.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/Rocks.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/Pack.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/FromTheBottom.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos/CoolMorning.jpg",
-    "_site/content/trips/Desolation_Wilderness20230425/photos",
-    "_site/content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.html",
-    "_site/content/trips/Desolation_Wilderness20230425",
-    "content/trips/Desolation_Wilderness20230425/photos/cover_photo.jpg",
-    "templates/trip_report_template.md",
-    "content/trips/Desolation_Wilderness20230425/photos",
-    "content/trips/Desolation_Wilderness20230425",
+    "_site/content/trips/Santa_Barbara20230521/photos/cover_photo.jpg",
+    "content/trips/Santa_Barbara20230521/photos/cover_photo.jpg",
+    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+    "content/trips/Santa_Barbara20230521/photos/VOR.jpg.sb-597a89d7-TNaXFz",
+    "_site/content/trips/Santa_Barbara20230521/photos/VOR.jpg",
+    "_site/content/trips/Santa_Barbara20230521/photos/FogLake.jpg",
+    "_site/content/trips/Santa_Barbara20230521/photos",
+    "content/trips/Santa_Barbara20230521/photos/FogLake.jpg",
+    "content/trips/Santa_Barbara20230521/photos/VOR.jpg",
+    "_site/content/trips/Santa_Barbara20230521/Santa_Barbara20230521.html",
+    "_site/content/trips/Santa_Barbara20230521",
+    "content/trips/Black_Mountain20230517/Black_Mountain20230517.md",
+    "content/trips/Santa_Barbara20230521/photos",
+    "content/trips/Santa_Barbara20230521",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "_site/content/trips/Black_Mountain20230517/photos/top.jpg",
+    "content/trips/Black_Mountain20230517/photos/top.jpg",
+    "_site/content/trips/Black_Mountain20230517/photos/fog.jpg",
+    "_site/content/trips/Black_Mountain20230517/photos/trail.jpg",
+    "_site/content/trips/Black_Mountain20230517/photos/cover_photo.jpg",
+    "_site/content/trips/Black_Mountain20230517/photos",
+    "_site/content/trips/Black_Mountain20230517/bm.gpx",
+    "_site/content/trips/Black_Mountain20230517/Black_Mountain20230517.html",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
     "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
+    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+    "templates/project_report_template.md",
+    "templates/project_post_template.md",
+    "templates/trip_report_template.md",
     "templates/training_log_template.md",
     "content/posts/Apr/Running_4/7/23.md",
     "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
-    "_site/content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.html",
-    "_site/content/trips/North_Ridge_Big_Sur20230422/photos",
-    "_site/content/trips/North_Ridge_Big_Sur20230422",
-    "_site/IMG_4581.jpg.sb-230d4fb7-K5CVTf",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
-    "IMG_4581.jpg.sb-230d4fb7-K5CVTf",
-    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
-    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
-    "_site/Untitled.md",
     "templates/photo_link.md",
-    "templates/project_post_template.md",
-    "templates/project_report_template.md",
     "_site/templates/photo_link.md",
     "_site/templates/Untitled.md",
     "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
     "templates/blog_template.md",
-    "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md",
-    "content/trips/Mt._Tallac20230325/Mt._Tallac20230325.md",
-    "content/training_log/Apr2023/Trail_Run.md",
-    "content/training_log/Apr2023/Mini-wing_Laps.md",
-    "content/training_log/training-log.md",
-    "content/training_log/log-training.md",
-    "content/training_log/Untitled.md",
-    "_site/content/training_log/Untitled.md"
+    "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md"
   ]
 }

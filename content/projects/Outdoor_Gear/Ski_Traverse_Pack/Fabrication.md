@@ -13,7 +13,7 @@ layout: project-post
 2023-04-14
 
 
-Here's a collection of photos from cutting up my materials and stitching everything together.
+Here's a collection of photos from cutting up my materials and stitching everything together. I printed out 1:1 scale pattern pieces for the curved, more complex pieces, and went off of dimensions for the rectangles. With the pattern from CLO-3D and and my model of the pack to guide me along, I was able to get through the fabrication phase much quicker than other packs. Just like the design phase, I put together the Avy pocket first, then the back panel, then sewed on the sides to pull everything together.
 
 
 {%- include photo.html 

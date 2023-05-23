@@ -19,7 +19,7 @@ body {
     background-color: var(--main-light);
     padding-top:10vh;
     font: var(--font-body-text);
-    font-weight:200;
+    font-weight:100;
     width: var(--full-width);
     max-width: var(--full-width);
     margin: auto;
@@ -134,7 +134,7 @@ img {
 }
 
 h2 {
-  font-weight:400;
+  font-weight:200;
   font-size: calc(var(--font-subtitle-size)); 
 }
 
@@ -150,7 +150,7 @@ h2 {
 }
 
 .navigation-subcategory {
-  font-weight:200;
+  font-weight:100;
   font-size: calc(var(--font-base-size) * 1.2);
 }
 

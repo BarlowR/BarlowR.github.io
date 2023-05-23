@@ -2,7 +2,7 @@
 {% assign published_pages = site.pages | where: "published", "true"%}
     
 {% assign project_pages = published_pages | where: "category", "project"%}
-{% assign trip_pages = published_pages | where: "category", "trip" | sort, "date" %}
+{% assign trip_pages = published_pages | where: "category", "trip" | sort, "date" | reverse %}
 {% assign post_pages = published_pages | where: "category", "blog_post" %}
 
 {% assign project_categories = project_pages | map: "project_category" | uniq %}
