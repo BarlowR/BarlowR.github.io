@@ -27,8 +27,8 @@ body {
 }
 
 img {
-  border-radius: var(--radius);
-  border-style: solid;
+  border-radius: calc(0.5*var(--radius));
+  /* border-style: solid; */
   border-color: var(--accent-dark);
 }
 

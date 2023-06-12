@@ -2,9 +2,9 @@
 {% assign cover_photo_path = page.cover_photo %}
 {% assign cover_photo_path_exists = site.static_files | where: "path", cover_photo_path | first %}
 {% if cover_photo_path and cover_photo_path_exists %}
-<div id="navigation-image-rect">
+<!-- <div id="navigation-image-rect">
     <img src={{cover_photo_path}}>
-</div>
+</div> -->
 {% endif %}
 <div id="navigation-sidebar">
     {%- include navigation.html -%}
