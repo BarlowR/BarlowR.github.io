@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "40bfd11d4ebd0a9d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4e3e2199aec40cb0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 297.5
   },
   "right": {
     "id": "f4a0d849a6c78b17",
@@ -93,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md"
+                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md"
               }
             }
           }
@@ -155,39 +180,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0aa171b73e24ec05",
+  "active": "40bfd11d4ebd0a9d",
   "lastOpenFiles": [
-    "_site/content/trips/Santa_Barbara20230521/photos/cover_photo.jpg",
-    "content/trips/Santa_Barbara20230521/photos/cover_photo.jpg",
-    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md",
     "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/BC2.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/BC1.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Burnt_Building.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Portraits_Pride.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Tea_Party.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Lemonade.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/CoverPhoto.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Art-1.jpg",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos/Art-2.jpg",
+    "_site/content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.html",
+    "_site/content/trips/Tour_of_Boston_Marathon20230611/photos/Tea_Party.jpg",
+    "_site/content/trips/Tour_of_Boston_Marathon20230611/photos",
+    "_site/content/trips/Tour_of_Boston_Marathon20230611",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
+    "content/trips/Tour_of_Boston_Marathon20230611/photos",
+    "content/trips/Tour_of_Boston_Marathon20230611",
     "content/trips/Santa_Barbara20230521/photos/VOR.jpg.sb-597a89d7-TNaXFz",
-    "_site/content/trips/Santa_Barbara20230521/photos/VOR.jpg",
-    "_site/content/trips/Santa_Barbara20230521/photos/FogLake.jpg",
     "_site/content/trips/Santa_Barbara20230521/photos",
-    "content/trips/Santa_Barbara20230521/photos/FogLake.jpg",
-    "content/trips/Santa_Barbara20230521/photos/VOR.jpg",
     "_site/content/trips/Santa_Barbara20230521/Santa_Barbara20230521.html",
     "_site/content/trips/Santa_Barbara20230521",
     "content/trips/Black_Mountain20230517/Black_Mountain20230517.md",
     "content/trips/Santa_Barbara20230521/photos",
-    "content/trips/Santa_Barbara20230521",
     "_site/Untitled.md",
-    "_site/Untitled.html",
-    "_site/content/trips/Black_Mountain20230517/photos/top.jpg",
-    "content/trips/Black_Mountain20230517/photos/top.jpg",
-    "_site/content/trips/Black_Mountain20230517/photos/fog.jpg",
-    "_site/content/trips/Black_Mountain20230517/photos/trail.jpg",
-    "_site/content/trips/Black_Mountain20230517/photos/cover_photo.jpg",
-    "_site/content/trips/Black_Mountain20230517/photos",
-    "_site/content/trips/Black_Mountain20230517/bm.gpx",
-    "_site/content/trips/Black_Mountain20230517/Black_Mountain20230517.html",
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
     "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
@@ -201,7 +226,6 @@
     "_site/templates/photo_link.md",
     "_site/templates/Untitled.md",
     "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
-    "templates/blog_template.md",
-    "content/trips/EastMoleraTrail20230303/EastMoleraTrail20230303.md"
+    "templates/blog_template.md"
   ]
 }
