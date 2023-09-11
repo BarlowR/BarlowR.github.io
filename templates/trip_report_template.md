@@ -31,7 +31,7 @@ category: trip
 date: <% tripDate.format() %>
 title: <% postTitle %>
 latitude: <% tripLat %>
-latitude: <% tripLong %>
+longitude: <% tripLong %>
 cover_photo: <% "/" + coverPhotoPath %>
 layout: trip-report
 ---

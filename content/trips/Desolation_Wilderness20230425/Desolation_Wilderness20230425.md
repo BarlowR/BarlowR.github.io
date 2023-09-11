@@ -17,7 +17,9 @@ Earlier this winter I had grand aspiration to ski the ["Sierra High Route"](http
 
 The Desolation Wilderness holds a special place in my heart, and Pyramid Peak in particular. I lived in Half Moon Bay for the winter of 2019-2020, and I did an overnight trip that year to ski up Pyramid. It was one of my first big overnight ski trips, and even though it wasn't a lot of mileage, it was a huge new world of adventure and excitement for me. 
 
-My first plan for this trip was an overnighter out-and-back just to get out and see as much of Desolation as I could. [A trip to Ralston peak earlier in April](/content/trips/Ralston_Peak20230408/Ralston_Peak20230408) clued me into the conditions in the area, and opened my eyes to the possibility of doing one huge loop in a single day. 
+My first plan for this trip was an overnighter out-and-back just to get out and see as much of Desolation as I could. [A trip to Ralston peak earlier in April](/content/trips/Ralston_Peak20230408/Ralston_Peak20230408) clued me into the conditions in the area, and opened my eyes to the possibility of doing one huge loop in a single day. The snow was consolidated and perfect for making fast progress, and with how late it was in the spring, days were long with lots of sunlight hours. 
+
+
 
 
 

@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "19de21d71650c69e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
                 "mode": "source",
                 "source": false
               }
@@ -44,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md"
+                "file": "content/trips/Dunlap20230825/Dunlap20230825.md"
               }
             }
           }
@@ -180,37 +192,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40bfd11d4ebd0a9d",
+  "active": "19de21d71650c69e",
   "lastOpenFiles": [
+    "_site/content/trips/Dunlap20230825/Dunlap20230825.html",
+    "_site/content/trips/Dunlap20230825/photos/valley.jpg",
+    "_site/content/trips/Dunlap20230825/photos/landing.jpg",
+    "_site/content/trips/Dunlap20230825/photos/jesse.jpg",
+    "_site/content/trips/Dunlap20230825/photos/frank.jpg",
+    "_site/content/trips/Dunlap20230825/photos/delilah.jpg",
+    "_site/content/trips/Dunlap20230825/photos",
+    "_site/content/trips/Dunlap20230825",
+    "_site/Untitled.md",
+    "_site/Untitled.html",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "content/trips/Dunlap20230825/Dunlap20230825.md",
+    "content/trips/Dunlap20230825/photos/delilah.jpg",
+    "content/trips/Dunlap20230825/photos/jesse.jpg",
+    "content/trips/Dunlap20230825/photos/valley.jpg",
+    "content/trips/Dunlap20230825/photos/frank.jpg",
+    "content/trips/Dunlap20230825/photos/landing.jpg",
     "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md",
+    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
+    "templates/trip_report_template.md",
     "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
     "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
+    "Untitled.md",
+    "content/trips/Dunlap20230825/photos",
+    "content/trips/Dunlap20230825",
+    "content/posts/Jul/Resources_for_Training.md",
+    "content/trips/SLC_and_Sun_Valley20230705/photos",
+    "content/trips/SLC_and_Sun_Valley20230705",
     "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/BC2.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/BC1.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Burnt_Building.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Portraits_Pride.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Tea_Party.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Lemonade.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/CoverPhoto.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Art-1.jpg",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos/Art-2.jpg",
+    "content/posts/Jul",
     "_site/content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.html",
-    "_site/content/trips/Tour_of_Boston_Marathon20230611/photos/Tea_Party.jpg",
     "_site/content/trips/Tour_of_Boston_Marathon20230611/photos",
-    "_site/content/trips/Tour_of_Boston_Marathon20230611",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
-    "content/trips/Tour_of_Boston_Marathon20230611/photos",
-    "content/trips/Tour_of_Boston_Marathon20230611",
-    "content/trips/Santa_Barbara20230521/photos/VOR.jpg.sb-597a89d7-TNaXFz",
-    "_site/content/trips/Santa_Barbara20230521/photos",
-    "_site/content/trips/Santa_Barbara20230521/Santa_Barbara20230521.html",
-    "_site/content/trips/Santa_Barbara20230521",
     "content/trips/Black_Mountain20230517/Black_Mountain20230517.md",
-    "content/trips/Santa_Barbara20230521/photos",
-    "_site/Untitled.md",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
@@ -218,14 +236,9 @@
     "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
     "templates/project_report_template.md",
     "templates/project_post_template.md",
-    "templates/trip_report_template.md",
     "templates/training_log_template.md",
     "content/posts/Apr/Running_4/7/23.md",
     "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
-    "templates/photo_link.md",
-    "_site/templates/photo_link.md",
-    "_site/templates/Untitled.md",
-    "content/trips/Mt_Tallac20230325/Mt_Tallac20230325.md",
-    "templates/blog_template.md"
+    "templates/photo_link.md"
   ]
 }
