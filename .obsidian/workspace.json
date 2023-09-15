@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
+                "file": "content/posts/Jul/Running_Around_in_the_Mountains.md",
                 "mode": "source",
                 "source": false
               }
@@ -130,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
+                "file": "content/posts/Jul/Running_Around_in_the_Mountains.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Dunlap20230825/Dunlap20230825.md",
+                "file": "content/posts/Jul/Running_Around_in_the_Mountains.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +170,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Dunlap20230825/Dunlap20230825.md"
+                "file": "content/posts/Jul/Running_Around_in_the_Mountains.md"
+              }
+            }
+          },
+          {
+            "id": "0f58acfa520173fb",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
               }
             }
           }
@@ -192,8 +202,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "19de21d71650c69e",
+  "active": "f12d03a30e45e3c6",
   "lastOpenFiles": [
+    "content/posts/Jul/pics",
+    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+    "content/posts/Jul/Running_Around_in_the_Mountains.md",
+    "content/posts/Sep/Training_for_the_Mountains.md",
+    "content/posts/Sep",
+    "content/trips/Dunlap20230825/Dunlap20230825.md",
     "_site/content/trips/Dunlap20230825/Dunlap20230825.html",
     "_site/content/trips/Dunlap20230825/photos/valley.jpg",
     "_site/content/trips/Dunlap20230825/photos/landing.jpg",
@@ -205,7 +221,6 @@
     "_site/Untitled.md",
     "_site/Untitled.html",
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/trips/Dunlap20230825/Dunlap20230825.md",
     "content/trips/Dunlap20230825/photos/delilah.jpg",
     "content/trips/Dunlap20230825/photos/jesse.jpg",
     "content/trips/Dunlap20230825/photos/valley.jpg",
@@ -219,13 +234,10 @@
     "Untitled.md",
     "content/trips/Dunlap20230825/photos",
     "content/trips/Dunlap20230825",
-    "content/posts/Jul/Resources_for_Training.md",
     "content/trips/SLC_and_Sun_Valley20230705/photos",
     "content/trips/SLC_and_Sun_Valley20230705",
     "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
     "content/posts/Jul",
-    "_site/content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.html",
-    "_site/content/trips/Tour_of_Boston_Marathon20230611/photos",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md",
     "content/trips/Black_Mountain20230517/Black_Mountain20230517.md",
@@ -233,12 +245,10 @@
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
     "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
-    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
     "templates/project_report_template.md",
     "templates/project_post_template.md",
     "templates/training_log_template.md",
     "content/posts/Apr/Running_4/7/23.md",
-    "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
-    "templates/photo_link.md"
+    "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md"
   ]
 }
