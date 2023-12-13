@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
                 "mode": "source",
                 "source": false
               }
@@ -23,23 +23,9 @@
             "id": "40bfd11d4ebd0a9d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "content/posts/Sep/Thoughts_on_Training.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4e3e2199aec40cb0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
-                "mode": "source",
-                "source": false
+                "file": "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-end.jpg"
               }
             }
           },
@@ -55,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -130,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Sep/Thoughts_on_Training.md",
+                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Sep/Thoughts_on_Training.md",
+                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Sep/Thoughts_on_Training.md"
+                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md"
               }
             }
           },
@@ -202,13 +187,31 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "40bfd11d4ebd0a9d",
+  "active": "0aa171b73e24ec05",
   "lastOpenFiles": [
-    "content/posts/Sep/Training_for_the_Mountains.md",
-    "content/posts/Sep/Thoughts_on_Training.md",
-    "content/posts/Sep/Running_Around_in_the_Mountains.md",
-    "content/posts/Sep/Replacing_a_Paraglider_Line.md",
+    "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-end.jpg",
+    "Sleep_and_Nutrition.md",
+    "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-1.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/coyote-pass-1.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/filtering-water.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/fish-on.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/sun.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/snacks.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/kern-river.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/photos/kern-canyon.jpg",
     "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
+    "_site/content/trips/Golden_Trout_Wilderness20230928/photos/sun.jpg",
+    "_site/content/trips/Golden_Trout_Wilderness20230928/photos",
+    "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
+    "content/posts/Dec/Reflection_on_turning_25.md",
+    "content/posts/Dec",
+    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
+    "content/posts/Sep/Running_Around_in_the_Mountains.md",
+    "content/posts/Sep/Thoughts_on_Training.md",
+    "content/posts/Sep/Training_for_the_Mountains.md",
+    "content/posts/Sep/Replacing_a_Paraglider_Line.md",
     "_site/content/trips/Golden_Trout_Wilderness20230928/trip.gpx",
     "_site/Untitled 1.md",
     "_site/Untitled 1.html",
@@ -218,36 +221,18 @@
     "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md",
     "content/trips/Golden_Trout_Wilderness20230928/photos",
     "content/trips/Golden_Trout_Wilderness20230928",
-    "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
     "Untitled 1.md",
     "_site/content/posts/Sep/Running_Around_in_the_Mountains.html",
-    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
     "Running_Around_int_the_mountains.md",
     "_site/Running_Around_int_the_mountains.md",
-    "_site/Running_Around_int_the_mountains.html",
-    "_site/content/posts/Sep/photos/long-supercomposition.png",
-    "_site/content/posts/Sep/photos/500px-Supercompensation-continued-small.png",
-    "content/posts/Sep/photos/long-supercomposition.png",
-    "_site/content/posts/Sep/Thoughts_on_Training.html",
-    "_site/content/posts/Sep/photos/supercomposition.png",
     "_site/Sleep_and_Nutrition.md",
-    "content/posts/Sep/photos/supercomposition.png",
     "templates/trip_report_template.md",
     "content/trips/Dunlap20230825/Dunlap20230825.md",
-    "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
-    "Sleep_and_Nutrition.md",
     "Sleep.md",
     "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
-    "_site/content/trips/Dunlap20230825/photos/valley.jpg",
-    "_site/content/trips/Dunlap20230825/photos/landing.jpg",
-    "_site/content/trips/Dunlap20230825/photos/jesse.jpg",
-    "_site/content/trips/Dunlap20230825/photos/frank.jpg",
-    "_site/content/trips/Dunlap20230825/photos/delilah.jpg",
     "_site/Untitled.md",
     "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
     "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
-    "Untitled.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Clo3D_Design.md"
+    "Untitled.md"
   ]
 }
