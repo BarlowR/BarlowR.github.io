@@ -12,7 +12,7 @@ layout: trip-report
 
 ## Golden Trout Wilderness 2023-09-28
 
-Maggie moved out west this past summer, and it's been constant chaos since she arrived. We move apartments, flew back to the east coast for her brother's wedding, I've been running flight ops for Reliable Robotics in support of the C208 UAS mission, she had a number of events for work, et cetera, et cetera. We had promised ourselves earlier in the year that we would take some time off together at the end of September, and before we knew it, it was the middle of September and we didn't have a plan. 
+Maggie moved out west this past summer, and it's been constant chaos since she arrived. We moved apartments, flew back to the east coast for her brother's wedding, I've been running flight ops for Reliable Robotics in support of the C208 UAS mission, she had a number of events for work, et cetera, et cetera. We had promised ourselves earlier in the year that we would take some time off together at the end of September, and before we knew it, it was the middle of September and we didn't have a plan. 
 
 First we looked at doing a backpacking trip around King's Canyon, but snow and winds made the region unappealing. Ventana was a warmer option, but Maggie really wanted to get out into the Sierra; I've been talking it up to her now for years . We settled on a trip to the Golden Trout Wilderness just south of Sequoia. The Kern river canyon cuts right through the middle of the region, and the lower altitude would allow us to stay warmer than a trip to higher elevations. I had also done a trip there a few years back when I lived in Half Moon Bay, so I was familiar with the region.
 
