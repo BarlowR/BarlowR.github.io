@@ -58,7 +58,7 @@ I decided to sew patterns into the top of both quilts. I had a hell of a time li
 <br>
 ## Use Notes
 
-I'm psyched with how these all turned out. Mine packs down to roughly the size of a Nalgene bottle, and Maggie's is much, much smaller than her other bag. We took a trip to Ventana over new years's eve, and we camped the night in a stream where it was damp and maybe ~40f. Maggie said that she was warm and toasty!  
+I'm psyched with how these all turned out. Mine packs down to roughly the size of a Nalgene bottle, and Maggie's is much, much smaller than her other bag. We took a trip to Ventana over new years's eve, and we camped the night in a valley where it was damp and maybe ~40f. Maggie said that she was warm and toasty!  
 
 {%- include photo.html 
     path="photos/maggietrip.jpg"
