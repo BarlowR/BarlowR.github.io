@@ -1,15 +1,15 @@
 ---
 published: true
 category: project
-project_category : Outdoor Gear
-project_name : Ski Traverse Pack
+project_category: Outdoor Gear
+project_name: Ski Traverse Pack
 date: 2023-04-05T00:00:00-07:00
-title: Pack Design
+title: Ski Traverse Pack
 cover_photo: /content/projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png
 layout: project-post
 ---
 
-## Pack Design
+## Design Notes
 2023-04-13
 
 {%- include photo.html 
@@ -67,7 +67,62 @@ I've written it here before, but having a 3D cloth simulation and patterning sof
 Having the avatar available for fit design is invaluable. Well fitting pack straps have been a crux of design for me, and being able to design them digitally and adjust the fit as needed has made my life much easier. No more guesswork regarding the fitment, nor anxiety about wasting expensive fabrics!
 
 
-Once I had the front panel and the back panel designed, I worked out where I wanted my ski straps to be and added in the bottom panel and the side panels. From there, it was on to [Fabrication](/content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication)
+Once I had the front panel and the back panel designed, I worked out where I wanted my ski straps to be and added in the bottom panel and the side panels. 
+
+## Fabrication Notes
+
+Here's a collection of photos from cutting up my materials and stitching everything together. I printed out 1:1 scale pattern pieces for the curved, more complex pieces, and went off of dimensions for the rectangles. With the pattern from CLO-3D and and my model of the pack to guide me along, I was able to get through the fabrication phase much quicker than other packs. Just like the design phase, I put together the Avy pocket first, then the back panel, then sewed on the sides to pull everything together.
+
+
+{%- include photo.html 
+    path="photos/fab/1.jpg"
+    style="float:left; width:25%;"
+-%}
+
+{%- include photo.html 
+    path="photos/fab/2.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/3.jpg"
+    style="float:left; width:25%;"
+-%}
+
+{%- include photo.html 
+    path="photos/fab/4.jpg"
+    style="float:left; width:25%;"
+-%}
+
+{%- include photo.html 
+    path="photos/fab/5.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/6.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/7.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/8.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/9.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/10.jpg"
+    style="float:left; width:25%;"
+-%}
+{%- include photo.html 
+    path="photos/fab/11.jpg"
+    style="float:left; width:25%;"
+-%}
+
+
 
 
 

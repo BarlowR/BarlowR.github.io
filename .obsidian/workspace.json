@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
+                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
                 "mode": "source",
                 "source": false
               }
@@ -115,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
+                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
+                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md"
+                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md"
               }
             }
           },
@@ -165,7 +165,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           }
@@ -189,50 +191,50 @@
   },
   "active": "0aa171b73e24ec05",
   "lastOpenFiles": [
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Running Vests.md",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
+    "content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231231_162202.jpg",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231231_162202.jpg",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/sewingpanels.jpg",
+    "content/projects/Outdoor_Gear/Concertina_Bag/photos/con.jpg",
+    "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231214_125202.jpg",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231214_131048.jpg",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggiedone.jpg",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggieworm.jpg",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.html",
+    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos",
+    "content/projects/Outdoor_Gear/Synthetic_Quilts",
+    "_site/Untitled 2.md",
+    "_site/Untitled 2.html",
+    "_site/content/projects/Outdoor_Gear/Concertina_Bag/photos",
+    "_site/content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.html",
+    "_site/content/projects/Outdoor_Gear/Concertina_Bag",
+    "content/projects/Outdoor_Gear/Concertina_Bag/photos",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
+    "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
+    "content/trips/Dunlap20230825/Dunlap20230825.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Fabrication.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_Two/Initial_Design.md",
+    "templates/project_post_template.md",
+    "templates/blog_template.md",
     "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-end.jpg",
     "Sleep_and_Nutrition.md",
     "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-1.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/coyote-pass-1.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/filtering-water.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/fish-on.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/sun.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/snacks.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/kern-river.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/photos/kern-canyon.jpg",
-    "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
-    "_site/content/trips/Golden_Trout_Wilderness20230928/photos/sun.jpg",
-    "_site/content/trips/Golden_Trout_Wilderness20230928/photos",
     "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
     "content/posts/Dec/Reflection_on_turning_25.md",
-    "content/posts/Dec",
     "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
     "content/posts/Sep/Running_Around_in_the_Mountains.md",
     "content/posts/Sep/Thoughts_on_Training.md",
     "content/posts/Sep/Training_for_the_Mountains.md",
     "content/posts/Sep/Replacing_a_Paraglider_Line.md",
-    "_site/content/trips/Golden_Trout_Wilderness20230928/trip.gpx",
     "_site/Untitled 1.md",
-    "_site/Untitled 1.html",
-    "_site/content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.html",
-    "_site/content/trips/Golden_Trout_Wilderness20230928",
-    "content/trips/Golden_Trout_Wilderness20230928/trip.gpx",
-    "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md",
-    "content/trips/Golden_Trout_Wilderness20230928/photos",
-    "content/trips/Golden_Trout_Wilderness20230928",
-    "Untitled 1.md",
-    "_site/content/posts/Sep/Running_Around_in_the_Mountains.html",
-    "Running_Around_int_the_mountains.md",
-    "_site/Running_Around_int_the_mountains.md",
-    "_site/Sleep_and_Nutrition.md",
-    "templates/trip_report_template.md",
-    "content/trips/Dunlap20230825/Dunlap20230825.md",
-    "Sleep.md",
-    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
-    "_site/Untitled.md",
-    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
-    "content/trips/Ralston_Peak20230408/Ralston_Peak20230408.md",
-    "Untitled.md"
+    "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md"
   ]
 }
