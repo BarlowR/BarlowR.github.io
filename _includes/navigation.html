@@ -23,19 +23,11 @@
         {% assign posts_in_project = project_pages_in_category | where: "project_name", project %}
         {% assign post_report = posts_in_project | where: "layout", "project-report" | first %}
         
-         <div class="navigation-subcategory accordion"> 
-            ----
-            {% if post_report %}
-                 <a href = {{post_report.url}}>{{project}}</a>
-            {% else %}
-                {{project}}
-            {% endif %}
-           </div>
-        <div class = "project-posts accordion-sub">
+         <div class="navigation-subcategory"> 
         {% for post in posts_in_project %}
             {% if post.layout == "project-report" %}
             {% else %}
-                ------ <a href = {{post.url}} > {{post.title}}</a> <br>
+                ---- <a href = {{post.url}} > {{post.title}}</a> <br>
             {% endif %}
         {% endfor %}
         </div>

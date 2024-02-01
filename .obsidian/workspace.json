@@ -4,41 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "7e015946a274b884",
+        "id": "947482094ed14782",
         "type": "tabs",
         "children": [
           {
-            "id": "0aa171b73e24ec05",
+            "id": "460697647735485f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "40bfd11d4ebd0a9d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "content/trips/Golden_Trout_Wilderness20230928/photos/bridge-end.jpg"
-              }
-            }
-          },
-          {
-            "id": "a3fc8a8290cc26b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sleep_and_Nutrition.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -115,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +105,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -154,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md"
-              }
+              "state": {}
             }
           },
           {
@@ -189,34 +159,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0aa171b73e24ec05",
+  "active": "f12d03a30e45e3c6",
   "lastOpenFiles": [
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Running Vests.md",
+    "_site/images/rob.jpg",
+    "_site/images",
+    "images/rob.jpg",
+    "images",
+    "_layouts/rob.jpg",
+    "_layouts/20230122_154303.jpg",
+    "_includes/20230122_154303.jpg",
+    "content/projects/Outdoor_Gear/Fabric_Analysis/Fabric_Analysis.md",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/wind.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/tarp.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/quilt.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/pack.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/gc.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos/extrap.png",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/photos",
+    "content/projects/Outdoor_Gear/Fabric_Analysis/Analysis.md",
+    "content/projects/Outdoor_Gear/Fabric_Analysis/Fabric_Analysis.html",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/Fabric_Analysis.html",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis/Analysis.html",
+    "_site/content/projects/Outdoor_Gear/Fabric_Analysis",
+    "_includes/plot.html",
+    "content/projects/Outdoor_Gear/Tarp_&_Bivy/Original_Tarp_&_Bivy.md",
+    "content/projects/Outdoor_Gear/Fabric_Analysis/0_fabric.html",
+    "content/projects/Outdoor_Gear/Fabric_Analysis/photos",
+    "_site/Untitled 2.md",
+    "content/projects/Outdoor_Gear/Original_Synthetic_Quilt/Original_Synthetic_Quilt.md",
+    "_site/projects/apex.html.md",
+    "Sleep_and_Nutrition.md",
+    "projects/apex.html.md",
     "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
+    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Running Vests.md",
     "content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231231_162202.jpg",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231231_162202.jpg",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos/sewingpanels.jpg",
-    "content/projects/Outdoor_Gear/Concertina_Bag/photos/con.jpg",
     "content/trips/Golden_Trout_Wilderness20230928/Golden_Trout_Wilderness20230928.md",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231214_125202.jpg",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/20231214_131048.jpg",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggiedone.jpg",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos/maggieworm.jpg",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/photos",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.html",
-    "_site/content/projects/Outdoor_Gear/Synthetic_Quilts",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts/photos",
-    "content/projects/Outdoor_Gear/Synthetic_Quilts",
-    "_site/Untitled 2.md",
-    "_site/Untitled 2.html",
-    "_site/content/projects/Outdoor_Gear/Concertina_Bag/photos",
-    "_site/content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.html",
-    "_site/content/projects/Outdoor_Gear/Concertina_Bag",
-    "content/projects/Outdoor_Gear/Concertina_Bag/photos",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Ski_Traverse_Pack_Report.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Fabrication.md",
     "content/trips/Dunlap20230825/Dunlap20230825.md",
@@ -225,16 +203,9 @@
     "templates/project_post_template.md",
     "templates/blog_template.md",
     "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
-    "Sleep_and_Nutrition.md",
     "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
     "content/trips/North_Ridge_Big_Sur20230422/North_Ridge_Big_Sur20230422.md",
     "content/posts/Dec/Reflection_on_turning_25.md",
-    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md",
-    "content/posts/Sep/Running_Around_in_the_Mountains.md",
-    "content/posts/Sep/Thoughts_on_Training.md",
-    "content/posts/Sep/Training_for_the_Mountains.md",
-    "content/posts/Sep/Replacing_a_Paraglider_Line.md",
-    "_site/Untitled 1.md",
-    "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md"
+    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md"
   ]
 }
