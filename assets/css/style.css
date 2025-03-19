@@ -223,9 +223,13 @@ h1, h2, h3, h4, h5, h6, b{
 
 #definition {
   font-size: calc(var(--font-base-size) * 0.8);
-  line-height: 0px;
+  line-height: 0.8em;
 }
 
 strong{
   font-weight: 400;
+}
+
+p, ul{
+  margin-block: 0.5em;
 }
