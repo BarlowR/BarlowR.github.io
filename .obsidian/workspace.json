@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
+                "file": "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finding_Beauty_in_Industrial_Expanse"
+              "title": "The_Insight_of_MacCready_Speed_to_Fly"
             }
           }
         ]
@@ -40,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -189,6 +190,11 @@
   },
   "active": "460697647735485f",
   "lastOpenFiles": [
+    "content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance.md",
+    "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md",
+    "content/projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/MacCready_Speed_to_Fly_Derivation.md",
+    "content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.md",
+    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
     "content/trips/xRedRocks_Challenge_Day_320240927/xRedRocks_Challenge_Day_320240927.md",
     "content/trips/xRedRocks_Challenge_Day_220240926/xRedRocks_Challenge_Day_220240926.md",
     "content/trips/xRedRocks_Challenge_Day_120240925/xRedRocks_Challenge_Day_120240925.md",
@@ -200,16 +206,12 @@
     "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
     "content/projects/Outdoor_Gear/Tarp_&_Bivy/Original_Tarp_&_Bivy.md",
     "content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.md",
-    "content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.md",
     "content/posts/Sep/Running_Around_in_the_Mountains.md",
     "content/posts/Sep/Thoughts_on_Training.md",
     "content/posts/Sep/Training_for_the_Mountains.md",
     "content/posts/Sep/Replacing_a_Paraglider_Line.md",
     "content/posts/Nov/Sisyphus.md",
-    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
-    "content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance.md",
     "content/projects/Flying_Better/Preparation_for_Cross_Country_Flight/Preparation_for_Cross_Country_Flight.md",
-    "content/projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/MacCready_Speed_to_Fly_Derivation.md",
     "content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/risktrade.png",
     "_site/content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.html",
     "_site/content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model",
@@ -222,7 +224,6 @@
     "content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model",
     "_site/Untitled 1.md",
     "_site/Untitled 1.html",
-    "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md",
     "_site/content/projects/Flying_Better/Preparation_for_Cross_Country_Flight/Preparation_for_Cross_Country_Flight.html",
     "_site/content/projects/Flying_Better/Preparation_for_Cross_Country_Flight",
     "_site/pag.md",

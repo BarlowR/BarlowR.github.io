@@ -2,14 +2,14 @@
 published: true
 category: project
 project_category: Flying Better
-project_name: Balancing Speed to Fly & Risk Tolerance
+project_name: Balancing MacCready Regime & Risk Tolerance
 date: 2025-01-01T13:51:55-08:00
 title: Balancing Speed to Fly & Risk Tolerance
 cover_photo: /content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/cover_photo.jpg
 layout: project-post
 ---
 
-## Balancing Speed to Fly & Risk Tolerance
+## Balancing MacCready Regime & Risk Tolerance
 2025-01-01
 
 In [The Insight of MacCready](/content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly), I make the argument that the true value of MacCready speed to fly theory is in setting up a fixed relationship between altitude and time for unpowered flight. Lower MC numbers correlate to a higher value on altitude and a lower value on time (speed), and higher MC numbers map to lower value on altitude and higher value on time (speed). 
@@ -72,8 +72,4 @@ With these two concepts, we can build a model of speed to fly that factors in ri
     path="photos/MCRiskModel.png"
     style = "width:40%;"
 -%}.
-
-## Examples of Application 
-
-See [Application of the Integrated Speed to Fly Model](/content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.html)
 

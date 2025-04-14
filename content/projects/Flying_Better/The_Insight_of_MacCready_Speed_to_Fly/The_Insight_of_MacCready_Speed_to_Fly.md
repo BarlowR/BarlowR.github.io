@@ -16,7 +16,7 @@ layout: project-post
 
 Dr. Paul MacCready was a prolific aeronautical engineer, known for [winning the Kremer prize for human powered aircaft](https://en.wikipedia.org/wiki/MacCready_Gossamer_Condor), wining the US sailplane nationals in 1948, 1949, and 1953, and starting the UAS company [Aerovironment](https://www.avinc.com/). MacReady speed to fly theory, invented by and named after Dr. MacCready, is a concept one may come across in any soaring sport (sailplanes, paragliders, etc). 
 
-MacCready theory seeks to answer a simple question: When a pilot is at the top of a thermal in a non-powered aircraft, how fast should the pilot fly to the next thermal?
+MacCready theory seeks to answer a simple question: When a pilot is at the top of a thermal in a non-powered aircraft, how fast should the pilot fly to the next reachable thermal of known strength?
 
 As non-powered aircraft fly faster, their sink rate drops off non-linearly. One way to think of this is that glide ratio, the distance flown horizontally divided by the altitude lost, decreases with additional speed. For example, on a EN-B paraglider, one may fly at 10:1 at 38km/h (trim), but this drops non-linearly to ~7:1 at ~52km/h (full speed bar). 
 
@@ -105,13 +105,22 @@ When flying at lower MC numbers, large deviations are very valuable. Conversely,
 
 With the understanding that MC number defines a relationship between time and altitude, the question that follows is: how does one accurately set MC value?
 
-The first piece of information to consider is the true climb rate of moment. MacCready considers everything between stopping glide to leaving the top of the climb as part of the climb, which includes all time spent finding the core, falling out of the side, and faffing around at the top. If a pilot stops gliding, climbs 1000m and starts gliding again after 500s, their true climb rate is 2 m/s, even if they had portions of the climb at 5m/s. This means that true climb rate, and the *maximum MacCready a pilot should set*, is probably less than initially perceived from the readout of the vario in the climb. 
+Remember the assumptions that went into MacCready's calculation. MC number is the 
+"known strength" of the "next reachable thermal". As a paraglider pilot, it's almost laughable to say that one *knows* there is thermal out there, let alone the strength of that thermal. The best that can be done is to make an educated guess. 
 
-Pilots also need to continually appraise their true climb rate as conditions change throughout the day; true climb rates may begin at 1m/s at the beginning of the day, increase to 3 at 1pm, then fall to 1m/s as high clouds roll in. 
+There are two tools that can be wielded when trying to make this educated guess. The first is information. One can apply general,  specific, and/or hyper specific information. Examples of general information may be one's model of how thermals form and release or how patterns of weather form and propagate. Specific information could be the forecast for the day or prior knowledge of a site. Hyper-specific information could be other pilots in the air, birds, or one's climb in the last thermal. 
 
-Once true climb rate is assessed, the next information to consider is what regime the pilot would like to be flying in. MC number shouldn't ever be more than the pilot's true climb rate (this just results in lost time and altitude), but it can be purposely degraded. Remember that MC sets the relationship between time and altitude; if one values altitude more than time, MC can be degraded. For example, if a pilot is on a long XC flight traversing remote terrain, dropping the MC number is appropriate to fly more conservatively. Degrading MC is also appropriate for newer pilots still learning where to find thermals. In competition, some pilots chose to begin their final glide into goal at MC 0 no matter what the conditions, to guarantee they will make it. 
+As an aside, remember that MacCready considers everything between stopping glide to leaving the top of the climb as part of the climb, which includes all time spent finding the core, falling out of the side, and faffing around at the top. If a pilot stops gliding, climbs 1000m and starts gliding again after 500s, their true climb rate is 2 m/s, even if they had portions of the climb at 5m/s. This means that true climb rate is generally less than perceived from the readout of the vario in the climb.
 
-Altitude is another factor. John Cochrane discusses this thoroughly in a *[Just a Little Faster Please](https://static1.squarespace.com/static/581f5f9129687f6b1d73b1e8/t/58c39a0320099e3e84c4dd3e/1489213957260/FlyingFaster.pdf)*, which is a great read for anyone interested in the subject more. Cochrane discusses this on a continuous scale; in a follow-up post, I propose thinking about it in binary. To be continued soon...
+The second tool that one can use in making a good educated guess at the strength of the next reachable thermal is to guess low. On any given day, there are many more weaker climbs than there are strong climbs. By guessing lower, one increased the probability of being correct that there is a reachable thermal in-front of them at the specified strength. 
+
+These two tools should be used in conjunction. The more information a pilot has, the better they can guess at the actual strength of the next thermal and the less they need to guess low. The less information a pilot has, the lower they should guess to increase their chances of guessing correctly.  
+
+Another important consideration is that one needs to continually re-apprise the right MC number as conditions change throughout the day. Maybe one begins the day at a familiar site with lots of other pilots in the air in good thermal conditions (high information, low uncertainty, high MC), but later in the day finds themselves alone, far from launch, with high clouds moving in (lower information, higher uncertainty, lower MC). 
+
+Once MC number is guessed, the next information to consider is what regime the pilot would like to be flying in. MC number should never be more than the pilot's best guess at the known strength of the next reachable climb (this just results in lost time and altitude), but it can be purposely degraded. Remember that MC sets the relationship between time and altitude; if one values altitude more than time, MC can be degraded. For example, if a pilot is on a long XC flight traversing remote terrain, dropping the MC number is appropriate to fly more conservatively. Degrading MC is also appropriate for newer pilots still learning where to find thermals. In competition, some pilots chose to begin their final glide into goal at MC 0 no matter what the conditions, to guarantee they will make it. 
+
+Risk posture is the final factor. This is examined in further detail in [Balancing MacCready Regime & Risk Tolerance](/content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance).
 
 ### Bonus: Gliding in headwind, tailwind, lift and sink
 
