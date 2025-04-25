@@ -12,9 +12,8 @@ layout: project-post
 <h3> Executive Summary </h3>
 
 <p>
-    Cottage companies and individuals making outdoor gear are often faced with a difficult challenge: With hundreds of specialty technical fabrics available, what fabric should be used in their next gear making project? In this project, I create a database of technical outdoor fabric material properties, and formulate a number of use-case based optimization problems to aid gear makers in selecting the best fabric for the job. Finally, I present a material selection tool that can be used to identify the best fabrics for each use-case, and walk through 2 case studies of material selection for ultralight packs. 
+    Cottage companies and individuals making outdoor gear are often faced with a difficult challenge: With hundreds of specialty technical fabrics available, what fabric should be used in their next project? To answer this question, I create a database of technical outdoor fabric material properties, and formulate a number of use-case based optimization problems to aid gear makers in selecting the best fabric for the job. Finally, I present a material selection tool that can be used to identify the best fabrics for each use-case, and walk through 2 case studies of material selection for ultralight packs. 
 </p>
-
 
 <h3> Background </h3>
 <p>

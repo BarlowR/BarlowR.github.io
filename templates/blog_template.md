@@ -1,5 +1,5 @@
 <%* 
-	let thisMonth = moment().format("MMM");
+	let thisMonth = moment().format("YY-MMM");
 	let basePath = "content/posts/" + thisMonth;
 	
 	let postTitle = await tp.system.prompt("Enter the post Title");

@@ -12,23 +12,25 @@ layout: project-post
 ## Synthetic Quilts
 2024-01-24
 
-## Design Notes
+## Design
 
+In college I used a Sierra Designs Cloud 20F for a number of years as my one and only sleeping bag. It served me well out on spring/summer/fall trips, and for 2 months of nightly use when I lived out of my car for a summer. While living in California in the winter of 2019, I started to get into weekend long backcountry touring trips out in the Sierras. After the first one of these, it was readily apparent to me that the Cloud wasn't going to cut it. I didn't want to shell out $400 for a new 0F down sleeping bag, so I started looking into other options.
 
-Years ago, I made a 7.5 synthetic quilt. It was too long, heavy and poorly made, but hell it was warm. The draw of synthetic insulation is that it doesn't lose the insulation properties of the material when wet, unlike down. When down wets out, it will compress and no longer keep you warm. This 7.5oz quilt has been my bag of choice for winter trips, and it's kept me warm during some miserable wet, cold evenings. 
+I stumbled on Apex synthetic insulation quilts through the backpackinglight.com forums. On the forums, users had posted plans for making lightweight, simple quilts using synthetic Climashield Apex insulation. When down insulation wets out, it will compress and no longer keep you warm. The draw of synthetic insulation is that it doesn't lose insulation when wet. This makes it a prime candidate for sleeping bags that are to be used in snow or wet climates. 
 
-Maggie bought a super heavy, bulky sleeping bag a while ago. As a Christmas gift, I decided to make her a similar quilt for use on our adventures. I also decided to make myself an ultralight quilt for future fast-packing adventures and Vol-Biv adventures even further in the future. 
+The quilt design is a bit of a departure from a standard sleeping bag. Instead of having insulation in a cylinder all around you, the quilt design omits the insulation between you and your sleeping pad. Compressed down or Apex has much less insulation than when the same material is allowed to loft. Sleeping bag insulation is essentially wasted if you're laying on top of it. By omitting the material underneath you, a quilt can be lighter while being just as warm as a comparable sleeping bag.
 
-Both quilts would share the following features:
-* Tapered bottom section w/ 3 snaps along the taper taper
-* Loop and cinch on bottom closure
-* Single buckle clasp on top and elastic cinch
+in 2019, using what I found online, I hacked my way through the design and sewing of a 7.5 Apex quilt. The quilt came out too long (even for me at 6'5"), heavy, and generally poorly made, but it met its single objective of being warm. This quilt has been my bag of choice for winter trips, and it's kept me warm during many miserable, wet, cold evenings. 
 
-Mine would use a single layer of 3.6oz apex insulation and orange and purple [Ion Fabric](https://dutchwaregear.com/product/ion/), and I would use 2 layers of 3.6 for Maggie's and [Hexon 1.6](https://dutchwaregear.com/product/hexon-1-6/) fabric in orange/purple/black.
+Coming back to the present, Maggie owns a super heavy, bulky sleeping bag that hasn't kept her warm enough on some of our recent backpacking trips. As a Christmas gift, I decided to make her a synthetic quilt for use on our adventures. I also decided to make myself an ultralight quilt for future fast-packing and Vol-Biv adventures. 
 
-## Fabrication Notes
+Synthetic quilts are much simpler to design and sew than down quilts. With down, one must sew internal baffles throughout the sleeping bag to keep the down in place, then stuff the bag one handful at a time. Synthetic insulation can be sewn directly to the edges of a sleeping bag and keeps its shape without the need for internal structure.
 
-I decided to sew patterns into the top of both quilts. I had a hell of a time lining everything up, even though the panels were all straight cuts. My sewing machine would pull along the slippery fabric of the bottom panel, but there wasn't enough friction between the layers to pull along the top as much. 
+My quilt, the ultralight one, uses a single layer of 3.6oz apex insulation and orange and purple [Ion Fabric](https://dutchwaregear.com/product/ion/). Maggie's uses 2 layers of 3.6 and [Hexon 1.6](https://dutchwaregear.com/product/hexon-1-6/) fabric in orange/purple/black.
+
+## Fabrication
+
+I decided to sew patterns into the top of both quilts. I had a hell of a time lining everything up, even though the panels were all straight cuts. My sewing machine would pull along the slippery fabric of the bottom panel, but the top panel would be held back by the foot, resulting in bunching. I had to hand feed most of it to keep all of the layers in tension together.
 
 {%- include photo.html 
     path="photos/sewingpanels.jpg"
@@ -54,9 +56,8 @@ I decided to sew patterns into the top of both quilts. I had a hell of a time li
 -%}
 
 <br>
-## Use Notes
-
-I'm psyched with how these all turned out. Mine packs down to roughly the size of a Nalgene bottle, and Maggie's is much, much smaller than her other sleeping bag. We took a trip to Ventana over new years's eve, and we camped the night in a valley where it was damp and maybe ~40f. Maggie said that she was warm and toasty!  
+## Use
+I'm very happy with how these turned out. Mine packs down to roughly the size of a Nalgene bottle, and Maggie's is much, much smaller than her other sleeping bag, while just as warm. After presenting Maggie with her gift, we took a trip to Ventana over New Years's Eve to test it out. We camped overnight alongside a creek where it was damp and maybe ~40f. Maggie reported that she was warm and toasty!  
 
 {%- include photo.html 
     path="photos/maggietrip.jpg"
