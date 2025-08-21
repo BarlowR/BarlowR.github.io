@@ -14,10 +14,10 @@ layout: project-post
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>IGC Flight Log Analysis Tools</title>
+    <title>XCTSK Tools</title>
 </head>
 <body>
-    <h2>IGC Flight Log Analysis Tools</h2>
+    <h2>XCTSK Tools</h2>
     
 
      <h4> Create KML tasks from .xctsk files </h4>
