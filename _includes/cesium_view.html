@@ -7,6 +7,10 @@
 <div id="gpx_dir{{ include.num }}" style="display: none;">{{ include.gpx_file }}</div>
 <div id="clamp_to_ground{{ include.num }}" style="display: none;">{{ include.clamp_to_ground }}</div>
 <div id="cesiumContainer{{ include.num }}"></div>
+
+<i> Click and drag to pan. Scroll to zoom. Control + click and drag to rotate </i>
+
+
 <script>
   (function() {
     // Your access token can be found at: https://ion.cesium.com/tokens.
@@ -36,7 +40,7 @@
 
     var mapBox = new Cesium.MapboxStyleImageryProvider({
       username: 'robbarlw',
-      styleId: 'cknxmew6k1uxy17lti69s3qjm',
+      styleId: 'cmeomdqkj00c801rk9imnh8fr',
       accessToken: 'pk.eyJ1Ijoicm9iYmFybHciLCJhIjoiY2tsZWdiN2Z5M2p4MTMybnJma3RwdjN5aiJ9.2lmhrRvn2t08ly40eA5vBA'
     });
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/projects/Outdoor_Gear/Tarp_&_Bivy/Original_Tarp_&_Bivy.md",
+                "file": "content/trips/RoldanilloColombia20250220/RoldanilloColombia20250220.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Original_Tarp_&_Bivy"
+              "title": "RoldanilloColombia20250220"
             }
           }
         ]
@@ -70,8 +70,8 @@
             "state": {
               "type": "starred",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "lucide-ghost",
+              "title": "starred"
             }
           },
           {
@@ -179,6 +179,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -188,53 +189,52 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f12d03a30e45e3c6",
+  "active": "460697647735485f",
   "lastOpenFiles": [
-    "_site/assets/gallery/VID_20240924_104830_00_019_2024-10-05_13-54-45_screenshot.jpg",
-    "_site/assets/gallery/IMG_20241002_102007_263.jpg",
-    "_site/assets/gallery/20250406_154842.jpg",
-    "_site/assets/gallery/20250329_174826.jpg",
-    "_site/assets/gallery/20250329_173919.jpg",
-    "_site/assets/gallery/20250329_112333.jpg",
-    "_site/assets/gallery/20250323_133222.jpg",
-    "_site/assets/gallery/20250316_192744.jpg",
-    "_site/assets/gallery/20250313_203608.jpg",
-    "_site/assets/gallery/20250308_153532.jpg",
-    "_site/assets/gallery/20250301_063821.jpg",
-    "_site/assets/gallery",
-    "assets/gallery",
-    "_site/gallery",
-    "gallery",
-    "_site/content/gallery/gallery.md",
-    "_site/content/gallery/gallery.html",
-    "_site/content/gallery",
+    "content/trips/RoldanilloColombia20250217/RoldanilloColombia20250217.md",
+    "content/trips/RoldanilloColombia20250220/RoldanilloColombia20250220.md",
+    "_site/content/trips/RoldanilloColombia20250220/RoldanilloColombia20250220.html",
+    "_site/content/trips/RoldanilloColombia20250220/photos/WestSideRain.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos/RainInTown.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos/KirbyEmerges.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos/CowEncounter.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos/CellDropout.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos/BellaVista.jpg",
+    "_site/content/trips/RoldanilloColombia20250220/photos",
+    "_site/content/trips/RoldanilloColombia20250220/RoldanilloColombia20250217.html",
+    "_site/content/trips/RoldanilloColombia20250220/0217.gpx",
+    "_site/content/trips/RoldanilloColombia20250220",
+    "content/trips/RoldanilloColombia20250220/photos/WestSideRain.jpg",
+    "content/trips/RoldanilloColombia20250220/photos/BellaVista.jpg",
+    "content/trips/RoldanilloColombia20250220/photos/RainInTown.jpg",
+    "content/trips/RoldanilloColombia20250220/photos/KirbyEmerges.jpg",
+    "content/trips/RoldanilloColombia20250220/photos",
+    "content/trips/RoldanilloColombia20250220/RoldanilloColombia20250217.md",
+    "content/trips/RoldanilloColombia20250220/0217.gpx",
+    "content/trips/RoldanilloColombia20250220",
+    "_site/content/trips/RoldanilloColombia20250217 copy/photos",
+    "_site/content/trips/RoldanilloColombia20250217 copy/RoldanilloColombia20250217.html",
+    "content/trips/RoldanilloColombia20250217 copy/RoldanilloColombia20250217.md",
+    "content/trips/Dunlap_Spring20240317/Dunlap_Spring20240317.md",
+    "content/trips/Roldanillo,_Colombia20250220/RoldanilloColombia20250220.md",
+    "content/trips/East_Molera_Trail_Big_Sur20230225/East_Molera_Trail_Big_Sur20230225.md",
+    "content/trips/Desolation_Wilderness20230425/Desolation_Wilderness20230425.md",
     "content/gallery/gallery.md",
-    "_site/content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.html",
-    "_site/content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model",
-    "_layouts/gallery.html",
-    "content/gallery",
+    "content/posts/Apr/A_Case_for_Relentless_Kindness.md",
+    "content/projects/Outdoor_Gear/Tarp_&_Bivy/Original_Tarp_&_Bivy.md",
+    "_site/content/gallery/gallery.md",
     "content/projects/Outdoor_Gear/Concertina_Bag/Concertina_Bag.md",
     "content/projects/Outdoor_Gear/Fabric_Analysis/Fabric_Analysis.md",
     "content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts.md",
     "content/projects/Outdoor_Gear/Original_Synthetic_Quilt/Original_Synthetic_Quilt.md",
-    "content/projects/Outdoor_Gear/Tarp_&_Bivy/Original_Tarp_&_Bivy.md",
     "content/projects/Outdoor_Gear/Ski_Traverse_Pack/Design.md",
     "Untitled.md",
     "pag.md",
     "Oh-Shit Kit.md",
     "templates/blog_template.md",
-    "content/posts/Apr/A_Case_for_Relentless_Kindness.md",
     "content/posts/Dec/Turning_26.md",
     "content/posts/Nov/Sisyphus.md",
     "content/posts/Nov/Sisyphus_2_Doing Hard Things.md",
-    "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md",
-    "content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance.md",
-    "content/projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/MacCready_Speed_to_Fly_Derivation.md",
-    "content/projects/Flying_Better/Application_of_the_Integrated_Speed_to_Fly_Model/Application_of_the_Integrated_Speed_to_Fly_Model.md",
-    "content/posts/Mar/Finding_Beauty_in_Industrial_Expanse.md",
-    "content/trips/xRedRocks_Challenge_Day_320240927/xRedRocks_Challenge_Day_320240927.md",
-    "content/trips/xRedRocks_Challenge_Day_220240926/xRedRocks_Challenge_Day_220240926.md",
-    "content/trips/xRedRocks_Challenge_Day_120240925/xRedRocks_Challenge_Day_120240925.md",
-    "content/projects/Outdoor_Gear/Running_Vest_Prototype_One/Running Vests.md"
+    "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md"
   ]
 }
