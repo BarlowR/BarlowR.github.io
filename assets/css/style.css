@@ -255,6 +255,12 @@ p, ul{
   cursor: pointer;
   grid-row-end: span 0; /* Will be calculated dynamically */
   background-color: #f0f0f0;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item.loaded {
+    opacity: 1;
 }
 
 .gallery-item img {
@@ -350,4 +356,16 @@ p, ul{
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.loading-placeholder {
+    background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: loading 1.5s infinite;
+    min-height: 200px;
+}
+
+@keyframes loading {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
 }
