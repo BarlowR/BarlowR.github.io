@@ -38,8 +38,14 @@
 
 <div class="navigation-category accordion">Trip Reports</div>
 <div class="trips accordion-sub">
-{% for post in trip_pages %}
-    <a class="accordion-leaf" href = {{post.url}} > {{post.title}} </a> 
+{% assign trip_years = trip_pages | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% for year_group in trip_years %}
+    <div class="navigation-subcategory accordion">{{ year_group.name }}</div>
+    <div class="trips-by-year accordion-sub">
+    {% for post in year_group.items %}
+        <a class="accordion-leaf" href="{{ post.url }}">{{ post.title }}</a> 
+    {% endfor %}
+    </div>
 {% endfor %}
 </div>
 
