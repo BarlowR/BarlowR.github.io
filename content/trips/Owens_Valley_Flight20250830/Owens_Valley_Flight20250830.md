@@ -62,3 +62,11 @@ I was passed by a group of 3 sailplanes, each a couple minutes apart from one an
 My "unfinished triangle" readout read 160km as I headed towards a large gap in the convergence clouds. It was ~4pm, and I really wanted to make it back to launch to close my triangle. I was concerned about both the gap in the clouds, and having time to make it back. I was at 16500', and I made a deal with myself that I would keep gliding south until I was below 14500ft, and if I didn't connect with anything in the interim, I would turn around. 14500ft came, and I turned around. 
 
 The flight back to Paiute was easy. The clouds marked the climbs, and I barely needed to turn. To push my triangle larger, I split off of the range near launch, and I made a westward glide. I did some quick math to figure out what altitude I would need to turn around at to be able to make it back above launch, and followed appropriately. After tagging launch, I turned back and glided out to land directly next to my car. 
+
+
+<hr> 
+
+{%- include cesium_view.html
+	gpx_file = "owens.gpx"
+	clamp_to_ground = "false"
+	height = "30vw" -%}
