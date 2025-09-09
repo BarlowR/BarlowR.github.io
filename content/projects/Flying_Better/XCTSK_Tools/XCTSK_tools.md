@@ -26,7 +26,7 @@ layout: project-post
     
     <div id="outputTsk"></div>
 
-    <script type="text/javascript" src="/content/projects/Flying_Better/XCTSK_Tools/XCTSK_tools.js"></script>
+    <script type="text/javascript" src="/content/projects/Flying_Better/XCTSK_Tools/xctsk_analysis_tooling.js"></script>
 
     <br>
     <a href = "https://github.com/BarlowR/igc-tools"> GitHub Repo here</a>.

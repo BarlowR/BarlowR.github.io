@@ -202,8 +202,8 @@ ${turnpoint.lon},${turnpoint.lat},0
 // UI Event Handlers
 let currentTask = null;
 
-const fileInput = document.getElementById('fileInpuTsk');
-const processBtn = document.getElementById('processBtTsk');
+const fileInput = document.getElementById('fileInputTsk');
+const processBtn = document.getElementById('processBtnTsk');
 
 fileInput.addEventListener('change', (e) => {
     if (e.target.files.length > 0) {
@@ -254,7 +254,7 @@ function processFileTsk() {
         <h3>Turnpoints:</h3>
         <ul>
             ${taskInfo.turnpoints.map(tp => 
-                `<li><strong>${tp.name}</strong> - Radius: ${tp.radius}m, Altitude: ${tp.altitude}m</li>`
+                `<li><strong>${tp.name}</strong> - Radius: ${tp.radius}m</li>`
             ).join('')}
         </ul>
         
