@@ -26,7 +26,9 @@
         navigationHelpButton: false,
         navigationInstructionsInitiallyVisible: false,
         baseLayerPicker: false,
-        terrainProvider: Cesium.createWorldTerrain()
+        terrainProvider: Cesium.createWorldTerrain(),
+        fullscreenButton: true,
+        fullscreenElement: document.getElementById('cesiumContainer{{ include.num }}')
     });    
       
     viewer._cesiumWidget._creditContainer.parentNode.removeChild(
@@ -200,43 +202,9 @@
         })
         .catch(error => {
           console.error('Error loading GPX file:', error);
-          
-          // Fallback: create sample data for demonstration
-          createSampleTrack();
         });
     } else {
-      // Create sample data for demonstration
-      createSampleTrack();
-    }
-    
-    // Function to create sample track data for demonstration
-    function createSampleTrack() {
-      const samplePoints = [];
-      const sampleSpeeds = [];
-      const baseTime = new Date();
-      
-      // Create a sample track with varying elevations
-      for (let i = 0; i < 100; i++) {
-        const lon = -122.4 + i * 0.001;
-        const lat = 37.8 + Math.sin(i * 0.1) * 0.001;
-        const elevation = 100 + Math.sin(i * 0.2) * 50 + Math.random() * 10;
-        
-        samplePoints.push({
-          position: Cesium.Cartesian3.fromDegrees(lon, lat, elevation),
-          elevation: elevation,
-          time: new Date(baseTime.getTime() + i * 1000),
-          longitude: lon,
-          latitude: lat
-        });
-      }
-      
-      const verticalSpeeds = calculateVerticalSpeeds(samplePoints);
-      createColoredTrack(samplePoints, verticalSpeeds, clamp_to_ground{{ include.num }});
-      
-      // Fly to the sample track
-      const positions = samplePoints.map(p => p.position);
-      const boundingSphere = Cesium.BoundingSphere.fromPoints(positions);
-      viewer.camera.flyToBoundingSphere(boundingSphere);
+      console.error('Error loading GPX file:', error);
     }
     
   })();
@@ -248,5 +216,21 @@
     width: 100%;
     height: {{ include.height }};
     border-radius: 5px;
+  }
+
+  /* Ensure fullscreen works properly */
+  :-webkit-full-screen #cesiumContainer{{ include.num }} {
+    height: 100vh !important;
+    width: 100vw !important;
+  }
+  
+  :-moz-full-screen #cesiumContainer{{ include.num }} {
+    height: 100vh !important;
+    width: 100vw !important;
+  }
+  
+  :fullscreen #cesiumContainer{{ include.num }} {
+    height: 100vh !important;
+    width: 100vw !important;
   }
 </style>
