@@ -51,4 +51,5 @@ Eventually the headwind got the best of me, and I found a huge field alongside t
 {%- include cesium_view.html
 	gpx_file = "0228.gpx"
 	clamp_to_ground = "false"
+    colored_track = "true"
 	height = "30vw" -%}

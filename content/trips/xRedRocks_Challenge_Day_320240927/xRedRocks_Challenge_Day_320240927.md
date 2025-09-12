@@ -52,6 +52,7 @@ Fortunately, no one yelled at me or pulled the gun on me, and I made it through 
 	gpx_file = "/content/trips/xRedRocks_Challenge_Day_320240927/day3.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
+	colored_track = "true"
 	num = 2 -%}
 
 

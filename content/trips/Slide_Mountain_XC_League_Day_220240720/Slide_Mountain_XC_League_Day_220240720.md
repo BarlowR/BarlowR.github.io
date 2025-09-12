@@ -38,6 +38,7 @@ Lindsey, Dan Z, Brian Cooper, John Toasti, and Drew were all in the landing fiel
 	gpx_file = "/content/trips/Slide_Mountain_XC_League_Day_220240720/Slide.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
+	colored_track = "true"
 	num = 2 -%}
 
 

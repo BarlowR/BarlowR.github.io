@@ -47,6 +47,7 @@ While waiting in goal with the other pilots, I talked with Chris and Lee, who ha
 	gpx_file = "/content/trips/xRedRocks_Challenge_Day_220240926/day2.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
+	colored_track = "true"
 	num = 2 -%}
 
 

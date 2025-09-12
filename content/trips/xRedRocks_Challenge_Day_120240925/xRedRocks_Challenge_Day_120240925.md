@@ -45,6 +45,7 @@ From there, I was basically in goal. The whole time I had been watching live tra
 	gpx_file = "/content/trips/xRedRocks_Challenge_Day_120240925/day1.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
+	colored_track = "true"
 	num = 2 -%}
 
 

@@ -55,4 +55,5 @@ After making my way back, Roldanillo had rain showers on the far side of the cit
 {%- include cesium_view.html
 	gpx_file = "0217.gpx"
 	clamp_to_ground = "false"
+    colored_track = "true"
 	height = "30vw" -%}

@@ -1,8 +1,5 @@
-
-
-<script src="/assets/js/Cesium/Cesium.js"></script>
-<link href="/assets/js/Cesium/Widgets/widgets.css" rel="stylesheet">
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cesium/1.95.0/Cesium.js"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/cesium/1.95.0/Widgets/widgets.css" rel="stylesheet">
 
 <div id="gpx_dir{{ include.num }}" style="display: none;">{{ include.gpx_file }}</div>
 <div id="clamp_to_ground{{ include.num }}" style="display: none;">{{ include.clamp_to_ground }}</div>
@@ -10,12 +7,10 @@
 
 <i> Click and drag to pan. Scroll to zoom. Control + click and drag to rotate </i>
 
-
 <script>
   (function() {
     // Your access token can be found at: https://ion.cesium.com/tokens.
     // This is the default access token from your ion account
-
     Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiIzZGY3Mzk4MS1jMmJlLTQyOGEtOWU5Yy03YmQzNGEzNmQ2ZDEiLCJpZCI6MTM2MDgwLCJpYXQiOjE2ODI3MTc1NjJ9.K4F5Qh2whPzLuaNqpZ1SXuTCyWszHHFng2ZrDOy_Rq0';
 
     // Initialize the Cesium Viewer in the HTML element with the `cesiumContainer` ID.
@@ -37,7 +32,6 @@
     viewer._cesiumWidget._creditContainer.parentNode.removeChild(
         viewer._cesiumWidget._creditContainer);
 
-
     var mapBox = new Cesium.MapboxStyleImageryProvider({
       username: 'robbarlw',
       styleId: 'cmeomdqkj00c801rk9imnh8fr',
@@ -52,37 +46,207 @@
     const clamp_to_ground{{ include.num }} = 
       (document.getElementById("clamp_to_ground{{ include.num }}").innerText === "true");
     
-    if (gpx_file != ""){
-        const options = {
-            camera: viewer.scene.camera,
-            canvas: viewer.scene.canvas,
-            clampToGround: clamp_to_ground{{ include.num }},
-            waypointImage: ""
-        };
+    // Function to parse GPX and extract trackpoints with time and elevation
+    function parseGPXForVerticalSpeed(gpxText) {
+      const parser = new DOMParser();
+      const xmlDoc = parser.parseFromString(gpxText, "text/xml");
+      const trackpoints = xmlDoc.getElementsByTagName('trkpt');
+      
+      const points = [];
+      for (let i = 0; i < trackpoints.length; i++) {
+        const trkpt = trackpoints[i];
+        const lat = parseFloat(trkpt.getAttribute('lat'));
+        const lon = parseFloat(trkpt.getAttribute('lon'));
+        
+        const eleElement = trkpt.getElementsByTagName('ele')[0];
+        const timeElement = trkpt.getElementsByTagName('time')[0];
+        
+        if (eleElement && timeElement) {
+          const elevation = parseFloat(eleElement.textContent);
+          const time = new Date(timeElement.textContent);
+          
+          points.push({
+            position: Cesium.Cartesian3.fromDegrees(lon, lat, elevation),
+            elevation: elevation,
+            time: time,
+            longitude: lon,
+            latitude: lat
+          });
+        }
+      }
+      
+      return points;
+    }
+    
+    // Function to calculate vertical speed between points
+    function calculateVerticalSpeeds(points) {
+      const verticalSpeeds = [0]; // First point has no previous point, so speed = 0
+      
+      for (let i = 1; i < points.length; i++) {
+        const elevationDiff = points[i].elevation - points[i-1].elevation;
+        const timeDiff = (points[i].time - points[i-1].time) / 1000; // Convert to seconds
+        
+        if (timeDiff > 0) {
+          const verticalSpeed = elevationDiff / timeDiff; // meters per second
+          verticalSpeeds.push(verticalSpeed);
+        } else {
+          verticalSpeeds.push(0);
+        }
+      }
+      
+      return verticalSpeeds;
+    }
+    
+    // Function to map vertical speed to color
+    function getColorFromVerticalSpeed(speed) {
+      // Normalize speed to 0-1 range
+      const minSpeed = -4;
+      const maxSpeed = 5;
 
-        viewer.scene.postProcessStages.fxaa.enabled = true;
-
-        viewer.dataSources.add(
-          Cesium.GpxDataSource.load(
-            gpx_file,
-            options
-          )
-        )
-        .then(function (dataSource) {
-          viewer.flyTo(
-            dataSource.entities
-            );
+      const normalizedSpeed = (speed - minSpeed) / (maxSpeed - minSpeed);
+      
+      // Create color gradient: blue (descending) -> green (flat) -> red (ascending)
+      if (normalizedSpeed < 0.5) {
+        // Blue to green (descending to flat)
+        const t = normalizedSpeed * 2;
+        return Cesium.Color.fromBytes(
+          Math.round(0 * (1 - t) + 0 * t),     // Red
+          Math.round(0),   // Green
+          Math.round(255 * (1 - t) + 0 * t),   // Blue
+          255                                   // Alpha
+        );
+      } else {
+        // Green to red (flat to ascending)
+        const t = (normalizedSpeed - 0.5) * 2;
+        return Cesium.Color.fromBytes(
+          Math.round(0 * (1 - t) + 255 * t),   // Red
+          Math.round(0),   // Green
+          Math.round(0 * (1 - t) + 0 * t),     // Blue
+          255                                   // Alpha
+        );
+      }
+    }
+    
+    // Function to create colored polyline segments
+    function createColoredTrack(points, verticalSpeeds, clampToGround) {
+      if (points.length < 2) return;
+      
+      // Create individual polyline segments for each color
+      for (let i = 0; i < points.length - 1; i++) {
+        const speed = verticalSpeeds[i];
+        const color = getColorFromVerticalSpeed(speed);
+        
+        const positions = [points[i].position, points[i + 1].position];
+        
+        viewer.entities.add({
+          polyline: {
+            positions: positions,
+            width: 4,
+            material: color,
+            clampToGround: clampToGround,
+            classificationType: Cesium.ClassificationType.CESIUM_3D_TILE
+          }
         });
       }
-    })();
-</script>
+    }
 
+        // Function to create colored polyline segments
+    function createSingleColoredTrack(points, verticalSpeeds, clampToGround) {
+      if (points.length < 2) return;
+      
+      // Create individual polyline segments for each color
+      for (let i = 0; i < points.length - 1; i++) {
+        const speed = verticalSpeeds[i];
+        const color = Cesium.Color.fromBytes(
+          255,   // Red
+          0,   // Green
+          0,   // Blue
+          255              // Alpha
+        );
+        
+        const positions = [points[i].position, points[i + 1].position];
+        
+        viewer.entities.add({
+          polyline: {
+            positions: positions,
+            width: 4,
+            material: color,
+            clampToGround: clampToGround,
+          }
+        });
+      }
+    }
+
+    if (gpx_file != "") {
+      // Load GPX file
+      fetch(gpx_file)
+        .then(response => response.text())
+        .then(gpxText => {
+          const points = parseGPXForVerticalSpeed(gpxText);
+          const verticalSpeeds = calculateVerticalSpeeds(points);
+          
+          if ("{{ include.colored_track }}"){
+            createColoredTrack(points, verticalSpeeds, clamp_to_ground{{ include.num }});
+          } else {
+            createSingleColoredTrack(points, verticalSpeeds, clamp_to_ground{{ include.num }});
+          }
+
+          // Fly to the track
+          if (points.length > 0) {
+            const positions = points.map(p => p.position);
+            const boundingSphere = Cesium.BoundingSphere.fromPoints(positions);
+            viewer.camera.flyToBoundingSphere(boundingSphere);
+          }
+        })
+        .catch(error => {
+          console.error('Error loading GPX file:', error);
+          
+          // Fallback: create sample data for demonstration
+          createSampleTrack();
+        });
+    } else {
+      // Create sample data for demonstration
+      createSampleTrack();
+    }
+    
+    // Function to create sample track data for demonstration
+    function createSampleTrack() {
+      const samplePoints = [];
+      const sampleSpeeds = [];
+      const baseTime = new Date();
+      
+      // Create a sample track with varying elevations
+      for (let i = 0; i < 100; i++) {
+        const lon = -122.4 + i * 0.001;
+        const lat = 37.8 + Math.sin(i * 0.1) * 0.001;
+        const elevation = 100 + Math.sin(i * 0.2) * 50 + Math.random() * 10;
+        
+        samplePoints.push({
+          position: Cesium.Cartesian3.fromDegrees(lon, lat, elevation),
+          elevation: elevation,
+          time: new Date(baseTime.getTime() + i * 1000),
+          longitude: lon,
+          latitude: lat
+        });
+      }
+      
+      const verticalSpeeds = calculateVerticalSpeeds(samplePoints);
+      createColoredTrack(samplePoints, verticalSpeeds, clamp_to_ground{{ include.num }});
+      
+      // Fly to the sample track
+      const positions = samplePoints.map(p => p.position);
+      const boundingSphere = Cesium.BoundingSphere.fromPoints(positions);
+      viewer.camera.flyToBoundingSphere(boundingSphere);
+    }
+    
+  })();
+</script>
 
 <style>
   #cesiumContainer{{ include.num }} {
-  overflow: hidden;
-  width: 100%;
-  height: {{ include.height }};
-  border-radius: 5px;
+    overflow: hidden;
+    width: 100%;
+    height: {{ include.height }};
+    border-radius: 5px;
   }
 </style>

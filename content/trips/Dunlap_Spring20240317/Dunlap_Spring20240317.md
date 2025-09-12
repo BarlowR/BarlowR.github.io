@@ -41,6 +41,7 @@ Luigi picked me up, and then we drove further into the backcountry. As it turns 
 {%- include cesium_view.html
 	gpx_file = "/content/trips/Dunlap_Spring20240317/dunlap_2024_spring_day_1.gpx"
 	clamp_to_ground = "false"
+	colored_track = "true"
 	height = "40vw" -%}
 
 Muuo left that evening, and the weather the next day wasn't looking nearly as good. I nearly left as well. The 18th was forecasted to be southwest with 5000' TOL. I went on a run to think about it, and eventually decided to stay.
@@ -80,4 +81,5 @@ Before heading out, I wanted to check in on Scott and Sasha. I saw quickly that 
 	gpx_file = "/content/trips/Dunlap_Spring20240317/dunlap_2024_spring_day_2.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
+	colored_track = "true"
 	num = 2 -%}

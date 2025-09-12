@@ -69,4 +69,5 @@ The flight back to Paiute was easy. The clouds marked the climbs, and I barely n
 {%- include cesium_view.html
 	gpx_file = "owens.gpx"
 	clamp_to_ground = "false"
+    colored_track = "true"
 	height = "30vw" -%}
