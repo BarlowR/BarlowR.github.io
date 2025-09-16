@@ -85,7 +85,7 @@ After Maggie and I were both fully dried off, we packed up once again and headed
 
 
 {%- include cesium_view.html 
-    gpx_file = "/content/trips/Golden_Trout_Wilderness20230928/trip.gpx" 
+    gpx_file = "trip.gpx" 
     clamp_to_ground = "true" -%}
 
 

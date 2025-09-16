@@ -13,8 +13,14 @@
 		projectCategory = await tp.system.prompt("Enter the new category name:");
 		newCategory = true;
 	}
-	projectCategoryString = projectCategory.replaceAll(" ", "_");
-	categoryPath = basePath + "/" + projectCategoryString;
+	// Create URL-friendly category slug
+	let projectCategorySlug = projectCategory.toLowerCase()
+		.replace(/[^\w\s-]/g, '')  // Remove special chars
+		.replace(/\s+/g, '-')      // Spaces to hyphens
+		.replace(/-+/g, '-')       // Multiple hyphens to single
+		.replace(/^-|-$/g, '');    // Remove leading/trailing hyphens
+
+	categoryPath = basePath + "/" + projectCategorySlug;
 
 	let projectsInCategory = 
 		tp.user.get_folders(this.app.vault, categoryPath, true);
@@ -29,9 +35,14 @@
 	if (projectName == "New"){
 		projectName = await tp.system.prompt("Enter the new Project name:");
 	}
-	projectNameString = projectName.replaceAll(" ", "_");
-	
-	projectPath = categoryPath + "/" + projectNameString;
+	// Create URL-friendly project slug
+	let projectNameSlug = projectName.toLowerCase()
+		.replace(/[^\w\s-]/g, '')  // Remove special chars
+		.replace(/\s+/g, '-')      // Spaces to hyphens
+		.replace(/-+/g, '-')       // Multiple hyphens to single
+		.replace(/^-|-$/g, '');    // Remove leading/trailing hyphens
+
+	projectPath = categoryPath + "/" + projectNameSlug;
 	photoPath = projectPath + "/photos";
 	coverPhotoPath = photoPath + "/cover_photo.jpg";
 	
@@ -46,7 +57,7 @@
 
 	postTitle = projectName;
 	postTitleString = projectName;
-	await tp.file.move(projectPath + "/" + projectNameString);
+	await tp.file.move(projectPath + "/" + projectNameSlug);
 -%>
 ---
 published: false

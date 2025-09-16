@@ -1,11 +1,23 @@
-<%* 
-	let thisMonth = moment().format("YY-MMM");
-	let basePath = "content/posts/" + thisMonth;
-	
-	let postTitle = await tp.system.prompt("Enter the post Title");
-	let postTitleString = postTitle.replaceAll(" ", "_");
+<%*
+	let today = moment();
+	let thisYear = today.format("YYYY");
+	let basePath = "content/posts/" + thisYear;
 
-	await tp.file.move(basePath + "/" + postTitleString);
+	let postTitle = await tp.system.prompt("Enter the post Title");
+
+	// Create URL-friendly slug from title
+	let postSlug = postTitle.toLowerCase()
+		.replace(/[^\w\s-]/g, '')  // Remove special chars
+		.replace(/\s+/g, '-')      // Spaces to hyphens
+		.replace(/-+/g, '-')       // Multiple hyphens to single
+		.replace(/^-|-$/g, '');    // Remove leading/trailing hyphens
+
+	// Filename format: MM-DD-slug
+	let filename = today.format("MM-DD") + "-" + postSlug;
+
+	// Ensure year directory exists
+	await this.app.vault.createFolder(basePath);
+	await tp.file.move(basePath + "/" + filename);
 -%>
 ---
 published: false
