@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 category: project
 project_category: Flying Better
 project_name: Preparation for Cross Country Flight

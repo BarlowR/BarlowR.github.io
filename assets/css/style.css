@@ -35,6 +35,34 @@ img {
   border-radius: calc(0.5*var(--radius));
   /* border-style: solid; */
   border-color: var(--accent-dark);
+  /* Performance optimizations */
+  will-change: auto;
+  backface-visibility: hidden;
+}
+
+/* Optimized image loading states */
+picture img {
+  transition: opacity 0.3s ease;
+}
+
+picture img[loading="lazy"] {
+  opacity: 0.7;
+}
+
+picture img[loading="lazy"]:loaded {
+  opacity: 1;
+}
+
+/* Responsive image sizing */
+.photo-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.photo-container img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 #main {

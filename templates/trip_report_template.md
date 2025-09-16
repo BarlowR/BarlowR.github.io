@@ -53,6 +53,7 @@ Write about your trip here!
 
 * Add photos to the <% photoPath %> folder
 * Add a single cover photo to the <% coverPhotoPath %> folder
+* **After adding photos, run:** `./optimize_images.sh <% folderPath %>`
 
 ```button
 name (Mostly) Complete!

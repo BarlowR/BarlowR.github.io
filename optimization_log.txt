@@ -1,0 +1,1431 @@
+[0;32mStarting image optimization...[0m
+[0;32mOptimizing images in content/ directory...[0m
+[0;32mProcessing all images in content/[0m
+Processing: [1;33mcontent//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/stf_chart.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/stf_chart.png
+1620x1004 pixels, 2 bits/pixel, 3 colors (1 transparent) in palette
+Input IDAT size = 20280 bytes
+Input file size = 35875 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5		IDAT size = 20280
+  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/stf_chart.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/tranparent_chart.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/tranparent_chart.png
+1120x422 pixels, 1 bit/pixel, 2 colors (1 transparent) in palette
+Input IDAT size = 4189 bytes
+Input file size = 4292 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5		IDAT size = 4189
+  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/tranparent_chart.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/MCDiagram.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/MCDiagram.png
+757x378 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 30140 bytes
+Input file size = 30255 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0		IDAT size = 30140
+  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/MCDiagram.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/polar.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/polar.png
+591x432 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 23701 bytes
+Input file size = 44318 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0		IDAT size = 23701
+  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/polar.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/PolarChart.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/PolarChart.png
+1000x923 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 38988 bytes
+Input file size = 39103 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 38988
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/photos/PolarChart.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/MCRiskModel.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/MCRiskModel.png
+800x624 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 28636 bytes
+Input file size = 28751 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0		IDAT size = 28636
+  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/MCRiskModel.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/risktrade.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/risktrade.png
+1344x484 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 70834 bytes
+Input file size = 81560 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 70834
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/photos/risktrade.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/tranparent_chart.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/tranparent_chart.png
+1120x422 pixels, 1 bit/pixel, 2 colors (1 transparent) in palette
+Input IDAT size = 4189 bytes
+Input file size = 4292 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5		IDAT size = 4189
+  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/tranparent_chart.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/MCDiagram.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/MCDiagram.png
+757x378 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 30140 bytes
+Input file size = 30255 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0		IDAT size = 30140
+  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/MCDiagram.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/polar.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/polar.png
+591x432 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 23701 bytes
+Input file size = 44318 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0		IDAT size = 23701
+  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/polar.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/PolarChart.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/PolarChart.png
+1000x923 pixels, 4x8 bits/pixel, RGB+alpha
+Input IDAT size = 38988 bytes
+Input file size = 39103 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 38988
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/photos/PolarChart.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/20200112_171302.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/20200112_171302.jpg 2048x1536 24bit N  [OK] 154208 --> 153798 bytes (0.27%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 410 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_191703.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_191703.jpg 2448x3264 24bit N  [OK] 153509 --> 153509 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_182443.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_182443.jpg 3264x2448 24bit N  [OK] 154482 --> 154481 bytes (0.00%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/20200112_170856.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/20200112_170856.jpg 2048x1536 24bit N  [OK] 155015 --> 153766 bytes (0.81%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1249 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_191531.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/IMG_20200112_191531.jpg 3264x2448 24bit N  [OK] 156851 --> 154242 bytes (1.66%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2609 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/apex.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Original_Synthetic_Quilt/photos/apex.jpg 4032x3024 24bit N  [OK] 153459 --> 153459 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/backPanel.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/backPanel.png
+480x640 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 192049 bytes
+Input file size = 192127 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5		IDAT size = 192049
+  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/backPanel.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/design_notebook.jpg 1210x1613 24bit N  [OK] 152966 --> 152966 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png
+1094x1343 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 2576911 bytes
+Input file size = 2582555 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5		IDAT size = 2576911
+  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/cover_photo.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/drawing.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/drawing.jpg 1157x1381 24bit N  [OK] 153319 --> 153319 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/8.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/8.jpg 907x1210 24bit N  [OK] 152795 --> 152795 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/9.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/9.jpg 907x1210 24bit N  [OK] 154002 --> 154002 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/11.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/11.jpg 907x1210 24bit N  [OK] 155251 --> 153221 bytes (1.31%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2030 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/10.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/10.jpg 907x1210 24bit N  [OK] 156025 --> 153130 bytes (1.86%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2895 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/4.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/4.jpg 907x1210 24bit N  [OK] 155576 --> 153806 bytes (1.14%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1770 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/5.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/5.jpg 907x1210 24bit N  [OK] 154760 --> 154082 bytes (0.44%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 678 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/7.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/7.jpg 907x1210 24bit N  [OK] 154925 --> 154748 bytes (0.11%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 177 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/6.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/6.jpg 907x1210 24bit N  [OK] 153993 --> 153993 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/2.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/2.jpg 907x1210 24bit N  [OK] 155176 --> 154503 bytes (0.43%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 673 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/3.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/3.jpg 1210x907 24bit N  [OK] 154545 --> 154406 bytes (0.09%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 139 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/1.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fab/1.jpg 1210x907 24bit N  [OK] 154138 --> 153947 bytes (0.12%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 191 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png
+480x640 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 146959 bytes
+Input file size = 147037 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 146959
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/AvyPocket.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fullPack.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fullPack.png
+480x640 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 155355 bytes
+Input file size = 155433 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5		IDAT size = 155355
+  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Ski_Traverse_Pack/photos/fullPack.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt1s.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt1s.jpg 3024x4032 24bit N  [OK] 149590 --> 149590 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/cover_photo.jpg 854x846 24bit N  [OK] 74918 --> 74918 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt1.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt1.jpg 4032x3024 24bit N  [OK] 156569 --> 153907 bytes (1.70%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2662 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt2.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt2.jpg 4032x3024 24bit N  [OK] 159870 --> 155688 bytes (2.62%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4182 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png
+726x968 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 112082 bytes
+Input file size = 113196 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5		IDAT size = 112082
+  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/back.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt2s.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Running_Vest_Prototype_One/photos/pt2s.jpg 4032x3024 24bit N  [OK] 161373 --> 154998 bytes (3.95%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 6375 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Concertina_Bag/photos/con.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Concertina_Bag/photos/con.jpg 4032x3024 24bit N  [OK] 170997 --> 160241 bytes (6.29%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 10756 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/gc.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/gc.png
+558x210 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 15558 bytes
+Input file size = 15724 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 15558
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/gc.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/wind.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/wind.png
+633x232 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 21619 bytes
+Input file size = 21785 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 21619
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/wind.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/extrap.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/extrap.png
+619x393 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 20227 bytes
+Input file size = 20393 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 20227
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/extrap.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/db.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/db.png
+1808x469 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 153390 bytes
+Input file size = 153556 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 153390
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/db.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/tarp.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/tarp.png
+529x189 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 14083 bytes
+Input file size = 14249 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 14083
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/tarp.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/quilt.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/quilt.png
+563x312 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 22461 bytes
+Input file size = 22627 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 22461
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/quilt.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Fabric_Analysis/photos/pack.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//projects/Outdoor_Gear/Fabric_Analysis/photos/pack.png
+590x189 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 15575 bytes
+Input file size = 15741 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 15575
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//projects/Outdoor_Gear/Fabric_Analysis/photos/pack.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggiedone.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggiedone.jpg 4032x3024 24bit N  [OK] 155326 --> 155326 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggietrip.jpg 4032x3024 24bit N  [OK] 155493 --> 154159 bytes (0.86%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1334 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggieworm.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Synthetic_Quilts/photos/maggieworm.jpg 4032x3024 24bit N  [OK] 151913 --> 151913 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Synthetic_Quilts/photos/robdone.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Synthetic_Quilts/photos/robdone.jpg 4032x3024 24bit N  [OK] 160456 --> 157825 bytes (1.64%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2631 bytes)
+
+Processing: [1;33mcontent//projects/Outdoor_Gear/Synthetic_Quilts/photos/sewingpanels.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//projects/Outdoor_Gear/Synthetic_Quilts/photos/sewingpanels.jpg 4032x3024 24bit N  [OK] 156200 --> 153579 bytes (1.68%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2621 bytes)
+
+Processing: [1;33mcontent//trips/2023-08-25-dunlap-2023-08/photos/delilah.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-08-25-dunlap-2023-08/photos/delilah.jpg 3542x2453 24bit P  [OK] 157005 --> 156498 bytes (0.32%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 507 bytes)
+
+Processing: [1;33mcontent//trips/2023-08-25-dunlap-2023-08/photos/jesse.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-08-25-dunlap-2023-08/photos/jesse.jpg 4032x3024 24bit N  [OK] 157695 --> 157695 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-08-25-dunlap-2023-08/photos/landing.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-08-25-dunlap-2023-08/photos/landing.jpg 4032x3024 24bit N  [OK] 156364 --> 154367 bytes (1.28%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1997 bytes)
+
+Processing: [1;33mcontent//trips/2023-08-25-dunlap-2023-08/photos/frank.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-08-25-dunlap-2023-08/photos/frank.jpg 4032x3024 24bit N  [OK] 158917 --> 152631 bytes (3.96%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 6286 bytes)
+
+Processing: [1;33mcontent//trips/2023-08-25-dunlap-2023-08/photos/valley.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-08-25-dunlap-2023-08/photos/valley.jpg 4032x3024 24bit P  [OK] 143453 --> 143453 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-02-17-roldanillo-colombia/photos/BellaVista.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-17-roldanillo-colombia/photos/BellaVista.jpg 4032x3024 24bit N  [OK] 158407 --> 154392 bytes (2.53%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4015 bytes)
+
+Processing: [1;33mcontent//trips/2025-02-17-roldanillo-colombia/photos/CellDropout.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-17-roldanillo-colombia/photos/CellDropout.jpg 4032x3024 24bit N  [OK] 155433 --> 154054 bytes (0.89%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1379 bytes)
+
+Processing: [1;33mcontent//trips/2025-02-17-roldanillo-colombia/photos/CowEncounter.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-17-roldanillo-colombia/photos/CowEncounter.jpg 4032x3024 24bit N  [OK] 160116 --> 160116 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/cover_photo.jpg 1613x1210 24bit N  [OK] 153120 --> 153120 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Snow.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Snow.jpg 4032x3024 24bit N  [OK] 376165 --> 376136 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 29 bytes)
+
+Processing: [1;33mcontent//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Hiking.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Hiking.jpg 3768x2636 24bit N  [OK] 144270 --> 144270 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Sunset.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-02-25-east-molera-trail-big-sur-2023-02/photos/Sunset.jpg 4032x3024 24bit N  [OK] 225207 --> 225154 bytes (0.02%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 53 bytes)
+
+Processing: [1;33mcontent//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/FogLake.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/FogLake.jpg 1613x1210 24bit N  [OK] 152866 --> 152866 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/cover_photo.jpg 1460x1186 24bit N  [OK] 156067 --> 153742 bytes (1.49%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2325 bytes)
+
+Processing: [1;33mcontent//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/VOR.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-21-santa-barbara-part-1-2023-05/photos/VOR.jpg 1613x1210 24bit N  [OK] 153019 --> 153019 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2024-09-27-xredrocks-day-3-2024-09/photos/task.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//trips/2024-09-27-xredrocks-day-3-2024-09/photos/task.png
+1010x1102 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 1148265 bytes
+Input file size = 1152165 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 1148265
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//trips/2024-09-27-xredrocks-day-3-2024-09/photos/task.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/Charles2.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/Charles2.jpg 1361x2419 24bit N  [OK] 153025 --> 153025 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/UpRalston.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/UpRalston.jpg 2419x1814 24bit N  [OK] 154986 --> 154539 bytes (0.29%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 447 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/Charles.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/Charles.jpg 2419x1814 24bit N  [OK] 154230 --> 153716 bytes (0.33%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 514 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/AtTop.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/AtTop.jpg 1361x2419 24bit N  [OK] 154247 --> 154224 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 23 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/cover_photo.jpg 1613x1210 24bit N  [OK] 154119 --> 154003 bytes (0.08%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 116 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/Cruising.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/Cruising.jpg 2419x1361 24bit N  [OK] 154315 --> 154302 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 13 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/SnowMorning.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/SnowMorning.jpg 2419x1814 24bit N  [OK] 152211 --> 152211 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/MailBoxPeak.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/MailBoxPeak.jpg 2419x1814 24bit N  [OK] 157040 --> 153763 bytes (2.09%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 3277 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/DroneTop.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/DroneTop.jpg 2419x1814 24bit N  [OK] 153299 --> 153299 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/Pyramid.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/Pyramid.jpg 2419x1814 24bit N  [OK] 148453 --> 148453 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-08-ralston-peak-2023-04/photos/UpTheHill.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-08-ralston-peak-2023-04/photos/UpTheHill.jpg 2419x1814 24bit N  [OK] 161269 --> 152468 bytes (5.46%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 8801 bytes)
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/20250830_135912.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/20250830_135912.jpg 4032x3024 24bit N  [OK] 160540 --> 155903 bytes (2.89%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4637 bytes)
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/sailplane.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/sailplane.jpg 2635x1850 24bit N  [OK] 153632 --> 153632 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/cloudstreet.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/cloudstreet.jpg 4608x3456 24bit N  [OK] 157229 --> 153538 bytes (2.35%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 3691 bytes)
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/rob.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/rob.jpg 3648x2736 24bit N  [OK] 152100 --> 152100 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/whitemountain.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/whitemountain.jpg 4608x3456 24bit N  [OK] 145552 --> 145552 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-08-30-owens-valley-flight/photos/driving.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-08-30-owens-valley-flight/photos/driving.jpg 4032x3024 24bit N  [OK] 155510 --> 154627 bytes (0.57%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 883 bytes)
+
+Processing: [1;33mcontent//trips/2023-05-17-black-mountain-2023-05/photos/trail.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-17-black-mountain-2023-05/photos/trail.jpg 4032x3024 24bit N  [OK] 156892 --> 156881 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 11 bytes)
+
+Processing: [1;33mcontent//trips/2023-05-17-black-mountain-2023-05/photos/fog.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-17-black-mountain-2023-05/photos/fog.jpg 4032x3024 24bit N  [OK] 154484 --> 154482 bytes (0.00%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2 bytes)
+
+Processing: [1;33mcontent//trips/2023-05-17-black-mountain-2023-05/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-17-black-mountain-2023-05/photos/cover_photo.jpg 4032x3024 24bit N  [OK] 139799 --> 139799 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-05-17-black-mountain-2023-05/photos/top.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-05-17-black-mountain-2023-05/photos/top.jpg 4032x3024 24bit N  [OK] 165682 --> 154829 bytes (6.55%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 10853 bytes)
+
+Processing: [1;33mcontent//trips/2025-02-28-roldanillo-colombia/photos/CowOnLaunch.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-28-roldanillo-colombia/photos/CowOnLaunch.jpg 4032x3024 24bit N  [OK] 167411 --> 167411 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-02-28-roldanillo-colombia/photos/BigGrin.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-28-roldanillo-colombia/photos/BigGrin.jpg 2944x2208 24bit N  [OK] 145302 --> 145302 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2024-09-25-xredrocks-day-1-2024-09/photos/task.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//trips/2024-09-25-xredrocks-day-1-2024-09/photos/task.png
+820x634 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 883504 bytes
+Input file size = 884621 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5		IDAT size = 883504
+  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//trips/2024-09-25-xredrocks-day-1-2024-09/photos/task.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/cover_photo.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/cover_photo.jpg 2016x1512 24bit N  [OK] 151016 --> 151016 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/Rocks.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/Rocks.jpg 2016x1512 24bit N  [OK] 151668 --> 151668 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/WindowSelfie.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/WindowSelfie.jpg 1512x2016 24bit N  [OK] 154071 --> 154048 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 23 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/CoolMorning.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/CoolMorning.jpg 2016x1512 24bit N  [OK] 151257 --> 151257 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/Top.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/Top.jpg 2016x1512 24bit N  [OK] 156244 --> 153744 bytes (1.60%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2500 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/Top2.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/Top2.jpg 2016x1512 24bit N  (2 bytes extraneous data found after end of image)  [OK] 153228 --> 153228 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/Pack.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/Pack.jpg 2016x1512 24bit N  [OK] 152996 --> 152996 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/Spine.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/Spine.jpg 2016x1512 24bit N  [OK] 153009 --> 153009 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/FromTheBottom.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/FromTheBottom.jpg 2016x1512 24bit N  [OK] 154913 --> 154477 bytes (0.28%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 436 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-25-desolation-wilderness-2023-04/photos/SkisCar.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2023-04-25-desolation-wilderness-2023-04/photos/SkisCar.jpg 1512x2016 24bit N  [OK] 152068 --> 152068 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2024-09-26-xredrocks-day-2-2024-09/photos/task.png[0m
+  [1;33m⚠[0m WebP already exists
+** Processing: content//trips/2024-09-26-xredrocks-day-2-2024-09/photos/task.png
+1924x820 pixels, 3x8 bits/pixel, RGB
+Input IDAT size = 1326523 bytes
+Input file size = 1330422 bytes
+
+Trying:
+  zc = 9  zm = 8  zs = 0  f = 0		IDAT size = 1326523
+  zc = 9  zm = 8  zs = 1  f = 0  zc = 1  zm = 8  zs = 2  f = 0  zc = 9  zm = 8  zs = 3  f = 0  zc = 9  zm = 8  zs = 0  f = 5  zc = 9  zm = 8  zs = 1  f = 5  zc = 1  zm = 8  zs = 2  f = 5  zc = 9  zm = 8  zs = 3  f = 5                               
+content//trips/2024-09-26-xredrocks-day-2-2024-09/photos/task.png is already optimized.
+
+  [0;32m✓[0m Optimized PNG
+
+Processing: [1;33mcontent//trips/2025-02-20-roldanillo-colombia/photos/KirbyEmerges.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-20-roldanillo-colombia/photos/KirbyEmerges.jpg 4032x3024 24bit N  [OK] 171441 --> 171441 bytes (0.00%), skipped.
+
+Processing: [1;33mcontent//trips/2025-02-20-roldanillo-colombia/photos/RainInTown.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-20-roldanillo-colombia/photos/RainInTown.jpg 4032x3024 24bit N  [OK] 155428 --> 155410 bytes (0.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 18 bytes)
+
+Processing: [1;33mcontent//trips/2025-02-20-roldanillo-colombia/photos/CowEncounter.jpg[0m
+  [1;33m⚠[0m WebP already exists
+content//trips/2025-02-20-roldanillo-colombia/photos/CowEncounter.jpg 4032x3024 24bit N Exif (98 bytes extraneous data found after end of image)  [OK] 4688596 --> 160116 bytes (96.58%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4528480 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC2.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC2.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC2.jpg
+Dimension: 4032 x 3024
+Output:    2394988 bytes Y-U-V-All-PSNR 41.47 45.34 46.48   42.51 dB
+           (1.57 bpp)
+block count:  intra4:      42065  (88.32%)
+              intra16:      5563  (11.68%)
+              skipped:       333  (0.70%)
+bytes used:  header:            597  (0.0%)
+             mode-partition: 243490  (10.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       7%|      21%|      46%|      26%|   47628
+      quantizer:  |      20 |      17 |      14 |       9 |
+   filter level:  |       7 |       4 |       2 |       7 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC2.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 5052662 --> 177743 bytes (96.48%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4874919 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Burnt_Building.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Burnt_Building.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Burnt_Building.jpg
+Dimension: 4032 x 3024
+Output:    542666 bytes Y-U-V-All-PSNR 44.76 50.74 51.34   46.04 dB
+           (0.36 bpp)
+block count:  intra4:      27242  (57.20%)
+              intra16:     20386  (42.80%)
+              skipped:      1502  (3.15%)
+bytes used:  header:            395  (0.1%)
+             mode-partition: 103957  (19.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       0%|       4%|      15%|      82%|   47628
+      quantizer:  |      20 |      18 |      16 |      13 |
+   filter level:  |       7 |       3 |      11 |      22 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Burnt_Building.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 2509501 --> 153159 bytes (93.90%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2356342 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.jpg
+Dimension: 4032 x 3024
+Output:    3257710 bytes Y-U-V-All-PSNR 41.06 42.27 44.50   41.67 dB
+           (2.14 bpp)
+block count:  intra4:      44974  (94.43%)
+              intra16:      2654  (5.57%)
+              skipped:       292  (0.61%)
+bytes used:  header:            660  (0.0%)
+             mode-partition: 272526  (8.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      17%|      23%|      38%|      21%|   47628
+      quantizer:  |      20 |      16 |      12 |       8 |
+   filter level:  |       7 |       4 |       3 |       6 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 6154923 --> 201399 bytes (96.73%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 5953524 bytes)
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1_thumb.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.jpg
+Dimension: 400 x 300
+Output:    43746 bytes Y-U-V-All-PSNR 38.07 37.97 41.62   38.47 dB
+           (2.92 bpp)
+block count:  intra4:        465  (97.89%)
+              intra16:        10  (2.11%)
+              skipped:         4  (0.84%)
+bytes used:  header:            299  (0.7%)
+             mode-partition:   2768  (6.3%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      55%|      24%|      15%|       6%|     475
+      quantizer:  |      23 |      18 |      13 |      11 |
+   filter level:  |       7 |       4 |       2 |       0 |
+  [0;32m✓[0m Created thumbnail WebP
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1_medium.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/BC1.jpg
+Dimension: 800 x 600
+Output:    187416 bytes Y-U-V-All-PSNR 40.84 41.54 45.64   41.48 dB
+           (3.12 bpp)
+block count:  intra4:       1834  (96.53%)
+              intra16:        66  (3.47%)
+              skipped:        55  (2.89%)
+bytes used:  header:            500  (0.3%)
+             mode-partition:  11081  (5.9%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      48%|      21%|      21%|      10%|    1900
+      quantizer:  |      17 |      13 |       9 |       8 |
+   filter level:  |       5 |       3 |       2 |       0 |
+  [0;32m✓[0m Created medium WebP
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Coast_Gazebo.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Coast_Gazebo.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Coast_Gazebo.jpg
+Dimension: 4032 x 3024
+Output:    570164 bytes Y-U-V-All-PSNR 43.76 52.27 53.25   45.26 dB
+           (0.37 bpp)
+block count:  intra4:      24292  (51.00%)
+              intra16:     23336  (49.00%)
+              skipped:      5661  (11.89%)
+bytes used:  header:            306  (0.1%)
+             mode-partition:  94096  (16.5%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       1%|       8%|      12%|      78%|   47628
+      quantizer:  |      20 |      20 |      17 |      12 |
+   filter level:  |       7 |       5 |       4 |      21 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Coast_Gazebo.jpg 4032x3024 24bit N Exif (102 bytes extraneous data found after end of image)  [OK] 2825067 --> 153417 bytes (94.57%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2671650 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/CoverPhoto.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/CoverPhoto.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/CoverPhoto.jpg
+Dimension: 4032 x 3024
+Output:    3134292 bytes Y-U-V-All-PSNR 41.06 43.04 44.80   41.81 dB
+           (2.06 bpp)
+block count:  intra4:      46260  (97.13%)
+              intra16:      1368  (2.87%)
+              skipped:        43  (0.09%)
+bytes used:  header:            768  (0.0%)
+             mode-partition: 284306  (9.1%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      15%|      18%|      45%|      22%|   47628
+      quantizer:  |      20 |      16 |      13 |       9 |
+   filter level:  |       7 |       4 |       2 |      10 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/CoverPhoto.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 5919806 --> 180406 bytes (96.95%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 5739400 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-2.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-2.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-2.jpg
+Dimension: 4032 x 3024
+Output:    1694474 bytes Y-U-V-All-PSNR 42.07 47.37 47.79   43.26 dB
+           (1.11 bpp)
+block count:  intra4:      38086  (79.97%)
+              intra16:      9542  (20.03%)
+              skipped:      1487  (3.12%)
+bytes used:  header:            569  (0.0%)
+             mode-partition: 191712  (11.3%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       5%|      12%|      35%|      48%|   47628
+      quantizer:  |      20 |      18 |      15 |      11 |
+   filter level:  |       7 |       4 |       2 |      14 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-2.jpg 4032x3024 24bit N Exif (98 bytes extraneous data found after end of image)  [OK] 7838435 --> 141731 bytes (98.19%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 7696704 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-1.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-1.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-1.jpg
+Dimension: 4032 x 3024
+Output:    2108566 bytes Y-U-V-All-PSNR 41.60 48.20 48.24   42.91 dB
+           (1.38 bpp)
+block count:  intra4:      40891  (85.85%)
+              intra16:      6737  (14.15%)
+              skipped:      2286  (4.80%)
+bytes used:  header:            521  (0.0%)
+             mode-partition: 221821  (10.5%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       5%|      18%|      39%|      38%|   47628
+      quantizer:  |      20 |      17 |      14 |      10 |
+   filter level:  |       7 |       4 |       2 |       5 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Art-1.jpg 4032x3024 24bit N Exif (98 bytes extraneous data found after end of image)  [OK] 8499671 --> 153686 bytes (98.19%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 8345985 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Tea_Party.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Tea_Party.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Tea_Party.jpg
+Dimension: 4032 x 3024
+Output:    1512996 bytes Y-U-V-All-PSNR 42.52 47.31 47.00   43.59 dB
+           (0.99 bpp)
+block count:  intra4:      35007  (73.50%)
+              intra16:     12621  (26.50%)
+              skipped:      2074  (4.35%)
+bytes used:  header:            599  (0.0%)
+             mode-partition: 161834  (10.7%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       2%|      14%|      35%|      49%|   47628
+      quantizer:  |      20 |      18 |      15 |      11 |
+   filter level:  |       7 |       4 |       2 |      14 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Tea_Party.jpg 4032x3024 24bit N Exif (98 bytes extraneous data found after end of image)  [OK] 7637039 --> 146840 bytes (98.08%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 7490199 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Portraits_Pride.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Portraits_Pride.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Portraits_Pride.jpg
+Dimension: 4032 x 3024
+Output:    1206480 bytes Y-U-V-All-PSNR 43.00 49.78 49.36   44.31 dB
+           (0.79 bpp)
+block count:  intra4:      38072  (79.94%)
+              intra16:      9556  (20.06%)
+              skipped:       701  (1.47%)
+bytes used:  header:            555  (0.0%)
+             mode-partition: 171180  (14.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       1%|      10%|      36%|      54%|   47628
+      quantizer:  |      20 |      18 |      15 |      12 |
+   filter level:  |       7 |       4 |      10 |      27 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Portraits_Pride.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 3370022 --> 145736 bytes (95.68%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 3224286 bytes)
+
+Processing: [1;33mcontent//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Lemonade.jpg[0m
+Saving file 'content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Lemonade.webp'
+File:      content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Lemonade.jpg
+Dimension: 4032 x 3024
+Output:    2569958 bytes Y-U-V-All-PSNR 41.27 45.39 46.70   42.36 dB
+           (1.69 bpp)
+block count:  intra4:      42160  (88.52%)
+              intra16:      5468  (11.48%)
+              skipped:       363  (0.76%)
+bytes used:  header:            593  (0.0%)
+             mode-partition: 256031  (10.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       9%|      24%|      35%|      32%|   47628
+      quantizer:  |      20 |      17 |      14 |       9 |
+   filter level:  |       7 |       4 |       2 |      20 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-06-11-tour-of-boston-marathon-2023-06/photos/Lemonade.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 5121676 --> 158702 bytes (96.90%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4962974 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/uphill.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/uphill.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/uphill.jpg
+Dimension: 836 x 627
+Output:    178734 bytes Y-U-V-All-PSNR 40.41 44.87 47.61   41.62 dB
+           (2.73 bpp)
+block count:  intra4:       1834  (86.51%)
+              intra16:       286  (13.49%)
+              skipped:        20  (0.94%)
+bytes used:  header:            408  (0.2%)
+             mode-partition:  10506  (5.9%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      58%|      10%|      10%|      23%|    2120
+      quantizer:  |      18 |      14 |       9 |       8 |
+   filter level:  |       5 |       3 |       2 |       0 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/uphill.jpg 836x627 24bit N JFIF,Exif,IPTC [OK] 242928 --> 154145 bytes (36.55%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 88783 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.jpg
+Dimension: 627 x 495
+Output:    20872 bytes Y-U-V-All-PSNR 46.10 49.75 50.25   47.06 dB
+           (0.54 bpp)
+block count:  intra4:        583  (47.02%)
+              intra16:       657  (52.98%)
+              skipped:       212  (17.10%)
+bytes used:  header:            227  (1.1%)
+             mode-partition:   2717  (13.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       4%|       4%|      16%|      76%|    1240
+      quantizer:  |      20 |      19 |      15 |      13 |
+   filter level:  |       7 |       4 |       2 |       3 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.jpg 627x495 24bit N JFIF,Exif,XMP,IPTC [OK] 46233 --> 39873 bytes (13.76%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 6360 bytes)
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo_thumb.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.jpg
+Dimension: 400 x 316
+Output:    8002 bytes Y-U-V-All-PSNR 43.61 46.63 47.28   44.47 dB
+           (0.51 bpp)
+block count:  intra4:        225  (45.00%)
+              intra16:       275  (55.00%)
+              skipped:        66  (13.20%)
+bytes used:  header:            127  (1.6%)
+             mode-partition:   1121  (14.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       3%|      10%|      19%|      67%|     500
+      quantizer:  |      27 |      25 |      21 |      17 |
+   filter level:  |       8 |       5 |      14 |      12 |
+  [0;32m✓[0m Created thumbnail WebP
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo_medium.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/cover_photo.jpg
+Dimension: 800 x 632
+Output:    23986 bytes Y-U-V-All-PSNR 46.70 49.85 50.23   47.56 dB
+           (0.38 bpp)
+block count:  intra4:        861  (43.05%)
+              intra16:      1139  (56.95%)
+              skipped:       379  (18.95%)
+bytes used:  header:            203  (0.8%)
+             mode-partition:   3987  (16.6%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       1%|       6%|      13%|      79%|    2000
+      quantizer:  |      20 |      19 |      16 |      13 |
+   filter level:  |       7 |       4 |       3 |      13 |
+  [0;32m✓[0m Created medium WebP
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/maggie.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/maggie.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/maggie.jpg
+Dimension: 4032 x 3024
+Output:    1194858 bytes Y-U-V-All-PSNR 42.88 48.76 48.73   44.12 dB
+           (0.78 bpp)
+block count:  intra4:      27738  (58.24%)
+              intra16:     19890  (41.76%)
+              skipped:       505  (1.06%)
+bytes used:  header:            549  (0.0%)
+             mode-partition: 129833  (10.9%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       3%|      10%|      17%|      69%|   47628
+      quantizer:  |      20 |      19 |      16 |      12 |
+   filter level:  |       7 |       4 |      15 |      24 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/maggie.jpg 4032x3024 24bit N Exif (100 bytes extraneous data found after end of image)  [OK] 3407959 --> 163509 bytes (95.20%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 3244450 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/downhill.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/downhill.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/downhill.jpg
+Dimension: 627 x 836
+Output:    241088 bytes Y-U-V-All-PSNR 40.57 43.84 44.80   41.49 dB
+           (3.68 bpp)
+block count:  intra4:       2104  (99.25%)
+              intra16:        16  (0.75%)
+              skipped:         0  (0.00%)
+bytes used:  header:            462  (0.2%)
+             mode-partition:  12778  (5.3%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      63%|      17%|      16%|       4%|    2120
+      quantizer:  |      16 |      12 |       8 |       8 |
+   filter level:  |       5 |       3 |       2 |       0 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/downhill.jpg 627x836 24bit N JFIF,Exif,IPTC [OK] 312296 --> 153642 bytes (50.80%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 158654 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coast.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coast.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coast.jpg
+Dimension: 4032 x 3024
+Output:    988824 bytes Y-U-V-All-PSNR 42.31 49.94 50.01   43.71 dB
+           (0.65 bpp)
+block count:  intra4:      25475  (53.49%)
+              intra16:     22153  (46.51%)
+              skipped:       650  (1.36%)
+bytes used:  header:            403  (0.0%)
+             mode-partition: 120165  (12.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       4%|       9%|      17%|      69%|   47628
+      quantizer:  |      20 |      20 |      16 |      12 |
+   filter level:  |       7 |       5 |       3 |      18 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coast.jpg 4032x3024 24bit N JFIF,Exif [OK] 1527887 --> 153242 bytes (89.97%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 1374645 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/tree.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/tree.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/tree.jpg
+Dimension: 627 x 836
+Output:    140140 bytes Y-U-V-All-PSNR 41.44 45.42 45.29   42.39 dB
+           (2.14 bpp)
+block count:  intra4:       1635  (77.12%)
+              intra16:       485  (22.88%)
+              skipped:        77  (3.63%)
+bytes used:  header:            413  (0.3%)
+             mode-partition:   9280  (6.6%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      28%|      20%|      20%|      33%|    2120
+      quantizer:  |      20 |      15 |      13 |       8 |
+   filter level:  |       7 |       3 |       2 |       0 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/tree.jpg 627x836 24bit N JFIF,Exif,IPTC [OK] 193897 --> 154919 bytes (20.10%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 38978 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coastal.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coastal.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coastal.jpg
+Dimension: 627 x 836
+Output:    121564 bytes Y-U-V-All-PSNR 41.14 46.60 49.27   42.45 dB
+           (1.86 bpp)
+block count:  intra4:       1621  (76.46%)
+              intra16:       499  (23.54%)
+              skipped:        25  (1.18%)
+bytes used:  header:            340  (0.3%)
+             mode-partition:   8690  (7.1%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      40%|       4%|      10%|      45%|    2120
+      quantizer:  |      20 |      17 |      12 |       8 |
+   filter level:  |       7 |       4 |       3 |       0 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/coastal.jpg 627x836 24bit N JFIF,Exif,IPTC [OK] 173254 --> 155749 bytes (10.10%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 17505 bytes)
+
+Processing: [1;33mcontent//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/sunset.jpg[0m
+Saving file 'content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/sunset.webp'
+File:      content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/sunset.jpg
+Dimension: 836 x 627
+Output:    121040 bytes Y-U-V-All-PSNR 42.03 47.75 48.44   43.28 dB
+           (1.85 bpp)
+block count:  intra4:       1827  (86.18%)
+              intra16:       293  (13.82%)
+              skipped:         1  (0.05%)
+bytes used:  header:            406  (0.3%)
+             mode-partition:   9635  (8.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      19%|       9%|      21%|      51%|    2120
+      quantizer:  |      20 |      17 |      13 |      10 |
+   filter level:  |       7 |       4 |       2 |       0 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-04-22-north-ridge-big-sur-2023-04/photos/sunset.jpg 836x627 24bit N JFIF,Exif,IPTC [OK] 164687 --> 154864 bytes (5.96%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 9823 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/filtering-water.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/filtering-water.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/filtering-water.jpg
+Dimension: 4032 x 3024
+Output:    4292704 bytes Y-U-V-All-PSNR 40.43 45.55 45.23   41.55 dB
+           (2.82 bpp)
+block count:  intra4:      47108  (98.91%)
+              intra16:       520  (1.09%)
+              skipped:        42  (0.09%)
+bytes used:  header:            630  (0.0%)
+             mode-partition: 317376  (7.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      26%|      42%|      27%|       5%|   47628
+      quantizer:  |      18 |      14 |      10 |       8 |
+   filter level:  |       5 |       3 |       2 |       4 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/filtering-water.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 12109958 --> 191270 bytes (98.42%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 11918688 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-end.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-end.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-end.jpg
+Dimension: 4032 x 3024
+Output:    985366 bytes Y-U-V-All-PSNR 42.88 49.99 50.41   44.26 dB
+           (0.65 bpp)
+block count:  intra4:      34617  (72.68%)
+              intra16:     13011  (27.32%)
+              skipped:       716  (1.50%)
+bytes used:  header:            390  (0.0%)
+             mode-partition: 163476  (16.6%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       0%|       8%|      27%|      65%|   47628
+      quantizer:  |      20 |      19 |      16 |      12 |
+   filter level:  |       7 |       4 |       3 |      24 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-end.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 3152284 --> 155897 bytes (95.05%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2996387 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-canyon.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-canyon.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-canyon.jpg
+Dimension: 4032 x 3024
+Output:    2753954 bytes Y-U-V-All-PSNR 41.08 44.91 47.10   42.18 dB
+           (1.81 bpp)
+block count:  intra4:      42065  (88.32%)
+              intra16:      5563  (11.68%)
+              skipped:       155  (0.33%)
+bytes used:  header:            587  (0.0%)
+             mode-partition: 252633  (9.2%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      12%|      24%|      30%|      34%|   47628
+      quantizer:  |      20 |      17 |      14 |       9 |
+   filter level:  |       7 |       4 |       2 |      17 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-canyon.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 5371358 --> 151356 bytes (97.18%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 5220002 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.jpg
+Dimension: 4032 x 3024
+Output:    3965220 bytes Y-U-V-All-PSNR 40.56 46.58 47.21   41.84 dB
+           (2.60 bpp)
+block count:  intra4:      45717  (95.99%)
+              intra16:      1911  (4.01%)
+              skipped:        78  (0.16%)
+bytes used:  header:            573  (0.0%)
+             mode-partition: 292474  (7.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      28%|      37%|      24%|      12%|   47628
+      quantizer:  |      18 |      14 |      11 |       8 |
+   filter level:  |       5 |       3 |       2 |      13 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 6792810 --> 255585 bytes (96.24%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 6537225 bytes)
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out_thumb.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.jpg
+Dimension: 400 x 300
+Output:    44976 bytes Y-U-V-All-PSNR 37.98 42.27 46.95   39.23 dB
+           (3.00 bpp)
+block count:  intra4:        466  (98.11%)
+              intra16:         9  (1.89%)
+              skipped:         2  (0.42%)
+bytes used:  header:            299  (0.7%)
+             mode-partition:   2872  (6.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      72%|      15%|       7%|       6%|     475
+      quantizer:  |      22 |      17 |      11 |      11 |
+   filter level:  |       7 |       4 |       2 |       0 |
+  [0;32m✓[0m Created thumbnail WebP
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out_medium.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hike-out.jpg
+Dimension: 800 x 600
+Output:    200118 bytes Y-U-V-All-PSNR 40.29 47.05 52.42   41.77 dB
+           (3.34 bpp)
+block count:  intra4:       1852  (97.47%)
+              intra16:        48  (2.53%)
+              skipped:        45  (2.37%)
+bytes used:  header:            508  (0.3%)
+             mode-partition:  11369  (5.7%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      71%|      12%|      10%|       7%|    1900
+      quantizer:  |      16 |      12 |       8 |       8 |
+   filter level:  |       5 |       3 |       2 |       0 |
+  [0;32m✓[0m Created medium WebP
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/fish-on.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/fish-on.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/fish-on.jpg
+Dimension: 4608 x 3456
+Output:    1569390 bytes Y-U-V-All-PSNR 43.00 47.61 48.25   44.11 dB
+           (0.79 bpp)
+block count:  intra4:      37105  (59.65%)
+              intra16:     25103  (40.35%)
+              skipped:       781  (1.26%)
+bytes used:  header:            509  (0.0%)
+             mode-partition: 186784  (11.9%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       3%|      10%|      20%|      66%|   62208
+      quantizer:  |      20 |      19 |      16 |      12 |
+   filter level:  |       7 |       4 |       3 |      24 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/fish-on.jpg 4608x3456 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 4209755 --> 151306 bytes (96.41%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4058449 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-river.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-river.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-river.jpg
+Dimension: 4032 x 3024
+Output:    2572194 bytes Y-U-V-All-PSNR 41.21 47.54 48.31   42.53 dB
+           (1.69 bpp)
+block count:  intra4:      43190  (90.68%)
+              intra16:      4438  (9.32%)
+              skipped:       223  (0.47%)
+bytes used:  header:            478  (0.0%)
+             mode-partition: 259101  (10.1%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       6%|      25%|      42%|      27%|   47628
+      quantizer:  |      20 |      17 |      14 |       9 |
+   filter level:  |       7 |       4 |       2 |      17 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/kern-river.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 5016699 --> 150090 bytes (97.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4866609 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/snacks.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/snacks.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/snacks.jpg
+Dimension: 4032 x 3024
+Output:    607938 bytes Y-U-V-All-PSNR 44.28 47.73 47.91   45.17 dB
+           (0.40 bpp)
+block count:  intra4:      35601  (74.75%)
+              intra16:     12027  (25.25%)
+              skipped:       118  (0.25%)
+bytes used:  header:            345  (0.1%)
+             mode-partition: 140608  (23.1%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       0%|       3%|      22%|      75%|   47628
+      quantizer:  |      20 |      18 |      16 |      13 |
+   filter level:  |       7 |       3 |      15 |      26 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/snacks.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 5857456 --> 152698 bytes (97.39%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 5704758 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-1.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-1.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-1.jpg
+Dimension: 4032 x 3024
+Output:    2041766 bytes Y-U-V-All-PSNR 41.70 48.09 48.27   42.99 dB
+           (1.34 bpp)
+block count:  intra4:      42324  (88.86%)
+              intra16:      5304  (11.14%)
+              skipped:       933  (1.96%)
+bytes used:  header:            387  (0.0%)
+             mode-partition: 233249  (11.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       3%|      19%|      45%|      33%|   47628
+      quantizer:  |      20 |      17 |      15 |       9 |
+   filter level:  |       7 |       4 |       3 |       5 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/bridge-1.jpg 4032x3024 24bit N JFIF,Exif,IPTC,XMP [OK] 2834304 --> 163891 bytes (94.22%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 2670413 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-2.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-2.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-2.jpg
+Dimension: 4032 x 3024
+Output:    3171652 bytes Y-U-V-All-PSNR 40.65 46.39 46.96   41.90 dB
+           (2.08 bpp)
+block count:  intra4:      40504  (85.04%)
+              intra16:      7124  (14.96%)
+              skipped:       392  (0.82%)
+bytes used:  header:            539  (0.0%)
+             mode-partition: 253532  (8.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      20%|      30%|      25%|      25%|   47628
+      quantizer:  |      19 |      16 |      13 |       8 |
+   filter level:  |       5 |       4 |       2 |      18 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-2.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 5892219 --> 196640 bytes (96.66%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 5695579 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/sun.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/sun.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/sun.jpg
+Dimension: 4032 x 3024
+Output:    2902822 bytes Y-U-V-All-PSNR 40.93 45.14 46.29   42.02 dB
+           (1.90 bpp)
+block count:  intra4:      40596  (85.24%)
+              intra16:      7032  (14.76%)
+              skipped:        25  (0.05%)
+bytes used:  header:            697  (0.0%)
+             mode-partition: 243060  (8.4%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      19%|      11%|      22%|      49%|   47628
+      quantizer:  |      20 |      18 |      14 |      10 |
+   filter level:  |       7 |       4 |       2 |       7 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/sun.jpg 4032x3024 24bit N JFIF,Exif,IPTC,XMP [OK] 3645520 --> 182005 bytes (95.01%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 3463515 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-1.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-1.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-1.jpg
+Dimension: 4032 x 3024
+Output:    2074870 bytes Y-U-V-All-PSNR 41.91 47.48 48.32   43.15 dB
+           (1.36 bpp)
+block count:  intra4:      35820  (75.21%)
+              intra16:     11808  (24.79%)
+              skipped:      3986  (8.37%)
+bytes used:  header:            445  (0.0%)
+             mode-partition: 202896  (9.8%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |       5%|      23%|      35%|      37%|   47628
+      quantizer:  |      20 |      17 |      15 |       9 |
+   filter level:  |       7 |       4 |       2 |       7 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/coyote-pass-1.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 4308075 --> 140480 bytes (96.74%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 4167595 bytes)
+
+Processing: [1;33mcontent//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.jpg[0m
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.jpg
+Dimension: 4032 x 3024
+Output:    4674186 bytes Y-U-V-All-PSNR 40.22 44.43 44.69   41.25 dB
+           (3.07 bpp)
+block count:  intra4:      47597  (99.93%)
+              intra16:        31  (0.07%)
+              skipped:         9  (0.02%)
+bytes used:  header:            517  (0.0%)
+             mode-partition: 327644  (7.0%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      36%|      26%|      30%|       8%|   47628
+      quantizer:  |      19 |      14 |      10 |       8 |
+   filter level:  |       5 |       3 |       0 |       6 |
+  [0;32m✓[0m Created WebP version
+content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.jpg 4032x3024 24bit N Exif (67 bytes extraneous data found after end of image)  [OK] 7853170 --> 294878 bytes (96.25%), optimized.
+  [0;32m✓[0m Optimized JPEG (saved 7558292 bytes)
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail_thumb.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.jpg
+Dimension: 400 x 300
+Output:    49234 bytes Y-U-V-All-PSNR 37.90 39.30 42.27   38.61 dB
+           (3.28 bpp)
+block count:  intra4:        475  (100.00%)
+              intra16:         0  (0.00%)
+              skipped:         0  (0.00%)
+bytes used:  header:            309  (0.6%)
+             mode-partition:   2928  (5.9%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      73%|      14%|      10%|       3%|     475
+      quantizer:  |      22 |      16 |      11 |      11 |
+   filter level:  |       7 |       4 |       2 |       0 |
+  [0;32m✓[0m Created thumbnail WebP
+Saving file 'content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail_medium.webp'
+File:      content//trips/2023-09-28-golden-trout-wilderness-2023-09/photos/hail.jpg
+Dimension: 800 x 600
+Output:    231746 bytes Y-U-V-All-PSNR 40.45 43.57 47.05   41.51 dB
+           (3.86 bpp)
+block count:  intra4:       1900  (100.00%)
+              intra16:         0  (0.00%)
+              skipped:         0  (0.00%)
+bytes used:  header:            527  (0.2%)
+             mode-partition:  11832  (5.1%)
+ Residuals bytes  |segment 1|segment 2|segment 3|segment 4|  total
+    macroblocks:  |      77%|      12%|       6%|       4%|    1900
+      quantizer:  |      15 |      11 |       8 |       8 |
+   filter level:  |       4 |       2 |       2 |       0 |
+  [0;32m✓[0m Created medium WebP
+
+[0;32mImage optimization complete![0m
+[1;33mNext steps:[0m
+1. Update your photo includes to use WebP versions
+2. Consider using responsive image sizes for better performance
+3. Test loading speed improvements
