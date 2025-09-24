@@ -56,21 +56,12 @@
 {% endfor %}
 </div>
 
-<a class="navigation-category" href = /content/gallery/gallery.html>Photo Roll</a>
+<div>
+<a class="navigation-category" href = /books.html>Selected Library</a>
+</div>
 
-<div class="navigation-category accordion" >Recent Posts</div>
-<div class="recent-posts accordion-sub">
-{% assign recent_sorted = published_pages | sort, "date" | reverse %}
-{% assign count = 0 %}
-{% for post in recent_sorted %}
-    {% unless post.category contains "training_log" %}
-        {% assign count = count | plus: 1 %}
-         <a class="accordion-leaf" href = {{post.url}} > {{post.title}} </a> 
-        {% if count == 5 %} 
-            {% break %} 
-        {% endif %}
-    {% endunless %}
-{% endfor %}
+<div>
+<a class="navigation-category" href = /content/gallery/gallery.html>Photo Roll</a>
 </div>
 
 </div>

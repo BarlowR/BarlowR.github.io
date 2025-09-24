@@ -389,3 +389,31 @@ p, ul{
     0% { background-position: 200% 0; }
     100% { background-position: -200% 0; }
 }
+
+/* Book list styling */
+.book-entry {
+    margin-bottom: calc(0.5 * var(--margin));
+}
+
+.book-entry:last-child {
+    border-bottom: none;
+}
+
+.book-title {
+    font-size: var(--font-base-size);
+    line-height: 1.3;
+    font-weight: 200;
+}
+
+.book-author {
+    font-size: var(--font-base-size);
+    color: var(--accent-dark);
+    font-style: italic;
+}
+
+.book-description {
+    font-size: var(--font-base-size);
+    line-height: 1.5;
+    color: var(--main-dark);
+    margin-left: 5%;
+}
