@@ -45,14 +45,6 @@ picture img {
   transition: opacity 0.3s ease;
 }
 
-picture img[loading="lazy"] {
-  opacity: 0.7;
-}
-
-picture img[loading="lazy"]:loaded {
-  opacity: 1;
-}
-
 /* Responsive image sizing */
 .photo-container {
   position: relative;
