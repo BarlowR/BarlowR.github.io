@@ -82,7 +82,7 @@ We made it back to the car, and I reveled in putting on a cotton sweatshirt and 
 
 
 {%- include cesium_view.html 
-    gpx_file = "/content/trips/Ralston_Peak20230408/ralston.gpx" 
+    gpx_file = "/content/trips/2023-04-08-ralston-peak-2023-04/ralston.gpx" 
     clamp_to_ground = "true" -%}
 
 

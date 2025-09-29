@@ -89,7 +89,7 @@ Mike and Victor both eventually finished their marathons as well! They each cloc
 
 
 {%- include cesium_view.html 
-    gpx_file = "/content/trips/Tour_of_Boston_Marathon20230611/boston.gpx" 
+    gpx_file = "/content/trips/2023-06-11-tour-of-boston-marathon-2023-06/boston.gpx" 
     clamp_to_ground = "true" -%}
 
 

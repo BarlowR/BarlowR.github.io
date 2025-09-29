@@ -44,7 +44,7 @@ I arrived at goal with plenty of altitude, and I tagged the Challenge cylinder a
 While waiting in goal with the other pilots, I talked with Chris and Lee, who had somehow arrived 30 mins before Damon and I, presumably taking first and second. As we found out the next day, Lee had the adventure task loaded, and he also tried continuing on before sinking out and returning to the challenge goal. However, the challenge cylinder was 200m, and the adventure cylinder 600m. This put Lee in 8th instead of 1st, giving Chris first, Damon second and me third. I was incredibly bummed for Lee and commiserated with him about it the next day- he flew very well, and was robbed of the win.
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/xRedRocks_Challenge_Day_220240926/day2.gpx"
+	gpx_file = "/content/trips/2024-09-26-xredrocks-day-2-2024-09/day2.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
 	colored_track = "true"

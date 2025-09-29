@@ -42,7 +42,7 @@ I had just started to run out of water, and my mouth was so dry that I couldn't 
 From there, I was basically in goal. The whole time I had been watching live tracking, and I saw that the Cove route wasn't working out. Damon and Kevin were behind me running by ~2 miles. Joey was there too, but even farther. I later found out that he had to make a bathroom stop in Richfield which put him far behind. Instead of slowing down at the end, I chose to keep up the pace, and I ran the last two miles at the same pace I had been going, knowing that no one would catch up to me. It was such a fantastic feeling to know that I was going to win day one, and I basked in it for that time. When I got to goal, the organizers were just setting up the tents, and I grabbed water, electrolyte drinks, and an apple. While waiting for the other competitors, I unpacked my wing, started checking for damage, then repacked it nicely into my bag.
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/xRedRocks_Challenge_Day_120240925/day1.gpx"
+	gpx_file = "/content/trips/2024-09-25-xredrocks-day-1-2024-09/day1.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
 	colored_track = "true"

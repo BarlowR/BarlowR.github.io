@@ -36,7 +36,7 @@ Nothing particularly extraordinary about this trip- just a weekday trail run up 
 
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/Black_Mountain20230517/bm.gpx"
+	gpx_file = "/content/trips/2023-05-17-black-mountain-2023-05/bm.gpx"
 	clamp_to_ground = "true" -%}
 
 

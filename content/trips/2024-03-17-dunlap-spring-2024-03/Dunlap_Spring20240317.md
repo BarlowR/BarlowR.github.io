@@ -39,7 +39,7 @@ I sent a message to our group to arrange a retrieve and started hiking out to th
 Luigi picked me up, and then we drove further into the backcountry. As it turns out, Nick had flown over me on the ridge and crossed the outlet of the reservoir! Once we found him in the valley on the other side, we all drove back to camp. 
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/Dunlap_Spring20240317/dunlap_2024_spring_day_1.gpx"
+	gpx_file = "/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_1.gpx"
 	clamp_to_ground = "false"
 	colored_track = "true"
 	height = "40vw" -%}
@@ -78,7 +78,7 @@ Before heading out, I wanted to check in on Scott and Sasha. I saw quickly that 
 
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/Dunlap_Spring20240317/dunlap_2024_spring_day_2.gpx"
+	gpx_file = "/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_2.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
 	colored_track = "true"

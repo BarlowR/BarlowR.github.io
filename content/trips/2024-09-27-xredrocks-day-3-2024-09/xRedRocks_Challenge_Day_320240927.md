@@ -49,7 +49,7 @@ Fortunately, no one yelled at me or pulled the gun on me, and I made it through 
 
 
 {%- include cesium_view.html
-	gpx_file = "/content/trips/xRedRocks_Challenge_Day_320240927/day3.gpx"
+	gpx_file = "/content/trips/2024-09-27-xredrocks-day-3-2024-09/day3.gpx"
 	clamp_to_ground = "false"
 	height = "40vw"
 	colored_track = "true"

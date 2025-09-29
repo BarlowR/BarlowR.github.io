@@ -53,30 +53,31 @@
       const parser = new DOMParser();
       const xmlDoc = parser.parseFromString(gpxText, "text/xml");
       const trackpoints = xmlDoc.getElementsByTagName('trkpt');
-      
+
       const points = [];
       for (let i = 0; i < trackpoints.length; i++) {
         const trkpt = trackpoints[i];
         const lat = parseFloat(trkpt.getAttribute('lat'));
         const lon = parseFloat(trkpt.getAttribute('lon'));
-        
+
         const eleElement = trkpt.getElementsByTagName('ele')[0];
         const timeElement = trkpt.getElementsByTagName('time')[0];
-        
-        if (eleElement && timeElement) {
-          const elevation = parseFloat(eleElement.textContent);
-          const time = new Date(timeElement.textContent);
-          
-          points.push({
-            position: Cesium.Cartesian3.fromDegrees(lon, lat, elevation),
-            elevation: elevation,
-            time: time,
-            longitude: lon,
-            latitude: lat
-          });
-        }
+
+        // Default elevation to 0 if not available
+        const elevation = eleElement ? parseFloat(eleElement.textContent) : 0;
+
+        // Create synthetic time if not available (using index as seconds)
+        const time = timeElement ? new Date(timeElement.textContent) : new Date(Date.now() + i * 1000);
+
+        points.push({
+          position: Cesium.Cartesian3.fromDegrees(lon, lat, elevation),
+          elevation: elevation,
+          time: time,
+          longitude: lon,
+          latitude: lat
+        });
       }
-      
+
       return points;
     }
     
@@ -112,18 +113,18 @@
         // Blue to green (descending to flat)
         const t = normalizedSpeed * 2;
         return Cesium.Color.fromBytes(
-          Math.round(0 * (1 - t) + 0 * t),     // Red
+          Math.round(0),     // Red
           Math.round(0),   // Green
-          Math.round(255 * (1 - t) + 0 * t),   // Blue
+          Math.round(255 * (1 - t)),   // Blue
           255                                   // Alpha
         );
       } else {
         // Green to red (flat to ascending)
         const t = (normalizedSpeed - 0.5) * 2;
         return Cesium.Color.fromBytes(
-          Math.round(0 * (1 - t) + 255 * t),   // Red
+          Math.round(255 * t),   // Red
           Math.round(0),   // Green
-          Math.round(0 * (1 - t) + 0 * t),     // Blue
+          Math.round(0),     // Blue
           255                                   // Alpha
         );
       }
@@ -187,7 +188,7 @@
           const points = parseGPXForVerticalSpeed(gpxText);
           const verticalSpeeds = calculateVerticalSpeeds(points);
           
-          if ("{{ include.colored_track }}"){
+          if ("{{ include.colored_track }}" === "true"){
             createColoredTrack(points, verticalSpeeds, clamp_to_ground{{ include.num }});
           } else {
             createSingleColoredTrack(points, verticalSpeeds, clamp_to_ground{{ include.num }});
@@ -204,7 +205,7 @@
           console.error('Error loading GPX file:', error);
         });
     } else {
-      console.error('Error loading GPX file:', error);
+      console.error('No GPX file specified');
     }
     
   })();
