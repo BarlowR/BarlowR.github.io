@@ -15,8 +15,6 @@
 	// Filename format: MM-DD-slug
 	let filename = today.format("MM-DD") + "-" + postSlug;
 
-	// Ensure year directory exists
-	await this.app.vault.createFolder(basePath);
 	await tp.file.move(basePath + "/" + filename);
 -%>
 ---
