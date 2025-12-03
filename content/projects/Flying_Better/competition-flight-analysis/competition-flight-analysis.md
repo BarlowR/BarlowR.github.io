@@ -13,7 +13,7 @@ layout: project-post
 
 ### Background
 
-I think those who fly in paragliding competitions should self-categorize in one of four phases. The first phase is one of discovery, where a pilot learns how to fly with larger groups of other pilots, use their flight instrument for flying a task, and can generally tag a few turnpoints before bombing out. The next phase is one of consistency, where a pilot works to be able to complete every task without bombing out. The third phase is speed, where a pilot works to fly faster and score higher in competitions, through improvement of basic skills and calculated risk taking. The final phase is tactical, where one works to optimize their own flight in the context of those around them. 
+I believe that those who fly in paragliding competitions should self-categorize in one of four phases. The first phase is one of discovery, where a pilot learns how to fly with larger groups of other pilots, use their flight instrument for flying a task, and can generally tag a few turnpoints before bombing out. The next phase is one of consistency, where a pilot works to be able to complete every task without bombing out. The third phase is speed, where a pilot works to fly faster and score higher in competitions, through improvement of basic skills and calculated risk taking. The final phase is tactical, where one works to optimize their own flight in the context of those around them. 
 
 This article is primarily intended for those in the third phase of competition flying, those who are looking to improve their scoring once they are confident that they can complete nearly any set task. Remember, if you don't make goal, it doesn't matter how fast you go. The topics covered herein are also useful for working to improve one's XC speed outside of competition. 
 
@@ -25,7 +25,7 @@ When looking to fly faster, there are 4 directives:
 
 When looking to improve, a necessary prerequisite is a way to measure (relatively) objective performance. Competition flying provides a great way to compare overall performance against others, but most folks generally only consider finish times, subjective reports from other pilots, and occasionally look at track logs. With these metrics, it's difficult to objectively look at where one can improve, especially in the context of the 4 maxims. How can one evaluate how well they climbed? How about how well one glided?
 
-In the service of getting insight into one's performance, I have been working on developing a [set of python tools for IGC track analysis](https://github.com/BarlowR/igc-tools). In the Analysis Tool Methodology section below I discuss how I extract relevant metrics from IGC and task files. If you just care about how to interpret/use the results, skip to the "Using the Analysis Tooling" section.
+In the service of getting insight into one's performance, I have been working on developing a [set of python tools for IGC track analysis](https://github.com/BarlowR/igc-tools). In the Analysis Tool Methodology section below I discuss how I extract relevant metrics from IGC and task files. If you just care about how to interpret/use the results, skip to the "Case Study" section.
 
 ### Analysis Tool Methodology
 
@@ -57,7 +57,7 @@ Competition tasks are distributed in a number of different formats, but my instr
 The tasks are loaded in with a json parsing library, and they are associated with the IGC tracklog object. Progress of the pilot around the task is computed by walking through each row of the icg log and tracking which turnpoints have been hit in the appropriate order. 
 Using the time that the pilot passed the "End of Speed Section" (ESS) designated turnpoint, along with the start time of the task, the IGC tracklog is cropped to include only the time spent flying the task, and aggregate metrics are recomputed. 
 
-### Using the Analysis Tooling
+### Case Study: Dunlap 2025-10-12
 
 The October event of the NorCal Sprint League had a great task In Dunlap, CA, with 6 pilots in goal after a ~30km task. The first pilot completed the task in one hour and 5 minutes, and the last pilot completed the task in one hour and 50 mins. All pilots flew generally the same course zig zagging back and forth along the mountain range, so what separated the leaders from the back of the pack? This task provides a great example for comparative analysis using these tools. I've generated an analysis page for this task:
 
