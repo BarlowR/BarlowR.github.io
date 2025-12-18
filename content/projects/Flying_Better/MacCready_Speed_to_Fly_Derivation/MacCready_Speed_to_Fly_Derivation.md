@@ -1,7 +1,7 @@
 ---
 published: true
 category: project
-project_category : Flying Better
+project_category : Active Flying
 project_name : MacCready Speed to Fly Derivation
 date: 2024-12-28T17:23:02-08:00
 title: MacCready Speed to Fly Derivation

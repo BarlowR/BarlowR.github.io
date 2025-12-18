@@ -1,7 +1,7 @@
 ---
 published: false
 category: project
-project_category: Flying Better
+project_category: Active Flying
 project_name: Preparation for Cross Country Flight
 date: 2024-12-29T15:45:02-08:00
 title: Preparation for Cross Country Flight

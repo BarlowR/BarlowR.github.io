@@ -110,7 +110,7 @@ Decision making process for Situation 2.D:
 ---
 published: false
 category: project
-project_category: Flying Better
+project_category: Active Flying
 project_name: Application of the Integrated Speed to Fly Model
 date: 2025-01-05T12:53:29-08:00
 title: Application of the Integrated Speed to Fly Model

@@ -1,7 +1,7 @@
 ---
 published: true
 category: project
-project_category: Flying Better
+project_category: Web Utilities
 project_name: XCTSK Tools
 date: 2025-08-21T17:19:14-08:00
 title: XCTSK Tools

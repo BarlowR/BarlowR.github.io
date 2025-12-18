@@ -1,7 +1,7 @@
 ---
 published: true
 category: project
-project_category: Flying Better
+project_category: Active Flying
 project_name: Competition Flight Analysis
 date: 2025-10-16T12:43:31-07:00
 title: Competition Flight Analysis

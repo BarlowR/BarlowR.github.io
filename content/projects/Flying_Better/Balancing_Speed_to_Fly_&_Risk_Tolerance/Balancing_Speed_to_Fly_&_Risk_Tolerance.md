@@ -1,7 +1,7 @@
 ---
 published: true
 category: project
-project_category: Flying Better
+project_category: Active Flying
 project_name: Balancing MacCready Regime & Risk Tolerance
 date: 2025-01-01T13:51:55-08:00
 title: Balancing Speed to Fly & Risk Tolerance

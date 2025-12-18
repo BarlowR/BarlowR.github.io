@@ -1,7 +1,7 @@
 ---
 published: true
 category: project
-project_category: Flying Better
+project_category: Active Flying
 project_name: The Insight of MacCready Speed to Fly
 date: 2024-12-28T12:56:24-08:00
 title: The Insight of MacCready Speed to Fly
