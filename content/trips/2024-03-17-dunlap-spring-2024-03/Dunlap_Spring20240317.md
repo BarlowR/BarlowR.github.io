@@ -26,7 +26,7 @@ The forecast looked fantastic with a TOL around 7000' and lots of instability. W
 
 We drove up around 11am, with a group of ~12 folks. The moment we arrived I saw a number of signs that the day was already on. There were small cumulus clouds forming, light cycles blowing through, and birds climbing out front. I raced to get my equipment together, do my safety checks, and I launched far before anyone else. I immediately was able to climb above 2000m. 
 
-From there, I waited around in the same thermal for others to launch and get up, then flew out to Delilah. I met up with Muuo and Nick above Delilah, and we flew out to Bald Mountain together. We caught a climb there, and continued on to the ridge to the west. At this point we split up- Muuo turned around and completed a huge triangle. I though Nick had turned back as well. I continued on to the end of the ridge, where I hoped to find a climb in the prevailing northwest wind we were experiencing. 
+From there, I waited around in the same thermal for others to launch and get up, then flew out to Delilah. I met up with Muuo and Nick above Delilah, and we flew out to Bald Mountain together. We caught a climb there, and continued on to the ridge to the west. At this point we split up- Muuo turned around and completed a huge triangle. I thought Nick had turned back as well. I continued on to the end of the ridge, where I hoped to find a climb in the prevailing northwest wind we were experiencing. 
 
 I spent a long time scratching and trying to catch a climb at the end of the ridge with no luck. After catching and then losing a small climb, I made the decision to make the crossing to the other side of the valley and try my luck on the other side of the ridge. Landing options were good there, and I thought I might have better chances to ridge soar if need be. When I reached the other side, I caught a great climb, giving me ~800m to play with. 
 
@@ -50,7 +50,7 @@ Muuo left that evening, and the weather the next day wasn't looking nearly as go
 
 ### Day 2
 
-The next day had a similar start, with fewer folks on launch as a result of the forecast. Once again, I noticed signed of development right off the bat, and jumped off the hill immediately. I took a gamble on a developing cloud in front of launch, and was rewarded with a great climb to cloud base. I followed a string of clouds out front to Delilah, and waited for other folks. 
+The next day had a similar start, with fewer folks on launch as a result of the forecast. Once again, I noticed signs of development right off the bat, and jumped off the hill immediately. I took a gamble on a developing cloud in front of launch, and was rewarded with a great climb to cloud base. I followed a string of clouds out front to Delilah, and waited for other folks. 
 
 This time, I left Delilah with Sasha (on a Peak 6) and a Blue Maestro I didn't recognize. On glide I learned the pilot was named Scott. We went for Bald again, and Scott and I spent a while scratching before finding a climb and following Sasha down the same ridge I had flown the day before. I milked a few climbs along the way, and Sasha found a climb early and punched out to the valley. Knowing from the previous day that I likely couldn't follow, I stuck to the back ridge and searched for climbs. 
 
@@ -58,7 +58,7 @@ I made the same jump to the other side of the valley I had the day before, and w
 
 On the ridge to the west of the reservoir, I caught a long, drifting climb up and almost over the reservoir. From there I committed to making the crossing to the hills on the north side. I must have drifted with the bubbles, as my downwind line to the next ridge was very buoyant. 
 
-I had lost sight of Scott, but as I arrived at the next ridge I spotted him below. He didn't seem to be having much luck. Shortly after, he radioed "I'm going to land", and I saw his wind headed over towards a good looking LZ by the reservoir. 
+I had lost sight of Scott, but as I arrived at the next ridge I spotted him below. He didn't seem to be having much luck. Shortly after, he radioed "I'm going to land", and I saw his wing headed over towards a good looking LZ by the reservoir. 
 
 I found a climb on top of the ridge, and planed out my next move. I had lots of altitude, but I needed to cross over Watt's Valley to get to Tollhouse. One option was to follow the ridge to the West-North-West, staying on the high ground, and look for a better climb before making the jump. The other option, which I chose, was to punt off the top of the climb and head downwind, hoping to connect with something in the valley or the ridge on the other side. 
 

@@ -90,8 +90,8 @@ Situation 2.C:
 * The goal cylinder is at a 45 degree angle off the cloud street under blue sky ahead. 
 * Pilot 2 has a comfortable point buffer for their desired finish position in the competition.
 
-Decision making process for Situation 2.C: 
-* Pilot 3 decides that the risk of landing out is not worth the extra point gain from arriving in the front of the gaggle. 
+Decision making process for Situation 2.C:
+* Pilot 2 decides that the risk of landing out is not worth the extra point gain from arriving in the front of the gaggle. 
 *  **Decision**: Risk Minimization Mode
 	* The pilot tanks up along the cloud street, and only begins the glide to goal when they are sure they have enough altitude buffer to deal with sink or headwind along the way.
 
@@ -100,8 +100,8 @@ Situation 2.D:
 	* Pilot 2 values winning the competition very highly.
 	* Pilot 2 is in a tight points race for the win.
 
-Decision making process for Situation 2.D: 
-* Pilot 3 decides that the risk of landing out is worth the extra point gain from arriving in the front of the gaggle. 
+Decision making process for Situation 2.D:
+* Pilot 2 decides that the risk of landing out is worth the extra point gain from arriving in the front of the gaggle. 
 *  **Decision**: Racing Mode
 	* Pilot 2 leaves the cloud street above and behind the first few pilots who peel off towards goal. Pilot 2 modulates speedbar in lift and sink to gain altitude on this final glide. Pilot 2 uses environmental clues to fly the best line to goal. The risk of bombing out is much higher, but so is the chance of coming into goal first.
 
@@ -202,8 +202,8 @@ Situation 2.C:
 * The goal cylinder is at a 45 degree angle off the cloud street under blue sky ahead. 
 * Pilot 2 has a comfortable point buffer for their desired finish position in the competition.
 
-Decision making process for Situation 2.C: 
-* Pilot 3 decides that the risk of landing out is not worth the extra point gain from arriving in the front of the gaggle. 
+Decision making process for Situation 2.C:
+* Pilot 2 decides that the risk of landing out is not worth the extra point gain from arriving in the front of the gaggle. 
 *  **Decision**: Risk Minimization Mode
 	* The pilot tanks up along the cloud street, and only begins the glide to goal when they are sure they have enough altitude buffer to deal with sink or headwind along the way.
 
@@ -212,8 +212,8 @@ Situation 2.D:
 	* Pilot 2 values winning the competition very highly.
 	* Pilot 2 is in a tight points race for the win.
 
-Decision making process for Situation 2.D: 
-* Pilot 3 decides that the risk of landing out is worth the extra point gain from arriving in the front of the gaggle. 
+Decision making process for Situation 2.D:
+* Pilot 2 decides that the risk of landing out is worth the extra point gain from arriving in the front of the gaggle. 
 *  **Decision**: Racing Mode
 	* Pilot 2 leaves the cloud street above and behind the first few pilots who peel off towards goal. Pilot 2 modulates speedbar in lift and sink to gain altitude on this final glide. Pilot 2 uses environmental clues to fly the best line to goal. The risk of bombing out is much higher, but so is the chance of coming into goal first.
 

@@ -36,10 +36,10 @@ All rows are then filtered for unreasonable values. 4 filters are run to check a
 
 Next, first order differential fields are calculated from the altitude and position fields. This tool uses on GPS altitude for all calculations. We are interested in distance, speed, altitude change and vertical speed. These fields are calculated for 1 second, 5 second and 20 second discrete intervals. Shorter intervals are noisier, but are faster to respond to changes in the underlying data. The comparison with the past element was chosen to portray the data that is available to the pilot at a given time step, as opposed to a centered window which would portray the best approximation of the true underlying data. 
 
-Once first order differential fields are calculated, some useful states can be obtained. 
-* When a pilot is circling in a thermal, they will not travel far over the course of 20 seconds compared to flying straight. A boolean field "stopped_to_climb" is calculated based on the distance traveled by the 20s speed rate compared against a threshold of 200m. 
-* A paraglider generally descends at a rate of 1m/s. If the pilot is moving with a vertical speed higher than -1m/s, then they are likely in a rising airmass. A boolean field "climbing" is calculated based on the 5s vertical speed rate compared against a threshold of -0.5 m/s. 
-* Using these 2 boolean states, we can calculate a matrix of 4 derived states: Stopped and climbing, stoped and not climbing, on glide, and climbing on glide.
+Once first order differential fields are calculated, some useful states can be obtained.
+* When a pilot is circling in a thermal, they will not travel far over the course of 20 seconds compared to flying straight. A boolean field "stopped_to_climb" is calculated based on the distance traveled by the 20s speed rate compared against a threshold of 200m.
+* A paraglider generally descends at a rate of 1m/s. If the pilot is moving with a vertical speed higher than -1m/s, then they are likely in a rising airmass. A boolean field "climbing" is calculated based on the 5s vertical speed rate compared against a threshold of -0.5 m/s.
+* Using these 2 boolean states, we can calculate a matrix of 4 derived states: Stopped and climbing, stopped and not climbing, on glide, and climbing on glide.
 
 Next, aggregate fields can be calculated.
 * Cumulative time is aggregated across all 6 states above for "time_spent_<>" fields

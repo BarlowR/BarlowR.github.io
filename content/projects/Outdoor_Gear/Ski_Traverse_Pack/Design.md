@@ -20,7 +20,7 @@ layout: project-post
 
 As of writing this, my first ski pack is nearly two years old now. I've taken it up Mount Washington, in the backcountry of Jay Peak, on multiple cross-country skiing traverses, and up a couple of Sierra peaks. For most of last summer, it was also my go-to biking backpack. The straps fit well, it has just the right capacity, and it's super lightweight.
 
-After using it for two years, I keep stumbling across things things about the pack that I think could be better. The cinch top would be better as a roll top. I want a dedicated pocket for an avalanche shovel an probe, and I want a hip belt. With spring ski traverse season quickly approaching, I decided to dive into making a second version of the pack. 
+After using it for two years, I keep stumbling across things about the pack that I think could be better. The cinch top would be better as a roll top. I want a dedicated pocket for an avalanche shovel and probe, and I want a hip belt. With spring ski traverse season quickly approaching, I decided to dive into making a second version of the pack. 
 
 I began my design as I often do in my sketchbook, with both a rough sketch of my design for the pack and with a list of the features that I was looking to include. I've listed the features I wrote down below. 
 
@@ -103,6 +103,6 @@ Here's a collection of photos from cutting up my materials and stitching everyth
 
 ## Use
 
-Here's a collection of photos from cutting up my materials and stitching everything together. I printed out 1:1 scale pattern pieces for the curved, more complex pieces, and went off of dimensions for the rectangles. With the pattern from CLO-3D and and my model of the pack to guide me along, I was able to get through the fabrication phase much quicker than other packs. Just like the design phase, I put together the Avy pocket first, then the back panel, then sewed on the sides to pull everything together.
+I've taken this pack out on a bunch of ski trips since making it, and it has performed fantastically. The roll top is a huge improvement over the cinch top, and the avalanche pocket makes it much easier to access my safety gear quickly. The hip belt helps distribute the weight better on longer tours.
 
 

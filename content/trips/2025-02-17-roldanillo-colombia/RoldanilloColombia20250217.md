@@ -11,19 +11,19 @@ layout: trip-report
 ## Selected Logs from Roldanillo, Colombia, Feb 2025
 ## 2025-02-17 
 
-I woke up in the AirBnB I was sharing with Tom and Kirby with a bunch of pain in my back. I had spend the day before doing almost nothing but trying to recover from my travel misadventures. These had included schlepping my 100lbs of equipment up and down 4 flights of stairs 4 separate times at 2am. I blamed this for my neck pain. 
-Tom, Kirby and I met up with Barry and Alex in town, and we grabbed breakfast before taking a cab up to launch. 
+I woke up in the AirBnB I was sharing with Tom and Kirby with a bunch of pain in my back. I had spent the day before doing almost nothing but trying to recover from my travel misadventures. These had included schlepping my 100lbs of equipment up and down 4 flights of stairs 4 separate times at 2am. I blamed this for my neck pain.
+Tom, Kirby and I met up with Barry and Alex in town, and we grabbed breakfast before taking a cab up to launch.
 
-{%- include photo.html 
+{%- include photo.html
     path="photos/BellaVista.jpg"
     style="float: right; width:40%;"
 -%}
 
-I had run into an aquaintence from Vermont and his group of New England paragliders the night before. Their group was headed up to Bella Vista, so I talked my friends into following them up there. Most folks fly from the Aguapanella launch, and Bella Vista was another couple kms up the hill. The skies were open when we left town, with a layer of high clouds above. 
+I had run into an acquaintance from Vermont and his group of New England paragliders the night before. Their group was headed up to Bella Vista, so I talked my friends into following them up there. Most folks fly from the Aguapanella launch, and Bella Vista was another couple kms up the hill. The skies were open when we left town, with a layer of high clouds above.
 
-We arrived at the top to finds that Bella Vista is actually a hotel, with a small attached launch. By the time we arrived, cumulus clouds had moved in, engulfing us completely.  When the clouds broke, instead of the underside of the clouds, we saw the top side of them. I chatted with Brent for a while on launch, and Kirby, Tom, Barry and Honda sat over in chairs at the hotel. At first it seemed like we might get a break in the clouds, but then it started to drizzle, and didn't stop. 
+We arrived at the top to find that Bella Vista is actually a hotel, with a small attached launch. By the time we arrived, cumulus clouds had moved in, engulfing us completely.  When the clouds broke, instead of the underside of the clouds, we saw the top side of them. I chatted with Brent for a while on launch, and Kirby, Tom, Barry and Honda sat over in chairs at the hotel. At first it seemed like we might get a break in the clouds, but then it started to drizzle, and didn't stop.
 
-After deciding the rail wouldn't let up, we took a truck down the hill to El Torre. There were probably 50 pilots waiting there. As we waited, the cloud base slowly rose, but it was intermittently drizzling. As soon as we saw birds climbing out front and the rain let up, we all took off. 
+After deciding the rain wouldn't let up, we took a truck down the hill to El Torre. There were probably 50 pilots waiting there. As we waited, the cloud base slowly rose, but it was intermittently drizzling. As soon as we saw birds climbing out front and the rain let up, we all took off. 
 
 Barry went first, followed by Kirby and I. Tom and Honda followed shortly thereafter. We went north a couple ridges before punting into the valley as the clouds were dumping rain over the western range. As we all flew out out into the valley, I made a course diversion to a cloud and found a climb. The others continued on glide to a gaggle of pilots far out. After I topped out the climb, I headed over to the gaggle, where I arrived on top. Honda and Tom didn't connect with the climb and bombed out on the way. I continued north, following Barry, but lost Kirby. A few climbs north, we got a radio call from Kirby who had a low save and was back up high, but a ways behind us. 
 

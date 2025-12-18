@@ -15,9 +15,9 @@ layout: trip-report
 
 #### Hiking to launch
 
-Barry, Barry's wife Tess, Kirby and I decided to hike up to launch. We met up at Barry and Tess's place in the north of Rolda. I was begrudgingly carrying my full weight kit. We had identified a trail on caltopo that diverged from the main road near town and wound its way through a canyon and then up a secondary road straight to launch. 
+Barry, Barry's wife Tess, Kirby and I decided to hike up to launch. We met up at Barry and Tess's place in the north of Rolda. I was begrudgingly carrying my full weight kit. We had identified a trail on caltopo that diverged from the main road near town and wound its way through a canyon and then up a secondary road straight to launch.
 
-We started the hike on the road. Around two miles in, where the trail diverge from the road on the map, we found nothing but a cow feeding stall behind a barbed wire fence. After some searching, we spotted what appeared to be a cow path leading away from the stall. This was where the trail was marked on the map. In the spirit of adventure, we decided to try following it.
+We started the hike on the road. Around two miles in, where the trail diverged from the road on the map, we found nothing but a cow feeding stall behind a barbed wire fence. After some searching, we spotted what appeared to be a cow path leading away from the stall. This was where the trail was marked on the map. In the spirit of adventure, we decided to try following it.
 
 {%- include photo.html 
     path="photos/KirbyEmerges.jpg"
@@ -26,7 +26,7 @@ We started the hike on the road. Around two miles in, where the trail diverge fr
 
 The trail meandered its way around the hillside, intersecting and diverging from other, less trod cow paths. A gate on the far side of the pasture put us in deep brush between two more barbed wire fences, seeming to indicate that the trail continued despite the defined path slowly petering out. Barry was gung-ho to continue, and we followed him through bushes, streams, and underbrush that caused a couple of us to get itchy scratches on our bare legs.
 
-We arrived at another gate, this time with clear evidence of lots of cow traffic on the other side. Up ahead on the hillside above the trail we spotted a bull and a cow mating. I picked up a large stick for some sort of self defense, in-case we interrupted the two and the bull didn't take it kindly.
+We arrived at another gate, this time with clear evidence of lots of cow traffic on the other side. Up ahead on the hillside above the trail we spotted a bull and a cow mating. I picked up a large stick for some sort of self defense, in case we interrupted the two and the bull didn't take it kindly.
 
 The trail had been slowly climbing the canyon. Before the ridge to launch, it dove quickly downslope in a canyon with a stream at the bottom. We found a rickety covered bridge at the bottom of the canyon, crossing 15' over the running stream bed. There was what appeared to be a single track from a motorcycle imprinted on the dust, giving me confidence that the whole thing wouldn't collapse with the weight of me and my heavy bag. I crossed quickly nonetheless.
 

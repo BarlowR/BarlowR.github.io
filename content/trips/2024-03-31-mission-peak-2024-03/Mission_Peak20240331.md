@@ -12,7 +12,7 @@ layout: trip-report
 
 ## Mission Peak 2024-03-31
 
-Flying on the 31st of March at Mission Peak, I threw my reserve on a paragliding flight. I wrote a incident report to share with other pilots to share my experience and help the community learn from the event. Here is the report:
+Flying on the 31st of March at Mission Peak, I threw my reserve on a paragliding flight. I wrote an incident report to share my experience with other pilots and help the community learn from the event. Here is the report:
 
 ---
 

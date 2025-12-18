@@ -26,7 +26,7 @@ My goal, as it's been for all of these tasks so far this year, was to be one of 
 
 On launch we had high clouds blocking the Sun and the day didn't turn on until around 11:45. The task for the day was to go to Snow, come back to launch, tag a waypoint in the valley directly to the east, then a waypoint to the north. 
 
-Once I saw cycles coming in around 5 minutes apart, I got my stuff ready, and timed a cycle right off of launch. I followed the ridge down from the left of launch and connected with a thermal maybe 500 ft from launch. I was the third one in the air. 
+Once I saw cycles coming in around 5 minutes apart, I got my stuff ready, and timed a cycle right off of launch. I followed the ridge down from the left of launch and connected with a thermal maybe 500 feet from launch. I was the third one in the air. 
 
 After following the gaggle and scratching to Snow, back to launch, then back to Snow, I had a rough time climbing out of Snow in a lee side thermal to get high enough to glide out. There was a single climb there and it was determined to make my life miserable. Once I had the altitude, I went on glide to St. John, found a climb out front a little, and worked my way up to the top of the mountain.
 
@@ -51,7 +51,7 @@ I climbed up the East side ridge of St John, then made the decision to try to wo
 
 After making it most of the way around the mountain and not finding the climb, I found instead that the winds were venturi-ing through the canyon from the East. I had a terrifying time dolphin flying along terrain trying to get back out. Thankfully I got a few lucky climbs, and I was able to return at nearly the same elevation to where I had first connected with the mountain. From there I followed the same general path as I had today before and worked my way to the top, with plenty of altitude over the top. In the time I spent faffing around, the winds had switched from East to West around 400 m off the top.
 
-I glided out to the valley with tons of elevation, and a nice 20 kmh tailwind from the West. I made it to the northern point without a climb, then found a few bubbles to get me 3-400 m up on the way south. I was nearly about to land when I went for the only possible trigger I could see in a field, a a tiny bump with trees on the downwind side. I found a light climb here which led me to a slightly stronger but still light climb that took me back to a comfortable altitude. 
+I glided out to the valley with tons of elevation, and a nice 20 kmh tailwind from the West. I made it to the northern point without a climb, then found a few bubbles to get me 3-400 m up on the way south. I was nearly about to land when I went for the only possible trigger I could see in a field, a tiny bump with trees on the downwind side. I found a light climb here which led me to a slightly stronger but still light climb that took me back to a comfortable altitude. 
 
 At this point my instrument said goal was on a 6:1 glide, so I pushed into the headwind. This was not the right move, and I got nailed to the ground. I tagged ESS, but turned and landed 2 km short of goal. Goal was on the other side of a river, and I didn't want to chance it. 
 

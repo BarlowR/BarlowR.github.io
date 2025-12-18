@@ -77,7 +77,7 @@ layout: project-post
 
 <h4> Optimizations </h4>
 
-<p> The second half of this solution is a set of optimizations. I've formulated a number of different fabric use-cases into optimization problems that can be used to evaluate various fabrics in the dataset. Each optimization is a mutli-objective optimization, generally looking to minimize cost and weight, while maximizing one or two other criteria specific to the use case. Listed below are the use-cases and their optimization equations, along with a brief discussion on the formulation of each.
+<p> The second half of this solution is a set of optimizations. I've formulated a number of different fabric use-cases into optimization problems that can be used to evaluate various fabrics in the dataset. Each optimization is a multi-objective optimization, generally looking to minimize cost and weight, while maximizing one or two other criteria specific to the use case. Listed below are the use-cases and their optimization equations, along with a brief discussion on the formulation of each.
 </p>
 
 <h4> Pack Fabrics, Load Bearing </h4>

@@ -12,7 +12,7 @@ layout: trip-report
 ## Desolation Wilderness Ski Traverse 2023-04-25
 
 
-Earlier this winter I had grand aspiration to ski the ["Sierra High Route"](http://skimountaineerssectionlachaptersc.org/trips/hirte09/hirte09.htm), a traverse connecting Wolverton to Onion Valley by way of one of the most stark sections of the Sierra. Logistics are difficult given that most of the passed are closed, so to get from the start to the finish by car takes 6+ hours. Conditions for the travers can be all over the place with the elevation deltas, variable snowpack and precipitation. As such, the logistics didn't look like they would work out, so I wanted to find a similar challenge. 
+Earlier this winter I had grand aspiration to ski the ["Sierra High Route"](http://skimountaineerssectionlachaptersc.org/trips/hirte09/hirte09.htm), a traverse connecting Wolverton to Onion Valley by way of one of the most stark sections of the Sierra. Logistics are difficult given that most of the passes are closed, so to get from the start to the finish by car takes 6+ hours. Conditions for the traverse can be all over the place with the elevation deltas, variable snowpack and precipitation. As such, the logistics didn't look like they would work out, so I wanted to find a similar challenge. 
 
 The Desolation Wilderness holds a special place in my heart, and Pyramid Peak in particular. I lived in Half Moon Bay for the winter of 2019-2020, and I did an overnight trip that year to ski up Pyramid. It was one of my first big overnight ski trips, and even though it wasn't a lot of mileage, it was a huge new world of adventure and excitement for me. 
 

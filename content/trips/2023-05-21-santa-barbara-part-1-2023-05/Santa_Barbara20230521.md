@@ -12,9 +12,9 @@ layout: trip-report
 ## Santa Barbara Part 1 2023-05-21
 
 
-A year has passed since I first learned to paraglide! Last May I took 2 weeks off of work to fly from Boston to Santa Barbara and live in a rental car while taking lessons with [Eagle](https://www.paragliding.com/). While I was there, I made friends with Naasha, a visiting instructor from India. She was there for the summer in Santa Barbara, while the monsoons made flying impossible back home for her. We've stayed in touch since then, and she's back to instruct this summer. I took a few days off of work and made a trip down to Santa Barbara to see her and do some flying. 
+A year has passed since I first learned to paraglide! Last May I took 2 weeks off of work to fly from Boston to Santa Barbara and live in a rental car while taking lessons with [Eagle](https://www.paragliding.com/). While I was there, I made friends with Naasha, a visiting instructor from India. She was there for the summer in Santa Barbara, while the monsoons made flying impossible back home for her. We've stayed in touch since then, and she's back to instruct this summer. I took a few days off of work and made a trip down to Santa Barbara to see her and do some flying.
 
-I made it to the training hill on Sunday morning after deep cleaning my apartment and driving most of the way down the coast on Saturday. I met Naasha there, and we caught up on our past years. Thorin was there as well! We learned at the same time last year, and I keep bumping into him through flying. He's now flying a ton now at Tollhouse, and he invited me to come out and fly there. 
+I made it to the training hill on Sunday morning after deep cleaning my apartment and driving most of the way down the coast on Saturday. I met Naasha there, and we caught up on our past years. Thorin was there as well! We learned at the same time last year, and I keep bumping into him through flying. He's now flying a ton at Tollhouse, and he invited me to come out and fly there. 
 
 {%- include photo.html 
     path="photos/VOR.jpg"

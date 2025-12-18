@@ -10,7 +10,7 @@ As a follow up to my writing on [Running around in the Mountains](Running_Around
 
 ### Training & Supercompensation
 
-My understanding and approach to training is based on the [supercomposition](https://fellrnr.com/wiki/Supercompensation) theory. The very high level overview of this theory is that after any given stress, the body will not only recover, but recover to a higher level of preparedness for a period after the stress. Take running for an easy example. 
+My understanding and approach to training is based on the [supercompensation](https://fellrnr.com/wiki/Supercompensation) theory. The very high level overview of this theory is that after any given stress, the body will not only recover, but recover to a higher level of preparedness for a period after the stress. Take running for an easy example. 
 
 
 Say you go on a 1 mile run:

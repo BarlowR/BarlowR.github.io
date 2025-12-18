@@ -13,7 +13,7 @@ layout: trip-report
 ## Owens Valley Flight 2025-08-30
 
 ### Preamble
-XC League was scheduled for the Owens on Labor Day weekend, and the forecast looked amazing for Saturday. 16000' top of lift , relatively low winds, cumulous clouds and a wide band of convergence over the white mountains. I began my drive out to the Eastern Sierra on Friday evening around 6:30pm. Google maps projected my drive time to Lee Vining to be around 5.5 hrs, which would have me sleeping at midnight. That would be just enough time to get a good night's rest, then completing the last segment of the drive to meet the XC League group in Bishop at 8:30. Shortly after leaving, the ETA increased from midnight to 12:30, then 1 am, then 1:30am. I shortly thereafter hit the traffic. I sat in gridlock for what felt like hours before finding myself on the other side and back at 70mph.
+XC League was scheduled for the Owens Valley on Labor Day weekend, and Saturday's forecast looked amazing. 16000' top of lift, relatively low winds, cumulus clouds and a wide band of convergence over the white mountains. I began my drive out to the Eastern Sierra on Friday evening around 6:30pm. Google maps projected my drive time to Lee Vining to be around 5.5 hrs, which would have me sleeping at midnight. That would be just enough time to get a good night's rest, then completing the last segment of the drive to meet the XC League group in Bishop at 8:30. Shortly after leaving, the ETA increased from midnight to 12:30, then 1 am, then 1:30am. I shortly thereafter hit the traffic. I sat in gridlock for what felt like hours before finding myself on the other side and back at 70mph.
 
 {%- include photo.html 
     path="photos/driving.jpg"

@@ -47,7 +47,7 @@ After finally getting the tent setup, we dove inside and pulled everything out o
     style="float: right; width:39%;"
 -%}
 
-We settled deep into our sleeping bags when the starts started to come out, and soon realized that the bugs had disappeared. To get a better view of the meteor shower, we took down the tent and set our sleeping pads/bags on-top of it, giving us an unobstructed view of the night sky. Over the course of the evening, Maggie counted 6 shooting stars, and I saw 4 before falling asleep.
+We settled deep into our sleeping bags when the stars started to come out, and soon realized that the bugs had disappeared. To get a better view of the meteor shower, we took down the tent and set our sleeping pads/bags on-top of it, giving us an unobstructed view of the night sky. Over the course of the evening, Maggie counted 6 shooting stars, and I saw 4 before falling asleep.
 
 
 The next morning, Maggie and I ate our traditional Sunday waffle breakfast and shared a cup of hot cocoa. We had packed out some frozen waffles, and we toasted them over the flame from my Jetboil stove while shaking the sleep from our eyes. After we had sufficiently woken up, we packed up, hiked back down the hill and drove back up the coast to the Cottage. 

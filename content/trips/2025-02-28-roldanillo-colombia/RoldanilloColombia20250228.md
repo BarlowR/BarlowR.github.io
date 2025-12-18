@@ -34,7 +34,7 @@ I took an easy downwind glide out to the top of the range south of Corozal. My "
 I nearly bombed out on the ridge. I arrived low and scratched to find a climb. I was guided by a group of birds, who first showed me a climb enough to stay alive, then guided me to a strong, tall climb that took my mind away from the challenge of not landing, and back to the challenge of making it back.
 
 
-I pushed full bar upwind from cloud to cloud. I felty like I had won the lottery each time I found the climb underneath. Base had lifted to 2700m, and I scraped the bottom of each cloud before pushing back on glide upwind. At one point, I left a climb too late, and was pulled up into the bottom of the cloud on glide to the west. I was fully engulfed in white, but kept my bearing with my compass and flight instrument. 
+I pushed full bar upwind from cloud to cloud. I felt like I had won the lottery each time I found the climb underneath. Base had lifted to 2700m, and I scraped the bottom of each cloud before pushing back on glide upwind. At one point, I left a climb too late, and was pulled up into the bottom of the cloud on glide to the west. I was fully engulfed in white, but kept my bearing with my compass and flight instrument. 
 
 {%- include photo.html 
     path="photos/BigGrin.jpg"
