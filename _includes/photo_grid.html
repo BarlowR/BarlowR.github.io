@@ -1,6 +1,7 @@
 {% assign image_extensions = "jpg,jpeg,png,gif,webp" | split: "," %}
-{% assign gallery_path = include.imgFolder | default: "/gallery/" %}
-{% assign images = site.static_files | where_exp: "file", "file.path contains '/assets/gallery'" | sort: "name" | reverse %}
+{% assign gallery_path = include.imgFolder | default: "/assets/gallery" %}
+{% assign filter_string = 'file.path contains "' | append: gallery_path | append: '"' %}
+{% assign images = site.static_files | where_exp: "file", filter_string | sort: "name" | reverse %}
 
 <div class="gallery-container">
     <div id="gallery" class="gallery">
@@ -22,7 +23,6 @@
 <script>
     document.addEventListener('DOMContentLoaded', function() {
         // Configuration
-        const imageFolder = {{ gallery_path }};
         const kSpanMultiplier = 10;
         
         const imageFiles = [

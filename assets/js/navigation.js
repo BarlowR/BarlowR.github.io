@@ -1,7 +1,6 @@
 var acc = document.getElementsByClassName("accordion");
 var open = "    +";
 var close = "     -"
-console.log(acc);
 for (var i = 0; i < acc.length; i++) {
   acc[i].innerHTML = acc[i].innerHTML + " " + open;
   acc[i].addEventListener("click", function() {
