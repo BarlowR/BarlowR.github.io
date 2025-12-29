@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 category: project
 project_category: Outdoor Gear
 project_name: Ski Traverse Pack
