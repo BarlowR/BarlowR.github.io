@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "947482094ed14782",
+        "id": "aba40d591dbb85f4",
         "type": "tabs",
         "children": [
           {
-            "id": "460697647735485f",
+            "id": "6f2389c75edf2a3a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/posts/25-Sep/DAA_Flight_Testing.md",
+                "file": "content/projects/Flying_Better/competition-flight-analysis/competition-flight-analysis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DAA_Flight_Testing"
+              "title": "competition-flight-analysis"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"](",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/posts/Nov/Sisyphus_2_Doing Hard Things.md",
+                "file": "content/posts/2025/10-19-the-value-of-lightness.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Sisyphus_2_Doing Hard Things"
+              "title": "Backlinks for 10-19-the-value-of-lightness"
             }
           },
           {
@@ -123,12 +123,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "content/posts/Nov/Sisyphus_2_Doing Hard Things.md",
+                "file": "content/posts/2025/10-19-the-value-of-lightness.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Sisyphus_2_Doing Hard Things"
+              "title": "Outgoing links from 10-19-the-value-of-lightness"
             }
           },
           {
@@ -138,7 +138,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -150,10 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/posts/Nov/Sisyphus_2_Doing Hard Things.md"
+                "file": "content/posts/2025/10-19-the-value-of-lightness.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Sisyphus_2_Doing Hard Things"
+              "title": "Outline of 10-19-the-value-of-lightness"
             }
           },
           {
@@ -170,7 +175,8 @@
               "title": "All properties"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -189,53 +195,53 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "460697647735485f",
+  "active": "6f2389c75edf2a3a",
   "lastOpenFiles": [
+    "_site/assets/gallery/paragliding/IMG_20251204_162917_320-EDIT (1).jpg",
+    "assets/gallery/paragliding/IMG_20251204_162917_320-EDIT (1).jpg",
+    "_site/assets/gallery/film/000563760010.jpg",
+    "_site/assets/gallery/film/000563740037.jpg",
+    "_site/assets/gallery/film/000563740022.jpg",
+    "_site/assets/gallery/film/000563740015.jpg",
+    "_site/assets/gallery/film/000563740012.jpg",
+    "_site/assets/gallery/film/000563740010.jpg",
+    "_site/assets/gallery/film/000563730032.jpg",
+    "_site/assets/gallery/film/000563730028.jpg",
+    "_site/assets/gallery/film/000563730014.jpg",
+    "_site/assets/gallery/new_images/converted",
+    "assets/gallery/new_images/converted",
+    "_site/assets/gallery/new_images/convert_images.sh",
+    "_site/assets/gallery/new_images",
+    "assets/gallery/new_images/convert_images.sh",
+    "assets/gallery/new_images",
+    "assets/gallery/untitled folder",
+    "content/trips/2024-09-25-xredrocks-day-1-2024-09/xRedRocks_Challenge_Day_120240925.md.tmp.32671.1766093560533",
+    "content/trips/2023-06-11-tour-of-boston-marathon-2023-06/Tour_of_Boston_Marathon20230611.md.tmp.32671.1766093070107",
+    "content/posts/2025/10-19-the-value-of-lightness.md.tmp.29134.1766092504375",
+    "content/gallery/gallery_adventures.md",
+    "content/gallery/gallery_paragliding copy.md",
+    "content/gallery/gallery_life.md",
+    "content/gallery/gallery_paragliding.md",
+    "content/gallery/gallery_film.md",
+    "content/gallery/gallery copy 2.md",
+    "content/gallery/gallery copy.md",
+    "content/projects/Flying_Better/IGC_Analysis_Tools/ICG_Analysis_Tools.md",
+    "_site/competition_report.html.md",
+    "competition_report.html.md",
+    "content/projects/Flying_Better/competition-flight-analysis/competition-flight-analysis.md",
+    "content/projects/Flying_Better/Preparation_for_Cross_Country_Flight/Preparation_for_Cross_Country_Flight.md",
+    "content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly.md",
+    "content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance.md",
+    "content/posts/2025/04-23-a-case-for-relentless-kindness.md",
+    "content/posts/2025/09-12-daa-flight-testing.md",
+    "content/posts/2025/10-19-the-value-of-lightness.md",
+    "templates/blog_template.md",
     "Oh-Shit Kit.md",
-    "Untitled.md",
     "content/posts/25-Sep/DAA_Flight_Testing.md",
     "pag.md",
     "content/trips/Red_Rocks_Wide_Open_202520250905/Red_Rocks_Wide_Open_202520250905.md",
-    "content/posts/25-Sep",
     "content/trips/Owens_Valley_Flight20250830/Owens_Valley_Flight20250830.md",
-    "content/trips/Red_Rocks_Wide_Open_202520250905/photos",
-    "content/trips/Red_Rocks_Wide_Open_202520250905",
     "content/trips/RoldanilloColombia20250217/RoldanilloColombia20250217.md",
-    "_site/content/trips/Owens_Valley_Flight20250830/owens.gpx",
-    "content/trips/Owens_Valley_Flight20250830/owens.gpx",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/driving.jpg",
-    "content/trips/Owens_Valley_Flight20250830/photos/driving.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/whitemountain.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/sailplane.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/rob.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/cloudstreet.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos/20250830_135912.jpg",
-    "_site/content/trips/Owens_Valley_Flight20250830/photos",
-    "_site/content/trips/Owens_Valley_Flight20250830/Owens_Valley_Flight20250830.html",
-    "_site/content/trips/Owens_Valley_Flight20250830",
-    "content/trips/Owens_Valley_Flight20250830/photos/cloudstreet.jpg",
-    "content/trips/Owens_Valley_Flight20250830/photos/sailplane.jpg",
-    "content/trips/Owens_Valley_Flight20250830/photos/20250830_135912.jpg",
-    "content/trips/xRedRocks_Challenge_Day_320240927/xRedRocks_Challenge_Day_320240927.md",
-    "content/trips/RoldanilloColombia20250228/RoldanilloColombia20250228.md",
-    "content/trips/Owens_Valley_Flight20250830/photos",
-    "content/trips/Owens_Valley_Flight20250830",
-    "content/trips/RoldanilloColombia20250220/RoldanilloColombia20250220.md",
-    "_site/Untitled 1.md",
-    "_site/templates/trip_report_template.md",
-    "_site/templates/training_log_template.md",
-    "_site/templates/project_post_template.md",
-    "_site/templates/blog_template.md",
-    "_site/pag.md",
-    "templates/trip_report_template.md",
-    "templates/training_log_template.md",
-    "templates/project_post_template.md",
-    "templates/blog_template.md",
-    "content/trips/xRedRocks_Challenge_Day_220240926/xRedRocks_Challenge_Day_220240926.md",
-    "content/trips/xRedRocks_Challenge_Day_120240925/xRedRocks_Challenge_Day_120240925.md",
-    "content/trips/Tour_of_Boston_Marathon20230611/Tour_of_Boston_Marathon20230611.md",
-    "content/trips/Slide_Mountain_XC_League_Day_220240720/Slide_Mountain_XC_League_Day_220240720.md",
-    "content/trips/Santa_Barbara20230521/Santa_Barbara20230521.md",
-    "content/trips/SLC_and_Sun_Valley20230705/SLC_and_Sun_Valley20230705.md"
+    "content/trips/xRedRocks_Challenge_Day_320240927/xRedRocks_Challenge_Day_320240927.md"
   ]
 }
