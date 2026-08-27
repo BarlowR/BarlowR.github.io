@@ -5,3 +5,8 @@ _site
 vendor
 *.DS_Store
 .obsidian/workspace.json
+
+# Astro
+node_modules/
+dist/
+.astro/

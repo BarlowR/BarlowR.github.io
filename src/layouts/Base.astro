@@ -1,0 +1,102 @@
+---
+/**
+ * Port of the Jekyll `_layouts/base.html` plus the `head`, `header`, `sidebar`
+ * and `footer` includes. The markup is deliberately identical to what Jekyll
+ * emitted (same ids, classes and nesting) so the existing stylesheet applies
+ * unchanged.
+ *
+ * Two intentional differences from `_includes/head.html`:
+ *  - the LaTeXMathML `<script>` is omitted (math rendering is a later phase);
+ *  - the Google Analytics snippet lives inside `<head>` instead of between
+ *    `</head>` and `<body>`, where Jekyll put it. Browsers relocate stray
+ *    elements out of that position anyway, so this is a no-op at runtime.
+ *
+ * Note there is deliberately no `<meta name="viewport">`: the Jekyll site did
+ * not have one, and adding it would change how the site renders on phones.
+ */
+import Navigation from '../components/Navigation.astro';
+import '../styles/style.css';
+
+interface Props {
+  /** Page title; omit on the home page to get the site-level title. */
+  title?: string;
+  description?: string;
+  /** Emits `article:published_time` and flips `og:type` to `article`. */
+  publishedTime?: Date;
+}
+
+const SITE_TITLE = 'Peregrination';
+const SITE_DESCRIPTION = 'General ramblings from Robert Barlow';
+
+const { title, description = SITE_DESCRIPTION, publishedTime } = Astro.props;
+
+// Matches jekyll-seo-tag: `<title> | Peregrination` for a titled page,
+// `Peregrination | <tagline>` for the site root.
+const pageTitle = title ? `${title} | ${SITE_TITLE}` : `${SITE_TITLE} | ${SITE_DESCRIPTION}`;
+const ogTitle = title ?? SITE_TITLE;
+const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://barlowr.com').href;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{pageTitle}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <meta property="og:title" content={ogTitle} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:site_name" content={SITE_TITLE} />
+    <meta property="og:type" content={publishedTime ? 'article' : 'website'} />
+    {publishedTime && <meta property="article:published_time" content={publishedTime.toISOString()} />}
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content={ogTitle} />
+
+    <!-- Google tag (gtag.js) -->
+    <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-95MKMKP20C"></script>
+    <script is:inline>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+
+      gtag('config', 'G-95MKMKP20C');
+    </script>
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="/">
+        <div id="title-section">
+          <div id="title-block">
+            <div id="title"> peregrination </div>
+            <div id="sub-title"> ___________ </div>
+            <div id="signature"> Robert Barlow </div>
+          </div>
+          <div id="title-img-block">
+            <img src="/assets/img/logo.png" />
+          </div>
+        </div>
+      </a>
+    </header>
+
+    <div id="main">
+      <div id="sidebar">
+        <div id="navigation-sidebar">
+          <Navigation />
+        </div>
+      </div>
+
+      <div id="content-body">
+        <slot />
+      </div>
+    </div>
+
+    <footer class="site-footer h-card"></footer>
+  </body>
+</html>

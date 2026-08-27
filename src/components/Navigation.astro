@@ -1,0 +1,175 @@
+---
+/**
+ * Port of `_includes/navigation.html` + `assets/js/navigation.js`.
+ *
+ * Structure, class names and whitespace match the Jekyll output so the existing
+ * stylesheet and the accordion script behave identically. One deliberate fix:
+ * the Liquid template had an unbalanced `</div>` that closed `.navigation-menu`
+ * right after the Projects block, leaving "Trip Reports", "Selected Library" and
+ * "Photo Roll" as siblings of the menu rather than children of it. This version
+ * is well formed. That is visually a no-op, because `.navigation-menu` only sets
+ * `font-weight: 100` and `font-size: var(--font-base-size)`, which are exactly
+ * the values those elements already inherited from `body`.
+ */
+import { getCollection, type CollectionEntry } from 'astro:content';
+import { isPublished, projectUrl, tripUrl } from '../lib/slug';
+
+type ProjectEntry = CollectionEntry<'projects'>;
+type TripEntry = CollectionEntry<'trips'>;
+
+// --- Projects -------------------------------------------------------------
+// Jekyll listed `site.pages` where `category == "project"`; entries in
+// content/projects/ that are tagged as something else stay out of the sidebar.
+const projectEntries = (await getCollection('projects', isPublished))
+  .filter((entry) => entry.data.category === 'project')
+  .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
+
+// The rendered Jekyll site listed categories as "Active Flying", "Outdoor Gear",
+// "Web Utilities" — i.e. alphabetically. (Liquid's `uniq` preserved Jekyll's
+// filesystem read order, which is not reproducible; sorting is deterministic and
+// produces the same result for the current content.)
+const categoryNames = [
+  ...new Set(
+    projectEntries
+      .map((entry) => entry.data.project_category)
+      .filter((name): name is string => Boolean(name)),
+  ),
+].sort();
+
+interface ProjectGroup {
+  name: string;
+  /** Posts to link; `project-report` layouts are intentionally not linked. */
+  posts: ProjectEntry[];
+}
+
+const projectCategories = categoryNames.map((name) => {
+  const groups: ProjectGroup[] = [];
+  for (const entry of projectEntries) {
+    if (entry.data.project_category !== name) continue;
+    const key = entry.data.project_name ?? entry.data.title;
+    let group = groups.find((candidate) => candidate.name === key);
+    if (!group) {
+      group = { name: key, posts: [] };
+      groups.push(group);
+    }
+    if (entry.data.layout !== 'project-report') group.posts.push(entry);
+  }
+  return { name, groups };
+});
+
+// --- Trips ----------------------------------------------------------------
+const tripEntries = (await getCollection('trips', isPublished))
+  .filter((entry) => entry.data.category === 'trip')
+  .sort(
+    (a, b) =>
+      b.data.date.getTime() - a.data.date.getTime() ||
+      (a.id < b.id ? 1 : a.id > b.id ? -1 : 0),
+  );
+
+interface TripYear {
+  year: number;
+  trips: TripEntry[];
+}
+
+// Grouped in iteration order, so newest year first, newest trip first within it.
+// `getUTCFullYear` rather than `getFullYear` keeps the grouping independent of the
+// build machine's timezone.
+const tripYears: TripYear[] = [];
+for (const entry of tripEntries) {
+  const year = entry.data.date.getUTCFullYear();
+  const bucket = tripYears.find((candidate) => candidate.year === year);
+  if (bucket) bucket.trips.push(entry);
+  else tripYears.push({ year, trips: [entry] });
+}
+---
+
+<div class="navigation-menu">
+  <div class="navigation-category accordion"> Projects</div>
+  <div class="project-categories accordion-sub">
+    {
+      projectCategories.map((category) => (
+        <Fragment>
+          <div class="navigation-subcategory accordion"> {category.name} </div>
+          <div class="projects accordion-sub">
+            {category.groups.map((group) => (
+              <div class="navigation-subcategory">
+                {group.posts.map((post) => (
+                  <a class="accordion-leaf" href={projectUrl(post.id)}> {post.data.title} </a>
+                ))}
+              </div>
+            ))}
+          </div>
+        </Fragment>
+      ))
+    }
+    <div class="navigation-subcategory accordion"> Micro Soaring </div>
+    <div class="projects accordion-sub">
+      <div class="navigation-subcategory">
+        <a class="accordion-leaf" href="http://microsoaring.barlowr.com"> Micro Soaring Game </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="navigation-category accordion">Trip Reports</div>
+  <div class="trips accordion-sub">
+    {
+      tripYears.map((group) => (
+        <Fragment>
+          <div class="navigation-subcategory accordion">{group.year}</div>
+          <div class="trips-by-year accordion-sub">
+            {group.trips.map((trip) => (
+              <a class="accordion-leaf" href={tripUrl(trip.id)}>{trip.data.title}</a>
+            ))}
+          </div>
+        </Fragment>
+      ))
+    }
+  </div>
+
+  <div>
+    <a class="navigation-category" href="/books/">Selected Library</a>
+  </div>
+
+  <div>
+    <a class="navigation-category accordion">Photo Roll</a>
+    <div class="photo-roll accordion-sub">
+      <a class="accordion-leaf" href="/gallery/film/"> Film </a>
+      <a class="accordion-leaf" href="/gallery/life/"> Life </a>
+      <a class="accordion-leaf" href="/gallery/adventures/"> Adventures </a>
+      <a class="accordion-leaf" href="/gallery/paragliding/"> Paragliding </a>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Port of assets/js/navigation.js. The "    +" / "     -" markers keep their
+  // original padding, and so does the quirk that every toggle drops one character
+  // and appends the whole padded marker, so the label slowly gains whitespace.
+  // (`this` in the original handler is just the accordion element; a closure over
+  // `accordion` is the same thing and types cleanly.)
+  const accordions = document.querySelectorAll<HTMLElement>('.accordion');
+  const open = '    +';
+  const close = '     -';
+
+  for (const accordion of accordions) {
+    accordion.innerHTML = accordion.innerHTML + ' ' + open;
+    accordion.addEventListener('click', () => {
+      console.log('clicked' + accordion.innerText);
+
+      /* Toggle between hiding and showing the active panel */
+      const subElement = accordion.nextElementSibling;
+
+      if (!(subElement instanceof HTMLElement)) {
+        return;
+      }
+
+      if (subElement.style.display === 'block') {
+        subElement.style.display = 'none';
+        accordion.innerHTML = accordion.innerHTML.slice(0, -1) + open;
+      } else {
+        subElement.style.display = 'block';
+        accordion.innerHTML = accordion.innerHTML.slice(0, -1) + close;
+      }
+    });
+  }
+</script>
