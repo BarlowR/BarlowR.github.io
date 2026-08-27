@@ -92,7 +92,7 @@ The third directive of flying fast is to *Glide Better*. In practice and in anal
 
 Remember that "climbing" is considered as any vertical rate higher than -0.5 m/s, so this metric does not mean that the pilot necessarily went up, but instead that they were flying through a moving airmass.
 
-*Glide Better* also means [adjusting your flying for the right MacCready value](/content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly). When using this analysis tool for your own flights, consider the reported "Average Climb Rate" of the task and consider how this should map to the decisions you made in the flight. 
+*Glide Better* also means [adjusting your flying for the right MacCready value](/projects/flying-better/the-insight-of-maccready-speed-to-fly/). When using this analysis tool for your own flights, consider the reported "Average Climb Rate" of the task and consider how this should map to the decisions you made in the flight. 
 
 Note: Airspeed estimates are difficult to extract from IGC tracklog groundspeed due to the variability of wind direction and speed throughout a day of flying (If only we all carried airspeed probes), so I don't include it in the analysis. As a result, we can't work out if any given pilot was flying the right speed (one element of MacCready). 
 

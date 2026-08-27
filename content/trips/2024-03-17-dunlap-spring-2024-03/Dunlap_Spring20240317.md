@@ -17,7 +17,7 @@ Spring had sprung in the foothills of the Sierra, or at least that's what Thorin
 
 The weather was shaping up for an amazing weekend of flying on the 17th and the 18th, and so I wrangled a group of my paragliding friends to make a trip out to Dunlap. Luigi, Nick, Muuo and I all made the long drive out on Friday night to "Spencer's Place," a campground which is also the official LZ for the site. Nick and I carpooled, and arrived just around 10pm. 
 
-In true spring fashion, nights were freezing cold. I slept in my car, wrapped up in all my layers and my [lightweight quilt](/content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts). While I was warm enough, it would be a stretch to say I was comfortable. Maybe I'm just getting soft. Morning brought sunlight, and as soon as I was awake I made a trip to the tiny coffee shop in town to warm up and refresh my knowledge of "Thermal Flying". 
+In true spring fashion, nights were freezing cold. I slept in my car, wrapped up in all my layers and my [lightweight quilt](/projects/outdoor-gear/synthetic-quilts/). While I was warm enough, it would be a stretch to say I was comfortable. Maybe I'm just getting soft. Morning brought sunlight, and as soon as I was awake I made a trip to the tiny coffee shop in town to warm up and refresh my knowledge of "Thermal Flying". 
 
 ---
 ### Day 1
