@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import sitemap from '@astrojs/sitemap';
 import remarkDirective from 'remark-directive';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
@@ -18,7 +19,7 @@ export default defineConfig({
   // optimizeImages must follow mirrorStatic: its dev middleware catches the
   // requests the mirror passes through, and its build hook fills in webp
   // derivatives after the mirror copy.
-  integrations: [mirrorStatic(), optimizeImages()],
+  integrations: [mirrorStatic(), optimizeImages(), sitemap()],
   markdown: {
     // `$…$` math (the Jekyll site used LaTeXMathML; KaTeX renders the same
     // delimiters at build time) plus the site's `::photo`-style directives.
