@@ -13,30 +13,16 @@ layout: trip-report
 
 Nothing particularly extraordinary about this trip- just a weekday trail run up Black Mountain. I didn't even make it to the summit. I'm just enamored with the greens that the rains have brought to these hills. 
 
-{%- include photo.html 
-    path="photos/trail.jpg"
-    style="float: left; width:46%;"
--%}
+::photo{src="photos/trail.jpg" style="float: left; width:46%;"}
 
-{%- include photo.html 
-    path="photos/fog.jpg"
-    style="float: left; width:46%;"
--%}
+::photo{src="photos/fog.jpg" style="float: left; width:46%;"}
 
-{%- include photo.html 
-    path="photos/cover_photo.jpg"
-    style="float: left; width:46%;"
--%}
+::photo{src="photos/cover_photo.jpg" style="float: left; width:46%;"}
 
-{%- include photo.html 
-    path="photos/top.jpg"
-    style="float: left; width:46%;"
--%}
+::photo{src="photos/top.jpg" style="float: left; width:46%;"}
 
 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/2023-05-17-black-mountain-2023-05/bm.gpx"
-	clamp_to_ground = "true" -%}
+::cesium-view{gpx="/content/trips/2023-05-17-black-mountain-2023-05/bm.gpx" clamp-to-ground="true"}
 
 

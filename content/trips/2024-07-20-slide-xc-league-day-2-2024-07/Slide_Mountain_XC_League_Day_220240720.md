@@ -35,12 +35,7 @@ As it turned out, everything in that valley between me and goal was going up. Wh
 Lindsey, Dan Z, Brian Cooper, John Toasti, and Drew were all in the landing field.
 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/2024-07-20-slide-xc-league-day-2-2024-07/Slide.gpx"
-	clamp_to_ground = "false"
-	height = "40vw"
-	colored_track = "true"
-	num = 2 -%}
+::cesium-view{gpx="/content/trips/2024-07-20-slide-xc-league-day-2-2024-07/Slide.gpx" clamp-to-ground="false" colored-track="true" height="40vw"}
 
 
 ```

@@ -14,10 +14,7 @@ layout: trip-report
 
 ### Day 3 task: 
 
-{%- include photo.html 
-    path="photos/task.png"
-    style="float: none; width:40%;"
--%}
+::photo{src="photos/task.png" style="float: none; width:40%;"}
 
 ---
 
@@ -48,12 +45,7 @@ Fortunately, no one yelled at me or pulled the gun on me, and I made it through 
 
 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/2024-09-27-xredrocks-day-3-2024-09/day3.gpx"
-	clamp_to_ground = "false"
-	height = "40vw"
-	colored_track = "true"
-	num = 2 -%}
+::cesium-view{gpx="/content/trips/2024-09-27-xredrocks-day-3-2024-09/day3.gpx" clamp-to-ground="false" colored-track="true" height="40vw"}
 
 
 

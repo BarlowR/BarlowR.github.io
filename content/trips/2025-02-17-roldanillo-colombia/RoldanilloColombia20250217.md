@@ -14,10 +14,7 @@ layout: trip-report
 I woke up in the AirBnB I was sharing with Tom and Kirby with a bunch of pain in my back. I had spent the day before doing almost nothing but trying to recover from my travel misadventures. These had included schlepping my 100lbs of equipment up and down 4 flights of stairs 4 separate times at 2am. I blamed this for my neck pain.
 Tom, Kirby and I met up with Barry and Alex in town, and we grabbed breakfast before taking a cab up to launch.
 
-{%- include photo.html
-    path="photos/BellaVista.jpg"
-    style="float: right; width:40%;"
--%}
+::photo{src="photos/BellaVista.jpg" style="float: right; width:40%;"}
 
 I had run into an acquaintance from Vermont and his group of New England paragliders the night before. Their group was headed up to Bella Vista, so I talked my friends into following them up there. Most folks fly from the Aguapanella launch, and Bella Vista was another couple kms up the hill. The skies were open when we left town, with a layer of high clouds above.
 
@@ -29,10 +26,7 @@ Barry went first, followed by Kirby and I. Tom and Honda followed shortly therea
 
 I kept heading north, and joined Barry in a climb. The two of us worked together and pushed north to the ridge on the northeast side of valley. We topped out a climb above antennas on the ridge, and Barry said he was going to continue north. The clouds looked crummy and there weren't good landing options that way, so I told him I was going to head back.
 
-{%- include photo.html 
-    path="photos/CellDropout.jpg"
-    style="float: left; width:40%;"
--%}
+::photo{src="photos/CellDropout.jpg" style="float: left; width:40%;"}
 
 I pushed back south with a bit of a headwind. Base was higher, but the headwind made progress hard. I flew exclusively the top 2/3rds of the sky under clouds. The west side of the valley looked terrifying- there were massive clouds and they were almost all dropping out over the front range. There was a section where the worst of the clouds and rain were encroaching out on the valley, and I did my best to make fast progress past there. 
 
@@ -41,10 +35,7 @@ As I continued south, the valley turned into a blue hole, and the only viable op
 I kept going south a bit more, before I turned back west and followed a set of clouds lined up between where I was and Roldanillo. The clouds to the south and the clouds to the east all looked nasty, so I decided it was a good time to head home, and I wouldn't get a better opportunity. 
 
 
-{%- include photo.html 
-    path="photos/RainInTown.jpg"
-    style="float: right; width:59%;"
--%}
+::photo{src="photos/RainInTown.jpg" style="float: right; width:59%;"}
 
 
 After making my way back, Roldanillo had rain showers on the far side of the city and I was unsure of the strength of El Pacifico. I skirted to the south of the town, and put myself over the largest field I could find. I had a really scary landing- the wind down low was gusting 35 to 45 kmh, so I came down on full speed bar. As I tried to descend, the air around me was going up, so getting down was difficult. I pushed my way to the upwind side of the field, then spiraled down as low as I dared before getting back on bar to come in to land. Right as I was within a few hundred feet of the ground, a huge flock of birds collected in a climb at the upwind side of the field. I was sitting in the lee turbulence of the climb with lots of wind. I battled my way down to the surface, keeping the glider open and eventually touching down gently. 
@@ -52,8 +43,4 @@ After making my way back, Roldanillo had rain showers on the far side of the cit
 10 minutes after I landed, it started absolutely pouring. I walked back in the rain. 
 
 
-{%- include cesium_view.html
-	gpx_file = "0217.gpx"
-	clamp_to_ground = "false"
-    colored_track = "true"
-	height = "30vw" -%}
+::cesium-view{gpx="0217.gpx" clamp-to-ground="false" colored-track="true" height="30vw"}

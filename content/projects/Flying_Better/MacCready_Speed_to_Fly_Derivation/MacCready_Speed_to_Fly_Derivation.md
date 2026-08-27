@@ -17,10 +17,8 @@ layout: project-post
 
 Here's a brief derivation of MacCready speed to fly theory. See [The Insight of MacCready Speed to Fly](/content/projects/Flying_Better/The_Insight_of_MacCready_Speed_to_Fly/The_Insight_of_MacCready_Speed_to_Fly) for the bigger picture.
 
-{%- include photo.html 
-    path="photos/MCDiagram.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/MCDiagram.png" style="width:80%;"}
+.
 ## Objective:
 
 $Minimize: t_{total}(V_{Horizontal}) = t_{Flying} + t_{Climbing}$
@@ -71,10 +69,8 @@ This is equivalent to [MacCready's equation](https://soaringweb.org/Soaring_Inde
 ## Interpretation
 
 This is likely best interpreted visually on the polar graph:
-{%- include photo.html 
-    path="photos/PolarChart.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/PolarChart.png" style="width:80%;"}
+.
 
 
 

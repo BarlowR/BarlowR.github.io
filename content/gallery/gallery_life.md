@@ -6,4 +6,4 @@ title: Life Photo Roll
 layout: gallery
 ---
 
-{%- include photo_grid.html imgFolder='/assets/gallery/life' -%}
+::photo-grid{folder="/assets/gallery/life"}

@@ -12,11 +12,7 @@ layout: project-post
 ## Design
 2023-04-13
 
-{%- include photo.html 
-    path="photos/drawing.jpg"
-    style = "float: right; width: 20%"
-
--%}
+::photo{src="photos/drawing.jpg" style="float: right; width: 20%"}
 
 As of writing this, my first ski pack is nearly two years old now. I've taken it up Mount Washington, in the backcountry of Jay Peak, on multiple cross-country skiing traverses, and up a couple of Sierra peaks. For most of last summer, it was also my go-to biking backpack. The straps fit well, it has just the right capacity, and it's super lightweight.
 
@@ -24,10 +20,7 @@ After using it for two years, I keep stumbling across things about the pack that
 
 I began my design as I often do in my sketchbook, with both a rough sketch of my design for the pack and with a list of the features that I was looking to include. I've listed the features I wrote down below. 
 
-{%- include photo.html 
-    path="photos/design_notebook.jpg"
-    style = "float: right; width: 40%;"
--%}
+::photo{src="photos/design_notebook.jpg" style="float: right; width: 40%;"}
 
 * External strap for skis
 * Zippered avalanche gear pocket
@@ -50,20 +43,11 @@ After picking out the fabrics, I incrementally built up the pack in CLO3D. First
 
 I've written it here before, but having a 3D cloth simulation and patterning software is incredibly useful in designing a pack. I can play around with ideas and iterate faster than continually building smaller prototypes. 
 
-{%- include photo.html 
-    path="photos/AvyPocket.png"
-    style = "float: left; width: 30%;"
--%}
+::photo{src="photos/AvyPocket.png" style="float: left; width: 30%;"}
 
-{%- include photo.html 
-    path="photos/backPanel.png"
-    style="float: left;  width: 30%;"
--%}
+::photo{src="photos/backPanel.png" style="float: left;  width: 30%;"}
 
-{%- include photo.html 
-    path="photos/fullPack.png"
-    style = "float: left;  width: 30%;"
--%}
+::photo{src="photos/fullPack.png" style="float: left;  width: 30%;"}
 
 Having the avatar available for fit design is also invaluable. Well fitting pack straps have been a crux of design for me, and being able to design them digitally and adjust the fit as needed has made my life much easier. No more guesswork regarding the fitment, nor anxiety about wasting expensive fabrics!
 
@@ -71,35 +55,14 @@ Having the avatar available for fit design is also invaluable. Well fitting pack
 
 Here's a collection of photos from cutting up my materials and stitching everything together. I printed out 1:1 scale pattern pieces for the curved, more complex pieces, and went off of dimensions for the rectangles. With the pattern from CLO-3D and and my model of the pack to guide me along, I was able to get through the fabrication phase much quicker than other packs. Just like the design phase, I put together the Avy pocket first, then the back panel, then sewed on the sides to pull everything together.
 
-{%- include photo.html 
-    path="photos/fab/2.jpg"
-    style="float:left; width:10%;"
--%}
-{%- include photo.html 
-    path="photos/fab/3.jpg"
-    style="float:left; width:10%;"
--%}
+::photo{src="photos/fab/2.jpg" style="float:left; width:10%;"}
+::photo{src="photos/fab/3.jpg" style="float:left; width:10%;"}
 
-{%- include photo.html 
-    path="photos/fab/5.jpg"
-    style="float:left; width:10%;"
--%}
-{%- include photo.html 
-    path="photos/fab/6.jpg"
-    style="float:left; width:10%;"
--%}
-{%- include photo.html 
-    path="photos/fab/8.jpg"
-    style="float:left; width:10%;"
--%}
-{%- include photo.html 
-    path="photos/fab/9.jpg"
-    style="float:left; width:10%;"
--%}
-{%- include photo.html 
-    path="photos/fab/11.jpg"
-    style="float:left; width:10%;"
--%}
+::photo{src="photos/fab/5.jpg" style="float:left; width:10%;"}
+::photo{src="photos/fab/6.jpg" style="float:left; width:10%;"}
+::photo{src="photos/fab/8.jpg" style="float:left; width:10%;"}
+::photo{src="photos/fab/9.jpg" style="float:left; width:10%;"}
+::photo{src="photos/fab/11.jpg" style="float:left; width:10%;"}
 
 ## Use
 

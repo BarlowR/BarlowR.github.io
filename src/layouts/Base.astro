@@ -6,7 +6,7 @@
  * unchanged.
  *
  * Two intentional differences from `_includes/head.html`:
- *  - the LaTeXMathML `<script>` is omitted (math rendering is a later phase);
+ *  - the LaTeXMathML `<script>` is omitted (KaTeX renders math at build time);
  *  - the Google Analytics snippet lives inside `<head>` instead of between
  *    `</head>` and `<body>`, where Jekyll put it. Browsers relocate stray
  *    elements out of that position anyway, so this is a no-op at runtime.
@@ -16,6 +16,9 @@
  */
 import Navigation from '../components/Navigation.astro';
 import '../styles/style.css';
+// Styles for build-time-rendered `$…$` math (rehype-katex). The Jekyll site
+// loaded LaTeXMathML.js on every page for the same job.
+import 'katex/dist/katex.min.css';
 
 interface Props {
   /** Page title; omit on the home page to get the site-level title. */

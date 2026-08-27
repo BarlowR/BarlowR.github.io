@@ -417,3 +417,23 @@ p, ul{
     color: var(--main-dark);
     margin-left: 5%;
 }
+
+/* Ported from the per-instance <style> block in `_includes/cesium_view.html`;
+   the height comes from each map's inline style. */
+.cesium-view {
+  overflow: hidden;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Ensure fullscreen works properly */
+:-webkit-full-screen .cesium-view,
+.cesium-view:-webkit-full-screen {
+  height: 100vh !important;
+  width: 100vw !important;
+}
+
+.cesium-view:fullscreen {
+  height: 100vh !important;
+  width: 100vw !important;
+}

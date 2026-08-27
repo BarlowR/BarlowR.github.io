@@ -23,31 +23,32 @@ etc.
 ## Gear Checklist
 
 <div name="close-spacing">
-{%- include checkbox.html label="Test" -%} 
-{%- include checkbox.html label="Wing" -%}
-{%- include checkbox.html label="Harness" -%}
-{%- include checkbox.html label="Reserve" -%}
-{%- include checkbox.html label="InReach (Charged)" -%}
-{%- include checkbox.html label="Radio W/ PTT (Charged)" -%}
-{%- include checkbox.html label="Phone (Charged)" -%}
-{%- include checkbox.html label="Battery Pack (Charged)" -%}
-{%- include checkbox.html label="2x Charging Cable" -%}
-{%- include checkbox.html label="Gloves" -%}
-{%- include checkbox.html label="Jacket (Weather dependent)" -%}
-{%- include checkbox.html label="Synthetic" -%}
-{%- include checkbox.html label="Parka" -%}
-{%- include checkbox.html label="Shell (Optional)" -%}
-{%- include checkbox.html label="Hat (Weather dependent)" -%}
-{%- include checkbox.html label="Helmet" -%}
-{%- include checkbox.html label="Buff" -%}
-{%- include checkbox.html label="Snacks " -%}
-{%- include checkbox.html label="Cliff Bars" -%}
-{%- include checkbox.html label="Trail Mix (No Nuts)" -%}
-{%- include checkbox.html label="Water" -%}
-{%- include checkbox.html label="Hiking Poles" -%}
-{%- include checkbox.html label="Backpack" -%}
-{%- include checkbox.html label="First Aid Kit" -%}
-{%- include checkbox.html label="Vario " -%}
-{%- include checkbox.html label="Treeline" -%}
+
+::checkbox{label="Test"}
+::checkbox{label="Wing"}
+::checkbox{label="Harness"}
+::checkbox{label="Reserve"}
+::checkbox{label="InReach (Charged)"}
+::checkbox{label="Radio W/ PTT (Charged)"}
+::checkbox{label="Phone (Charged)"}
+::checkbox{label="Battery Pack (Charged)"}
+::checkbox{label="2x Charging Cable"}
+::checkbox{label="Gloves"}
+::checkbox{label="Jacket (Weather dependent)"}
+::checkbox{label="Synthetic"}
+::checkbox{label="Parka"}
+::checkbox{label="Shell (Optional)"}
+::checkbox{label="Hat (Weather dependent)"}
+::checkbox{label="Helmet"}
+::checkbox{label="Buff"}
+::checkbox{label="Snacks "}
+::checkbox{label="Cliff Bars"}
+::checkbox{label="Trail Mix (No Nuts)"}
+::checkbox{label="Water"}
+::checkbox{label="Hiking Poles"}
+::checkbox{label="Backpack"}
+::checkbox{label="First Aid Kit"}
+::checkbox{label="Vario "}
+::checkbox{label="Treeline"}
 </div>
 

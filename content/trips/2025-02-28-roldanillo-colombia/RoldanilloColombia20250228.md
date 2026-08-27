@@ -14,10 +14,7 @@ layout: trip-report
 
 ## 2025-02-28
 
-{%- include photo.html 
-    path="photos/CowOnLaunch.jpg"
-    style="float: right; width:59%;"
--%}
+::photo{src="photos/CowOnLaunch.jpg" style="float: right; width:59%;"}
 
 On the last day of our trip, the mythic Colombia 100km FAI triangle had so far eluded Tom, Kirby, Alex, Barry and I. Our trip had intersected with much damper conditions than we were expecting; Mornings were spent waiting until 11 or 12 for the clouds to rise and hoping that we could get away from the hills. Afternoons were marked with consistent overdevelopment; thunderstorms and rain had shown up nearly every day. The only benefit was that El Pacifico had been uncharacteristically weak, allowing us to get close back to Roldanillo on most days. 
 
@@ -36,10 +33,7 @@ I nearly bombed out on the ridge. I arrived low and scratched to find a climb. I
 
 I pushed full bar upwind from cloud to cloud. I felt like I had won the lottery each time I found the climb underneath. Base had lifted to 2700m, and I scraped the bottom of each cloud before pushing back on glide upwind. At one point, I left a climb too late, and was pulled up into the bottom of the cloud on glide to the west. I was fully engulfed in white, but kept my bearing with my compass and flight instrument. 
 
-{%- include photo.html 
-    path="photos/BigGrin.jpg"
-    style="float: right; width:20%;"
--%}
+::photo{src="photos/BigGrin.jpg" style="float: right; width:20%;"}
 
 After a harrowing 30 seconds of cloud cover, the white room around me got brighter and brighter, taking on a golden hue. I flew out the side of the cloud directly towards the light from the mid-afternoon glow of the sun. 
 
@@ -48,8 +42,4 @@ Eventually the headwind got the best of me, and I found a huge field alongside t
 <hr> 
 
 
-{%- include cesium_view.html
-	gpx_file = "0228.gpx"
-	clamp_to_ground = "false"
-    colored_track = "true"
-	height = "30vw" -%}
+::cesium-view{gpx="0228.gpx" clamp-to-ground="false" colored-track="true" height="30vw"}

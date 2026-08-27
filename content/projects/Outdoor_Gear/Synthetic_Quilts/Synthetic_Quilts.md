@@ -32,35 +32,16 @@ My quilt, the ultralight one, uses a single layer of 3.6oz apex insulation and o
 
 I decided to sew patterns into the top of both quilts. I had a hell of a time lining everything up, even though the panels were all straight cuts. My sewing machine would pull along the slippery fabric of the bottom panel, but the top panel would be held back by the foot, resulting in bunching. I had to hand feed most of it to keep all of the layers in tension together.
 
-{%- include photo.html 
-    path="photos/sewingpanels.jpg"
-    style = "float: left;  width:22%;"
--%}
+::photo{src="photos/sewingpanels.jpg" style="float: left;  width:22%;"}
 
-{%- include photo.html 
-    path="photos/maggiedone.jpg"
-    style = "float: left;  width:22%;"
+::photo{src="photos/maggiedone.jpg" style="float: left;  width:22%;"}
 
--%}
+::photo{src="photos/robdone.jpg" style="float: left;  width:22%;"}
 
-{%- include photo.html 
-    path="photos/robdone.jpg"
-    style = "float: left;  width:22%;"
-
--%}
-
-{%- include photo.html 
-    path="photos/maggieworm.jpg"
-    style = "float: left;  width:22%;"
-
--%}
+::photo{src="photos/maggieworm.jpg" style="float: left;  width:22%;"}
 
 <br>
 ## Use
 I'm very happy with how these turned out. My quilt packs down to roughly the size of a Nalgene bottle, and Maggie's is much, much smaller than her other sleeping bag, while just as warm. After presenting Maggie with her gift, we took a trip to Ventana over New Years's Eve to test it out. We camped overnight alongside a creek where it was damp and 35f overnight. Maggie reported that she was warm and toasty!  
 
-{%- include photo.html 
-    path="photos/maggietrip.jpg"
-    style = "float: left; width: 60%;"
-
--%}
+::photo{src="photos/maggietrip.jpg" style="float: left; width: 60%;"}

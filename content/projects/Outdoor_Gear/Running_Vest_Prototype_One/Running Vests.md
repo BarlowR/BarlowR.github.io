@@ -40,23 +40,11 @@ One of the most useful features I discovered was the customizable avatar. This 3
 After designing the vest, I printed out the patten pieces and make a first pass with some scrap fabric. This was mostly to test out the sizing and the buckle positioning.
 Once I messed around with the positioning of everything enough, I moved on to making the design out of the final materials. I found the rad triangle mesh on aliexpress, and I used stretch mesh for the front and back pockets. I finished the raw edges with green binding 
 
-{%- include photo.html 
-    path="photos/pt1s.jpg"
-    style="float: left; width:30%;"
--%} 
+::photo{src="photos/pt1s.jpg" style="float: left; width:30%;"}
 
-{%- include photo.html 
-    path="photos/pt1.jpg"
-    style="float: left; width:30%;"
--%} 
+::photo{src="photos/pt1.jpg" style="float: left; width:30%;"}
 
 
-{%- include photo.html 
-    path="photos/pt2s.jpg"
-    style="float: left; width:30%;"
--%} 
+::photo{src="photos/pt2s.jpg" style="float: left; width:30%;"}
 
-{%- include photo.html 
-    path="photos/pt2.jpg"
-    style="float: left; width:30%;"
--%} 
+::photo{src="photos/pt2.jpg" style="float: left; width:30%;"}

@@ -44,10 +44,8 @@ While the continuous altitude degradation approach does solve the altitude probl
 
 In their paper [Bounded Rationality and Risk Strategy in Thermal Soaring](https://chessintheair.com/wp-content/uploads/2018/08/BirSaz18.pdf) Bird, Sazhin and Langelaan consider how to balance these two factors. After investigating the topic, they propose a simple flow model that trades these two factors, shown below. 
 
-{%- include photo.html 
-    path="photos/risktrade.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/risktrade.png" style="width:80%;"}
+.
 
 This model makes explicit the pilot's information loop, including obtaining information and assessing the current situation, all an assumed part of the decision making process. The insight they propose is a binary decision between flight modes of "Racing" and "Risk Minimization." 
 
@@ -68,8 +66,6 @@ With these two concepts, we can build a model of speed to fly that factors in ri
 	* A pilot can switch between MC 0 and "Racing Mode" based on their perceived current risk in relation to their predefined risk tolerance.
 	* In "Racing Mode", MC is degraded by perceived risk.
 
-{%- include photo.html 
-    path="photos/MCRiskModel.png"
-    style = "width:40%;"
--%}.
+::photo{src="photos/MCRiskModel.png" style="width:40%;"}
+.
 

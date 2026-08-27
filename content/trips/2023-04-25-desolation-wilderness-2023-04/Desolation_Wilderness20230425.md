@@ -24,9 +24,7 @@ My first plan for this trip was an overnighter out-and-back just to get out and 
 
 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/skiTraverse.gpx"
-	clamp_to_ground = "true" -%}
+::cesium-view{gpx="/content/trips/skiTraverse.gpx" clamp-to-ground="true"}
 	
 
 

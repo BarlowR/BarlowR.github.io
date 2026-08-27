@@ -6,4 +6,4 @@ title: Paragliding Photo Roll
 layout: gallery
 ---
 
-{%- include photo_grid.html imgFolder='/assets/gallery/paragliding' -%}
+::photo-grid{folder="/assets/gallery/paragliding"}

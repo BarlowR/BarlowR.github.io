@@ -24,10 +24,8 @@ The bounding of the MacCready problem is relatively simple- knowing this relatio
 
 MacCready speed to fly is often represented directly as a MacCready (MC) value. This value corresponds to the expected strength of the next climb. For example, "Flying MC 4" means flying MacCready speed to fly for an expected next climb of 4 m/s.
 
-{%- include photo.html 
-    path="photos/MCDiagram.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/MCDiagram.png" style="width:80%;"}
+.
 
 # MacCready Speed to Fly Solution Derivation
 
@@ -36,10 +34,8 @@ The solution for optimal MacCready speed to fly is a function of the strength of
 # MacCready Example Solution
 
 Below for reference is a table for optimal MacCready speed to fly for a high-b paraglider. 
-{%- include photo.html 
-    path="photos/stf_chart.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/stf_chart.png" style="width:80%;"}
+.
 
 # MacCready Interpretation
 ## Does strict MacCready Speed to Fly work? (MacCready Calculation Assumptions)

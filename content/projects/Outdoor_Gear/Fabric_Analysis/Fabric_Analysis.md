@@ -133,7 +133,8 @@ layout: project-post
 <p>
 
 <div id = "plot" style="max-width: 100%; background: white; radius: 5px">
-{% include plot.html %}
+
+::plot{src="plot.html"}
 </div>
 
 
