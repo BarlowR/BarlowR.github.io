@@ -47,6 +47,10 @@ const canonical = new URL(Astro.url.pathname, Astro.site ?? 'https://barlowr.com
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
     <title>{pageTitle}</title>
+    <!-- Icons resized from assets/img/logo.png (new to the Astro port; the
+         Jekyll site had no favicon). -->
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
     <meta property="og:title" content={ogTitle} />
