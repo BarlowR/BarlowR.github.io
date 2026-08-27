@@ -3,7 +3,6 @@ published: true
 category: books
 date: 2025-01-05T12:53:29-08:00
 title: Selected Library
-layout: base
 ---
 
 ## Fiction 

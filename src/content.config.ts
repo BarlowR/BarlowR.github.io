@@ -85,4 +85,16 @@ const posts = defineCollection({
   }),
 });
 
-export const collections = { trips, projects, posts };
+const gallery = defineCollection({
+  loader: glob({
+    base: './content/gallery',
+    pattern: '**/*.md',
+    generateId: idFromSourcePath,
+  }),
+  schema: z.object({
+    ...common,
+    date: z.coerce.date().optional(),
+  }),
+});
+
+export const collections = { trips, projects, posts, gallery };

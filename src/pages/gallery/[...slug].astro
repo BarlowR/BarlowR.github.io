@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { isPublished, galleryPath } from '../../lib/slug';
+
+export const getStaticPaths = (async () => {
+  const pages = await getCollection('gallery', isPublished);
+  return pages.map((entry) => ({
+    params: { slug: galleryPath(entry.id) },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Base title={entry.data.title}>
+  <Content />
+</Base>

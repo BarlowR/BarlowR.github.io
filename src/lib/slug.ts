@@ -87,6 +87,17 @@ export function postUrl(id: string): string {
   return `/posts/${postPath(id)}/`;
 }
 
+/** `/gallery/<name>/` — `gallery_film` -> `film`, matching the navigation links. */
+export function galleryPath(id: string): string {
+  const name = segments(id).pop();
+  if (!name) throw new Error(`Cannot derive a gallery URL from id "${id}"`);
+  return slugify(name.replace(/^gallery_/, ''));
+}
+
+export function galleryUrl(id: string): string {
+  return `/gallery/${galleryPath(id)}/`;
+}
+
 /**
  * Jekyll drops any document with `published: false` from the build entirely, so
  * unpublished entries must never reach a route or the navigation.
