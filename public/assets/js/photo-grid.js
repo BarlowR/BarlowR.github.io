@@ -21,6 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
     let loadedImages = new Set();
     let intersectionObserver;
 
+    // Grid cells use the 640px webp the build generates next to each gallery
+    // image (naming convention shared with src/lib/optimize-images.ts); the
+    // lightbox keeps the full-size original.
+    function thumbUrl(src) {
+        return src.replace(/\.(jpe?g|png)$/i, '_thumb.webp');
+    }
+
     // Performance optimizations
     const debounce = (func, wait) => {
         let timeout;
@@ -41,7 +48,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const link = document.createElement('link');
             link.rel = 'preload';
             link.as = 'image';
-            link.href = imageFiles[i];
+            link.href = thumbUrl(imageFiles[i]);
             document.head.appendChild(link);
         }
     }
@@ -85,12 +92,17 @@ document.addEventListener('DOMContentLoaded', function() {
         };
 
         img.onerror = function() {
+            // Fall back to the original if the thumb is missing.
+            if (this.src.endsWith('_thumb.webp')) {
+                this.src = imageFiles[index];
+                return;
+            }
             console.warn(`Failed to load image: ${imageFiles[index]}`);
             item.style.display = 'none';
         };
 
         // Load the actual image
-        img.src = imageFiles[index];
+        img.src = thumbUrl(imageFiles[index]);
     }
 
     // Create gallery items with placeholders
