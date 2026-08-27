@@ -1,5 +1,5 @@
 ---
-published: true
+published: false
 category: blog_post
 date: 2023-09-20T14:30:38-07:00
 title: Thoughts on Training
