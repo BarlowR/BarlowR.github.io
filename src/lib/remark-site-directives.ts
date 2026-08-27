@@ -50,6 +50,39 @@ function resolveAssetUrl(src: string, file: VFile): string {
   return `${pageBaseUrl(file)}/${src}`;
 }
 
+/**
+ * Raw `<img>` tags in the markdown (only `Fabric_Analysis.md` and the
+ * unpublished `Running Vests.md` have them) carried srcs relative to the
+ * page, which resolved on Jekyll because pages were served from their source
+ * directory. Under the clean URLs they must be absolutized the same way
+ * `::photo` srcs are — and once absolute, they get the same `<picture>`/webp
+ * treatment, since `optimize-images` derives a webp for every content image.
+ * Runs before the directive pass, so HTML this plugin itself emits (photo
+ * markup, inlined plots, the lightbox) is never touched.
+ */
+function rewriteRawImages(value: string, file: VFile): string {
+  return value.replace(/<img\b[^>]*>/gi, (tag) => {
+    const srcMatch = tag.match(/\bsrc\s*=\s*(?:"([^"]*)"|'([^']*)')/i);
+    const src = srcMatch?.[1] ?? srcMatch?.[2];
+    if (!srcMatch || !src || /^[a-z]+:/i.test(src) || src.startsWith('//')) {
+      return tag;
+    }
+    const url = resolveAssetUrl(src, file);
+    let img = tag.replace(srcMatch[0], `src="${escapeHtml(url)}"`);
+    if (!/\bloading\s*=/i.test(img)) {
+      img = img.replace(/^<img\b/i, '<img loading="lazy" decoding="async"');
+    }
+    if (!/\.(jpe?g|png)$/i.test(url)) return img;
+    const webp = url.replace(/\.[^./]+$/, '') + '.webp';
+    return [
+      '<picture>',
+      `<source srcset="${escapeHtml(webp)}" type="image/webp">`,
+      img,
+      '</picture>',
+    ].join('');
+  });
+}
+
 function renderPhoto(attrs: Record<string, string>, file: VFile): string {
   const src = attrs.src ?? '';
   const url = resolveAssetUrl(src, file);
@@ -170,6 +203,9 @@ function renderPlot(attrs: Record<string, string>, file: VFile): string {
 
 export default function remarkSiteDirectives() {
   return (tree: Root, file: VFile) => {
+    visit(tree, 'html', (node) => {
+      node.value = rewriteRawImages(node.value, file);
+    });
     let cesiumCount = 0;
     visit(tree, (node, index, parent) => {
       if (
