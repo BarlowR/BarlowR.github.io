@@ -6,7 +6,7 @@ title: Thoughts on Training
 layout: blog-post
 ---
 
-As a follow up to my writing on [Running around in the Mountains](Running_Around_in_the_Mountains.md), I thought I should write a bit about my training. Physical preparation is a critical piece of the puzzle of safe travel in demanding environments, and more than that, it's so much more enjoyable to really feel strong on adventures. 
+As a follow up to my writing on [Running around in the Mountains](/posts/2023/running-around-in-the-mountains/), I thought I should write a bit about my training. Physical preparation is a critical piece of the puzzle of safe travel in demanding environments, and more than that, it's so much more enjoyable to really feel strong on adventures. 
 
 ### Training & Supercompensation
 

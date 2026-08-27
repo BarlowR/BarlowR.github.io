@@ -61,7 +61,7 @@ Using the time that the pilot passed the "End of Speed Section" (ESS) designated
 
 The October event of the NorCal Sprint League had a great task In Dunlap, CA, with 6 pilots in goal after a ~30km task. The first pilot completed the task in one hour and 5 minutes, and the last pilot completed the task in one hour and 50 mins. All pilots flew generally the same course zig zagging back and forth along the mountain range, so what separated the leaders from the back of the pack? This task provides a great example for comparative analysis using these tools. I've generated an analysis page for this task:
 
-[Dunlap 2025-10-12 Analysis](/competition_report.html)
+[Dunlap 2025-10-12 Analysis](/content/projects/Flying_Better/competition-flight-analysis/competition_report.html)
 
 #### Climb Better
 
