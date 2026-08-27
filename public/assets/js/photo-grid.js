@@ -28,6 +28,12 @@ document.addEventListener('DOMContentLoaded', function() {
         return src.replace(/\.(jpe?g|png)$/i, '_thumb.webp');
     }
 
+    // The lightbox uses the width-capped webp derived from each original
+    // (multi-MB straight off the camera) rather than the original itself.
+    function lightboxUrl(src) {
+        return src.replace(/\.(jpe?g|png)$/i, '.webp');
+    }
+
     // Performance optimizations
     const debounce = (func, wait) => {
         let timeout;
@@ -157,13 +163,13 @@ document.addEventListener('DOMContentLoaded', function() {
         ];
 
         preloadIndexes.forEach(i => {
-            if (!lightboxImg.src.includes(imageFiles[i])) {
+            if (!lightboxImg.src.includes(lightboxUrl(imageFiles[i]))) {
                 const preloadImg = new Image();
-                preloadImg.src = imageFiles[i];
+                preloadImg.src = lightboxUrl(imageFiles[i]);
             }
         });
 
-        lightboxImg.src = imageFiles[index];
+        lightboxImg.src = lightboxUrl(imageFiles[index]);
         lightbox.classList.add('active');
         document.body.style.overflow = 'hidden';
     }
@@ -175,13 +181,20 @@ document.addEventListener('DOMContentLoaded', function() {
 
     function showPrevImage() {
         currentImageIndex = (currentImageIndex - 1 + imageFiles.length) % imageFiles.length;
-        lightboxImg.src = imageFiles[currentImageIndex];
+        lightboxImg.src = lightboxUrl(imageFiles[currentImageIndex]);
     }
 
     function showNextImage() {
         currentImageIndex = (currentImageIndex + 1) % imageFiles.length;
-        lightboxImg.src = imageFiles[currentImageIndex];
+        lightboxImg.src = lightboxUrl(imageFiles[currentImageIndex]);
     }
+
+    // Fall back to the original if a webp derivative is missing.
+    lightboxImg.onerror = function() {
+        if (this.src.endsWith('.webp')) {
+            this.src = imageFiles[currentImageIndex];
+        }
+    };
 
     // Optimized resize handler
     const handleResize = debounce(() => {
