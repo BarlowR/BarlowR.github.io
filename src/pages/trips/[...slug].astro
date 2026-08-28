@@ -1,0 +1,21 @@
+---
+import type { GetStaticPaths } from 'astro';
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import { isPublished, tripPath } from '../../lib/slug';
+
+export const getStaticPaths = (async () => {
+  const trips = await getCollection('trips', isPublished);
+  return trips.map((entry) => ({
+    params: { slug: tripPath(entry.id) },
+    props: { entry },
+  }));
+}) satisfies GetStaticPaths;
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Base title={entry.data.title} publishedTime={entry.data.date}>
+  <Content />
+</Base>

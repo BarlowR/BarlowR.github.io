@@ -10,29 +10,17 @@ layout: project-post
 ---
 
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>XCTSK Tools</title>
-</head>
-<body>
-    <h2>XCTSK Tools</h2>
-    
+<h2>XCTSK Tools</h2>
 
-     <h4> Create KML tasks from .xctsk files </h4>
-    <input type="file" id="fileInputTsk" accept=".xctsk" />
-    <button id="processBtnTsk" onclick="processFileTsk()" disabled>Process Task</button>
-    
-    <div id="outputTsk"></div>
+<h4> Create KML tasks from .xctsk files </h4>
+<input type="file" id="fileInputTsk" accept=".xctsk" />
+<button id="processBtnTsk" onclick="processFileTsk()" disabled>Process Task</button>
 
-    <script type="text/javascript" src="/content/projects/Flying_Better/XCTSK_Tools/xctsk_analysis_tooling.js"></script>
+<div id="outputTsk"></div>
 
-    <br>
-    <a href = "https://github.com/BarlowR/igc-tools"> GitHub Repo here</a>.
+<script type="text/javascript" src="/content/projects/Flying_Better/XCTSK_Tools/xctsk_analysis_tooling.js"></script>
 
-    
-</body>
-</html>
+<br>
+<a href = "https://github.com/BarlowR/igc-tools"> GitHub Repo here</a>.
 
 

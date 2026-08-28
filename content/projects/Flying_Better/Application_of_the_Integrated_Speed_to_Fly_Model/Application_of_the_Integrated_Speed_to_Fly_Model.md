@@ -9,7 +9,7 @@ layout: gallery
 ## Application of the Integrated Speed to Fly Model
 2025-01-05
 
-Let's look at a few examples of application of the system described in [Balancing Speed to Fly and Risk Tolerance](/content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance) for three different pilots. 
+Let's look at a few examples of application of the system described in [Balancing Speed to Fly and Risk Tolerance](/projects/flying-better/balancing-speed-to-fly-risk-tolerance/) for three different pilots. 
 ## Pilot 1
 Traits: 
 * Just starting to use full range of their speed bar 
@@ -121,7 +121,7 @@ layout: project-post
 ## Application of the Integrated Speed to Fly Model
 2025-01-05
 
-Let's look at a few examples of application of the system described in [Balancing Speed to Fly and Risk Tolerance](/content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance) for three different pilots. 
+Let's look at a few examples of application of the system described in [Balancing Speed to Fly and Risk Tolerance](/projects/flying-better/balancing-speed-to-fly-risk-tolerance/) for three different pilots. 
 ## Pilot 1
 Traits: 
 * Just starting to use full range of their speed bar 

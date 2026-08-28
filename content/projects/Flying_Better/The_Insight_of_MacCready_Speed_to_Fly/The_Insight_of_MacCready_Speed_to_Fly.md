@@ -24,22 +24,18 @@ The bounding of the MacCready problem is relatively simple- knowing this relatio
 
 MacCready speed to fly is often represented directly as a MacCready (MC) value. This value corresponds to the expected strength of the next climb. For example, "Flying MC 4" means flying MacCready speed to fly for an expected next climb of 4 m/s.
 
-{%- include photo.html 
-    path="photos/MCDiagram.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/MCDiagram.png" style="width:80%;"}
+.
 
 # MacCready Speed to Fly Solution Derivation
 
-The solution for optimal MacCready speed to fly is a function of the strength of the next expected climb. (Note: It's also a function of wind the pilot is flying in and the current sink rate, but we'll leave those aside for now). For a mathematical derivation, see the page on [MacCready Derivation](/content/projects/Flying_Better/MacCready_Speed_to_Fly_Derivation/MacCready_Speed_to_Fly_Derivation).
+The solution for optimal MacCready speed to fly is a function of the strength of the next expected climb. (Note: It's also a function of wind the pilot is flying in and the current sink rate, but we'll leave those aside for now). For a mathematical derivation, see the page on [MacCready Derivation](/projects/flying-better/maccready-speed-to-fly-derivation/).
 
 # MacCready Example Solution
 
 Below for reference is a table for optimal MacCready speed to fly for a high-b paraglider. 
-{%- include photo.html 
-    path="photos/stf_chart.png"
-    style = "width:80%;"
--%}.
+::photo{src="photos/stf_chart.png" style="width:80%;"}
+.
 
 # MacCready Interpretation
 ## Does strict MacCready Speed to Fly work? (MacCready Calculation Assumptions)
@@ -120,7 +116,7 @@ Another important consideration is that one needs to continually re-apprise the 
 
 Once MC number is guessed, the next information to consider is what regime the pilot would like to be flying in. MC number should never be more than the pilot's best guess at the known strength of the next reachable climb (this just results in lost time and altitude), but it can be purposely degraded. Remember that MC sets the relationship between time and altitude; if one values altitude more than time, MC can be degraded. For example, if a pilot is on a long XC flight traversing remote terrain, dropping the MC number is appropriate to fly more conservatively. Degrading MC is also appropriate for newer pilots still learning where to find thermals. In competition, some pilots chose to begin their final glide into goal at MC 0 no matter what the conditions, to guarantee they will make it. 
 
-Risk posture is the final factor. This is examined in further detail in [Balancing MacCready Regime & Risk Tolerance](/content/projects/Flying_Better/Balancing_Speed_to_Fly_&_Risk_Tolerance/Balancing_Speed_to_Fly_&_Risk_Tolerance).
+Risk posture is the final factor. This is examined in further detail in [Balancing MacCready Regime & Risk Tolerance](/projects/flying-better/balancing-speed-to-fly-risk-tolerance/).
 
 ### Bonus: Gliding in headwind, tailwind, lift and sink
 

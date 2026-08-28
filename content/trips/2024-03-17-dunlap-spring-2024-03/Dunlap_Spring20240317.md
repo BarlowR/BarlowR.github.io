@@ -17,7 +17,7 @@ Spring had sprung in the foothills of the Sierra, or at least that's what Thorin
 
 The weather was shaping up for an amazing weekend of flying on the 17th and the 18th, and so I wrangled a group of my paragliding friends to make a trip out to Dunlap. Luigi, Nick, Muuo and I all made the long drive out on Friday night to "Spencer's Place," a campground which is also the official LZ for the site. Nick and I carpooled, and arrived just around 10pm. 
 
-In true spring fashion, nights were freezing cold. I slept in my car, wrapped up in all my layers and my [lightweight quilt](/content/projects/Outdoor_Gear/Synthetic_Quilts/Synthetic_Quilts). While I was warm enough, it would be a stretch to say I was comfortable. Maybe I'm just getting soft. Morning brought sunlight, and as soon as I was awake I made a trip to the tiny coffee shop in town to warm up and refresh my knowledge of "Thermal Flying". 
+In true spring fashion, nights were freezing cold. I slept in my car, wrapped up in all my layers and my [lightweight quilt](/projects/outdoor-gear/synthetic-quilts/). While I was warm enough, it would be a stretch to say I was comfortable. Maybe I'm just getting soft. Morning brought sunlight, and as soon as I was awake I made a trip to the tiny coffee shop in town to warm up and refresh my knowledge of "Thermal Flying". 
 
 ---
 ### Day 1
@@ -38,11 +38,7 @@ I sent a message to our group to arrange a retrieve and started hiking out to th
 
 Luigi picked me up, and then we drove further into the backcountry. As it turns out, Nick had flown over me on the ridge and crossed the outlet of the reservoir! Once we found him in the valley on the other side, we all drove back to camp. 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_1.gpx"
-	clamp_to_ground = "false"
-	colored_track = "true"
-	height = "40vw" -%}
+::cesium-view{gpx="/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_1.gpx" clamp-to-ground="false" colored-track="true" height="40vw"}
 
 Muuo left that evening, and the weather the next day wasn't looking nearly as good. I nearly left as well. The 18th was forecasted to be southwest with 5000' TOL. I went on a run to think about it, and eventually decided to stay.
 
@@ -77,9 +73,4 @@ Nick was a saint, and had gathered our things and drove my car from Dunlap over 
 Before heading out, I wanted to check in on Scott and Sasha. I saw quickly that Sasha had been picked up, but there were no signs of Scott. I knew that he had likely landed in an area without cell service, and we didn't have any InReach info for him. After a nerve-wracking 30 mins, I eventually was able to get a hold of Spencer at the campground, who had talked with his wife. He had landed safely, and they were going to get him. 
 
 
-{%- include cesium_view.html
-	gpx_file = "/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_2.gpx"
-	clamp_to_ground = "false"
-	height = "40vw"
-	colored_track = "true"
-	num = 2 -%}
+::cesium-view{gpx="/content/trips/2024-03-17-dunlap-spring-2024-03/dunlap_2024_spring_day_2.gpx" clamp-to-ground="false" colored-track="true" height="40vw"}

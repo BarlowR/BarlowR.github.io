@@ -1,0 +1,11 @@
+---
+/** The Selected Library page: renders the repo-root `books.md` (Jekyll's
+ * `/books.html`) at the `/books/` URL the navigation links to. The markdown
+ * goes through the site pipeline, so its `::book` directives render. */
+import Base from '../layouts/Base.astro';
+import { Content, frontmatter } from '../../books.md';
+---
+
+<Base title={frontmatter.title}>
+  <Content />
+</Base>

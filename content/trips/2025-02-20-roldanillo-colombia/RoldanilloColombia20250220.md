@@ -19,10 +19,7 @@ Barry, Barry's wife Tess, Kirby and I decided to hike up to launch. We met up at
 
 We started the hike on the road. Around two miles in, where the trail diverged from the road on the map, we found nothing but a cow feeding stall behind a barbed wire fence. After some searching, we spotted what appeared to be a cow path leading away from the stall. This was where the trail was marked on the map. In the spirit of adventure, we decided to try following it.
 
-{%- include photo.html 
-    path="photos/KirbyEmerges.jpg"
-    style="float: right; width:59%;"
--%}
+::photo{src="photos/KirbyEmerges.jpg" style="float: right; width:59%;"}
 
 The trail meandered its way around the hillside, intersecting and diverging from other, less trod cow paths. A gate on the far side of the pasture put us in deep brush between two more barbed wire fences, seeming to indicate that the trail continued despite the defined path slowly petering out. Barry was gung-ho to continue, and we followed him through bushes, streams, and underbrush that caused a couple of us to get itchy scratches on our bare legs.
 
@@ -32,10 +29,7 @@ The trail had been slowly climbing the canyon. Before the ridge to launch, it do
 
 After the river crossing, the trail maintained its elevation on the ridgeline, contrary to the map. What we needed to do, and what the map showed, was a climb up the ridgeline. On our right, up the ridge, was a well trodden cow pasture. We decided to try our luck hiking up through the pasture. 
 
-{%- include photo.html 
-    path="photos/CowEncounter.jpg"
-    style="float: right; width:59%;"
--%}
+::photo{src="photos/CowEncounter.jpg" style="float: right; width:59%;"}
 
 At a crest on the ridge pasture, we were met with two cows and an electric fence gate leading to a cow feeding area. Unfortunately for us, the map showed the road up to launch on the other side of the feed stall. We crossed the gate, being sure not to let the cows through behind us, and found that the feed stall between us and the road was around 6" of cow shit mud. We all did our best to try to find the least bad path through, but all of our shoes were casualties to the cause.
 

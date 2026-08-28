@@ -41,13 +41,13 @@ layout: project-post
 <p>
     I developed this database in parallel to determining the optimization equations below, and I've chosen 7 required datapoints on each fabric to include in the database. These datapoints are based on the availability of information that I was able to find, and the different use optimization for each use case. These categories are listed below:
 
-    <h4> Weight, in Oz/Yard </h4>
-    <h4> Cost, in $/Yard  </h4>
-    <h4> Tear Strength, in N </h4>
-    <h4> Air Permeability from ASTM D 737, in CFM </h4>
-    <h4> Hydrostatic Head, from AATCC 127, in mm H20 </h4>
-    <h4> Abrasion Resistance, from ASTM D 3884, in number of cycles </h4>
-    <h4> Downproof, Yes/No </h4>
+<h4> Weight, in Oz/Yard </h4>
+<h4> Cost, in $/Yard  </h4>
+<h4> Tear Strength, in N </h4>
+<h4> Air Permeability from ASTM D 737, in CFM </h4>
+<h4> Hydrostatic Head, from AATCC 127, in mm H20 </h4>
+<h4> Abrasion Resistance, from ASTM D 3884, in number of cycles </h4>
+<h4> Downproof, Yes/No </h4>
 </p>
 <p>
     Unfortunately, unified testing information seems to be very sparsely available. When testing information even is available, different vendors use different standards, and don't report all testing results across all fabrics. This has made it quite difficult to build up a comprehensive database across all available fabrics. For example, <a href = "https://ripstopbytheroll.com/collections/robic/products/210d-robic-ripstop-nylon?variant=22413462994992"> 210D ROBIC Ripstop </a> has no publicly available information anywhere regarding even something as simple as tear strength, and this is the rule, not the exception. This has significantly limited the current database to the fabrics for which I was able to get substantiated information. 
@@ -133,7 +133,8 @@ layout: project-post
 <p>
 
 <div id = "plot" style="max-width: 100%; background: white; radius: 5px">
-{% include plot.html %}
+
+::plot{src="plot.html"}
 </div>
 
 

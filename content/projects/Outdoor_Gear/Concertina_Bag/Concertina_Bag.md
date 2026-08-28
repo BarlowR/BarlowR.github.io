@@ -18,10 +18,7 @@ layout: project-post
 Somehow I've managed to accumulate 5 different paragliding wings. Unfortunately I only have one [concertina bag](https://flybubble.com/bags/concertina-packing-bags), so most of them are just stored loosely. I had a bit of free time and some spare fabric a while ago, so I decided to throw one together. 
 I roughly decided dimensions of 14"x27"x3", with 3" radius curves on the largest faces. I used 1.1 ripstop for the long wing collection (name?) part.
 
-{%- include photo.html 
-    path="photos/con.jpg"
-    style = "float: right"
--%}
+::photo{src="photos/con.jpg" style="float: right"}
 
 <br>
 ## Fabrication Notes

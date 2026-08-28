@@ -1,12 +1,12 @@
 ---
-published: true
+published: false
 category: blog_post
 date: 2023-09-20T14:30:38-07:00
 title: Thoughts on Training
 layout: blog-post
 ---
 
-As a follow up to my writing on [Running around in the Mountains](Running_Around_in_the_Mountains.md), I thought I should write a bit about my training. Physical preparation is a critical piece of the puzzle of safe travel in demanding environments, and more than that, it's so much more enjoyable to really feel strong on adventures. 
+As a follow up to my writing on [Running around in the Mountains](/posts/2023/running-around-in-the-mountains/), I thought I should write a bit about my training. Physical preparation is a critical piece of the puzzle of safe travel in demanding environments, and more than that, it's so much more enjoyable to really feel strong on adventures. 
 
 ### Training & Supercompensation
 
@@ -14,10 +14,7 @@ My understanding and approach to training is based on the [supercompensation](ht
 
 
 Say you go on a 1 mile run:
-{%- include photo.html 
-    path="photos/supercomposition.png"
-    style="float: right; width:39%;"
--%} 
+::photo{src="photos/supercomposition.png" style="float: right; width:39%;"}
 
 * Shortly after the run, it will be harder to run 1 mile (you've stressed your body's "running system").
 * A few days after going on the run, when you've properly recovered ([with proper sleep and nutrition](Sleep_and_Nutrition.md)), it will be slightly easier to run for 1 mile. 
@@ -26,10 +23,7 @@ Say you go on a 1 mile run:
 
 The plot to the right shows an approximated supercompensation curve. This idea can be applied to any sort of physical (or even mental) activity: aerobic training, endurance training, strength training, power training, etc. etc. 
 
-{%- include photo.html 
-    path="photos/long-supercomposition.png"
-    style="float: left; width:39%;"
--%} 
+::photo{src="photos/long-supercomposition.png" style="float: left; width:39%;"}
 
 Training takes advantage of the increased period of fitness after recovery. By performing another training session during this period, supercompensation will occur again, raising one's fitness even higher after recovery. By performing training sessions with consistency, one can raise their fitness gradually over time. Once again, this is applicable to any of the body's physical systems. Different systems have different required stresses and periods of supercompensation; for example, tendons and ligaments take longer to recover and supercompensate compared to fast-twitch muscles, but will take much longer to detrain.
 

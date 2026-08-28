@@ -16,10 +16,7 @@ A year has passed since I first learned to paraglide! Last May I took 2 weeks of
 
 I made it to the training hill on Sunday morning after deep cleaning my apartment and driving most of the way down the coast on Saturday. I met Naasha there, and we caught up on our past years. Thorin was there as well! We learned at the same time last year, and I keep bumping into him through flying. He's now flying a ton at Tollhouse, and he invited me to come out and fly there. 
 
-{%- include photo.html 
-    path="photos/VOR.jpg"
-    style="float: right; width:61%;"
--%}
+::photo{src="photos/VOR.jpg" style="float: right; width:61%;"}
 
 We spent the morning flying the training hill, which sat under a thick layer of clouds. Around 1pm, we heard word that VOR might be on, so we all piled in 2 cars (Along with Will, a recent P2) to scope out a mountain flight. When we arrived on launch, the LZ was obscured by that same thick layer of clouds, with the northern edge pulsing forward and receding just enough to make a flight look possible if we waited. Cycles passed through, bringing the wind in a favorable direction, but the prevailing wind seemed to be primarily from the north. We sat on launch for an hour or so before deciding to call it and drive back down. The cloud layer cleared, but it seemed it was due mostly to the winds from the north. The possibility of rotor down the south side was enough to make the flight a no-go. 
 
@@ -29,10 +26,7 @@ Monday, we spent the whole day flying the training hill. In the afternoon, the s
 
 Naasha was kind enough to let me use her shower after flying, which made a world of a difference, but I was still a wheezing mess the rest of the day. I spent a little while hanging out with her at the Eagle shop while she inspected a glider and packed up shipments for the shop. I tried my hand at playing [Down in the Valley](https://www.youtube.com/watch?v=2iSQGWpy0qY), but it was almost comical when I tried to sing.
 
-{%- include photo.html 
-    path="photos/FogLake.jpg"
-    style="float: left; width:39%;"
--%}
+::photo{src="photos/FogLake.jpg" style="float: left; width:39%;"}
 
 I scoped out the UCSB library as a hang-out spot, but stumbled upon graduation celebrations in full swing and bailed. The visitor parking lot was completely filled, and I was stuck in campus traffic for nearly 20 minutes just driving in and out. 
 

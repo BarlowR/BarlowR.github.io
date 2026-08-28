@@ -5,7 +5,7 @@ date: 2024-11-25T13:52:48-08:00
 title: "Sisyphus 2: Doing Hard Things"
 layout: blog-post
 ---
-*Continued from [Sisyphus](/content/posts/Nov/Sisyphus)
+*Continued from [Sisyphus](/posts/2024/sisyphus/)
 
 
 * Grappling with difficulty builds skills for other areas of life

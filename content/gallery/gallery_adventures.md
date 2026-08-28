@@ -6,4 +6,4 @@ title: Adventure Photo Roll
 layout: gallery
 ---
 
-{%- include photo_grid.html imgFolder='/assets/gallery/adventures' -%}
+::photo-grid{folder="/assets/gallery/adventures"}
