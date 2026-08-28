@@ -36,6 +36,3 @@ Lindsey, Dan Z, Brian Cooper, John Toasti, and Drew were all in the landing fiel
 
 
 ::cesium-view{gpx="/content/trips/2024-07-20-slide-xc-league-day-2-2024-07/Slide.gpx" clamp-to-ground="false" colored-track="true" height="40vw"}
-
-
-```

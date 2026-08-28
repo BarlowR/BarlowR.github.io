@@ -2,8 +2,8 @@
  * Renders the site's markdown directives to the same HTML the Jekyll includes
  * produced (`_includes/photo.html`, `checkbox.html`, `book.html`,
  * `cesium_view.html`, `photo_grid.html`, `plot.html`). Content was converted
- * from `{%- include foo.html … -%}` Liquid tags to remark-directive syntax by
- * `scripts/convert-includes.mjs`; this plugin is the render half of that pair.
+ * from `{%- include foo.html … -%}` Liquid tags to remark-directive syntax
+ * during the Astro port; this plugin renders those directives.
  *
  * Directives:
  *   ::photo{src="photos/x.jpg" style="…" alt="…"}
@@ -251,7 +251,19 @@ export default function remarkSiteDirectives() {
           replacement = [{ type: 'html', value: renderPlot(attrs, file) }];
           break;
         default:
-          // Unknown directives (including stray `::` text) are left alone.
+          // Unknown text directives are prose that happens to contain a colon
+          // (`6:1` parses as text "6" + directive ":1"). Restore the literal
+          // source text; Astro would otherwise render the node as an empty div.
+          if (directive.type === 'textDirective') {
+            const { start, end } = directive.position ?? {};
+            const source =
+              start?.offset != null && end?.offset != null
+                ? String(file.value).slice(start.offset, end.offset)
+                : `:${directive.name}`;
+            replacement = [{ type: 'text', value: source } as RootContent];
+            break;
+          }
+          // Unknown block directives are left alone.
           return;
       }
 
