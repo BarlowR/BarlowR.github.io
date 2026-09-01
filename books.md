@@ -8,10 +8,6 @@ title: Selected Library
 ## Fiction 
 <hr>
 
-:::book{title="East of Eden" author="John Steinbeck"}
-I've had a hard time reconciling John Steinbeck's personal shortcomings with his fiction writing; the empathy, care and sensitivity shown in East of Eden and his other work seem to be at odds with reports of the violence and cruelty in his personal life. Nonetheless, I consider this a beautiful novel.
-:::
-
 ::book{title="Cat’s Eye" author="Margaret Atwood"}
 
 ::book{title="Infinite Jest" author="David Foster Wallace"}
@@ -19,8 +15,8 @@ I've had a hard time reconciling John Steinbeck's personal shortcomings with his
 ::book{title="Lord of the Rings (The Hobbit, LOTR Trilogy, The Silmarillion, etc.)" author="J.R.R. Tolkien"}
 
 :::book{title="Siddhartha" author="Herman Hesse"}
-This could be argued to be in the Essay/Philosophy section. I read this first in my high school English class and have reread it many times since. An insightful question asked by my teacher at the time: Hesse was a German-Swiss poet and novelist. What was he trying to convey in this novel, and why did he choose the story of the Buddha as its conduit?
-:::
+
+<hr>
 
 ## Short Fiction
 <hr>
@@ -35,8 +31,6 @@ This could be argued to be in the Essay/Philosophy section. I read this first in
 <hr>
 
 :::book{title="Figuring" author="Maria Popova"}
-Likely my favorite piece of writing of all time. Popova weaves a beautiful web of human connection underlying the communities of art, literature, and science, beginning with Johannes Kepler in the 16th century and continuing up to the modern era. The book reads as an exploration, leaving theses and conclusions to be drawn by the reader.
-:::
 
 ::book{title="Me Talk Pretty One Day" author="David Sedaris"}
 

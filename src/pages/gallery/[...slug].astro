@@ -2,6 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import PhotoGrid from '../../components/PhotoGrid.astro';
 import { isPublished, galleryPath } from '../../lib/slug';
 
 export const getStaticPaths = (async () => {
@@ -18,4 +19,5 @@ const { Content } = await render(entry);
 
 <Base title={entry.data.title}>
   <Content />
+  {entry.data.photos && <PhotoGrid folder={entry.data.photos} />}
 </Base>

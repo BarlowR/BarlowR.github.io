@@ -1,0 +1,107 @@
+---
+/**
+ * Photo grid for the gallery pages. Lists the folder's images at render time,
+ * newest first by the date the photo was taken, and hands the list to
+ * `photo-grid.js` as JSON.
+ *
+ * "Date taken" is resolved in this order:
+ *   1. A `YYYYMMDD` or `YYYYMMDD_HHMMSS` stamp anywhere in the filename. Phone
+ *      exports are named this way, and it survives the EXIF stripping that
+ *      happens on the way through messaging apps. It also beats EXIF for edited
+ *      copies, whose EXIF timestamp is the edit, not the capture.
+ *   2. EXIF `DateTimeOriginal` (or `DateTime`) read from the file.
+ *   3. Nothing: undated photos (film scans) sort after the dated ones, by
+ *      filename, newest name first.
+ * Renaming a file is therefore the way to pin its place in the grid.
+ *
+ * This deliberately lives in a component rather than in the markdown, because
+ * Astro caches rendered markdown by the markdown file's content: a photo grid
+ * listed from inside a remark directive would not notice new photos until the
+ * markdown changed or the cache was cleared with `--force`. Pages, by contrast,
+ * are rendered fresh on every dev request and every build.
+ */
+import fs from 'node:fs';
+import path from 'node:path';
+import sharp from 'sharp';
+import exifReader from 'exif-reader';
+
+interface Props {
+  /** Site-absolute folder, e.g. `/assets/gallery/film`. */
+  folder: string;
+}
+
+const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.gif', '.webp']);
+
+/** `20250721_154814.jpg`, `IMG_20251204_162917_320-EDIT (1).jpg`, `20250721.jpg`. */
+const NAME_STAMP = /(20\d{2})(\d{2})(\d{2})(?:_(\d{2})(\d{2})(\d{2}))?/;
+
+function dateFromName(name: string): number | null {
+  const m = NAME_STAMP.exec(name);
+  if (!m) return null;
+  const [, y, mo, d, h = '0', mi = '0', s = '0'] = m;
+  const t = Date.UTC(+y, +mo - 1, +d, +h, +mi, +s);
+  return Number.isNaN(t) ? null : t;
+}
+
+// EXIF reads hit the disk, so remember them across dev requests, keyed by mtime
+// so a replaced file is re-read.
+const exifCache = new Map<string, { mtimeMs: number; taken: number | null }>();
+
+async function dateFromExif(file: string): Promise<number | null> {
+  const { mtimeMs } = fs.statSync(file);
+  const cached = exifCache.get(file);
+  if (cached && cached.mtimeMs === mtimeMs) return cached.taken;
+  let taken: number | null = null;
+  try {
+    const { exif } = await sharp(file).metadata();
+    if (exif) {
+      const tags = exifReader(exif);
+      const date = tags.Photo?.DateTimeOriginal ?? tags.Image?.DateTime;
+      if (date instanceof Date && !Number.isNaN(date.getTime())) taken = date.getTime();
+    }
+  } catch {
+    // Unreadable or EXIF-less file: treated as undated.
+  }
+  exifCache.set(file, { mtimeMs, taken });
+  return taken;
+}
+
+const folder = Astro.props.folder.replace(/\/$/, '');
+const dir = path.join(process.cwd(), ...folder.split('/'));
+const names = fs
+  .readdirSync(dir)
+  .filter((name) => IMAGE_EXTENSIONS.has(path.extname(name).toLowerCase()));
+
+const dated = await Promise.all(
+  names.map(async (name) => ({
+    name,
+    taken: dateFromName(name) ?? (await dateFromExif(path.join(dir, name))),
+  })),
+);
+
+const byName = (a: string, b: string) => (a < b ? 1 : a > b ? -1 : 0);
+dated.sort((a, b) => {
+  if (a.taken !== null && b.taken !== null) return b.taken - a.taken || byName(a.name, b.name);
+  if (a.taken !== null) return -1;
+  if (b.taken !== null) return 1;
+  return byName(a.name, b.name);
+});
+
+const images = dated.map(({ name }) => `${folder}/${name}`);
+---
+
+<div class="gallery-container">
+  <div id="gallery" class="gallery" data-images={JSON.stringify(images)}></div>
+</div>
+
+<div id="lightbox" class="lightbox">
+  <div class="lightbox-content">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-image" id="lightbox-img" src="" alt="" />
+    <div class="lightbox-nav">
+      <div class="lightbox-prev">&lt;</div>
+      <div class="lightbox-next">&gt;</div>
+    </div>
+  </div>
+</div>
+<script is:inline src="/assets/js/photo-grid.js" defer></script>

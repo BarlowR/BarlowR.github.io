@@ -10,7 +10,6 @@
  *   ::checkbox{label="…"}
  *   ::book{title="…" author="…" description="…"}   — or :::book with a body
  *   ::cesium-view{gpx="0217.gpx" clamp-to-ground="false" colored-track="true" height="30vw"}
- *   ::photo-grid{folder="/assets/gallery/film"}
  *   ::plot{src="plot.html"}                         — inlines the file verbatim
  *
  * Relative `src`/`gpx` paths resolve against the markdown file's own directory
@@ -163,38 +162,6 @@ function renderCesiumView(
   return firstOnPage ? `${CESIUM_HEAD}\n${div}` : div;
 }
 
-const IMAGE_EXTENSIONS = new Set(['.jpg', '.jpeg', '.png', '.gif', '.webp']);
-
-/** Mirrors `photo_grid.html`: list the folder's images, name-sorted, newest-name
- * first. The folder is a repo-root-relative URL path (`/assets/gallery/film`). */
-function renderPhotoGrid(attrs: Record<string, string>, file: VFile): string {
-  const folder = attrs.folder ?? attrs.imgFolder ?? '/assets/gallery';
-  const dir = path.join(file.cwd, ...folder.split('/'));
-  const images = fs
-    .readdirSync(dir)
-    .filter((name) => IMAGE_EXTENSIONS.has(path.extname(name).toLowerCase()))
-    .sort()
-    .reverse()
-    .map((name) => `${folder.replace(/\/$/, '')}/${name}`);
-  return [
-    '<div class="gallery-container">',
-    `    <div id="gallery" class="gallery" data-images="${escapeHtml(JSON.stringify(images))}"></div>`,
-    '</div>',
-    '',
-    '<div id="lightbox" class="lightbox">',
-    '    <div class="lightbox-content">',
-    '        <span class="lightbox-close">&times;</span>',
-    '        <img class="lightbox-image" id="lightbox-img" src="" alt="">',
-    '        <div class="lightbox-nav">',
-    '            <div class="lightbox-prev">&lt;</div>',
-    '            <div class="lightbox-next">&gt;</div>',
-    '        </div>',
-    '    </div>',
-    '</div>',
-    '<script src="/assets/js/photo-grid.js" defer></script>',
-  ].join('\n');
-}
-
 /** Inline an HTML partial that lives next to the markdown file. */
 function renderPlot(attrs: Record<string, string>, file: VFile): string {
   const src = attrs.src ?? 'plot.html';
@@ -243,9 +210,6 @@ export default function remarkSiteDirectives() {
           replacement = [
             { type: 'html', value: renderCesiumView(attrs, file, cesiumCount++ === 0) },
           ];
-          break;
-        case 'photo-grid':
-          replacement = [{ type: 'html', value: renderPhotoGrid(attrs, file) }];
           break;
         case 'plot':
           replacement = [{ type: 'html', value: renderPlot(attrs, file) }];

@@ -94,6 +94,8 @@ const gallery = defineCollection({
   schema: z.object({
     ...common,
     date: z.coerce.date().optional(),
+    /** Site-absolute folder whose images fill the page's photo grid (`/assets/gallery/film`). */
+    photos: z.string().optional(),
   }),
 });
 

@@ -24,17 +24,9 @@ const projectEntries = (await getCollection('projects', isPublished))
   .filter((entry) => entry.data.category === 'project')
   .sort((a, b) => (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
 
-// The rendered Jekyll site listed categories as "Active Flying", "Outdoor Gear",
-// "Web Utilities" — i.e. alphabetically. (Liquid's `uniq` preserved Jekyll's
-// filesystem read order, which is not reproducible; sorting is deterministic and
-// produces the same result for the current content.)
-const categoryNames = [
-  ...new Set(
-    projectEntries
-      .map((entry) => entry.data.project_category)
-      .filter((name): name is string => Boolean(name)),
-  ),
-].sort();
+// Only these project categories appear in the sidebar, in this order. Other
+// categories (e.g. "Outdoor Gear", "Web Utilities") still build, but are not linked.
+const categoryNames = ['Active Flying'];
 
 interface ProjectGroup {
   name: string;
@@ -84,31 +76,26 @@ for (const entry of tripEntries) {
 ---
 
 <div class="navigation-menu">
-  <div class="navigation-category accordion"> Projects</div>
-  <div class="project-categories accordion-sub">
-    {
-      projectCategories.map((category) => (
-        <Fragment>
-          <div class="navigation-subcategory accordion"> {category.name} </div>
-          <div class="projects accordion-sub">
-            {category.groups.map((group) => (
-              <div class="navigation-subcategory">
-                {group.posts.map((post) => (
-                  <a class="accordion-leaf" href={projectUrl(post.id)}> {post.data.title} </a>
-                ))}
-              </div>
-            ))}
-          </div>
-        </Fragment>
-      ))
-    }
-    <div class="navigation-subcategory accordion"> Micro Soaring </div>
-    <div class="projects accordion-sub">
-      <div class="navigation-subcategory">
-        <a class="accordion-leaf" href="http://microsoaring.barlowr.com"> Micro Soaring Game </a>
-      </div>
-    </div>
+  <div>
+    <a class="navigation-category" href="https://portfolio.barlowr.com">Portfolio</a>
   </div>
+
+  {
+    projectCategories.map((category) => (
+      <Fragment>
+        <div class="navigation-category accordion">{category.name}</div>
+        <div class="projects accordion-sub">
+          {category.groups.map((group) => (
+            <div class="navigation-subcategory">
+              {group.posts.map((post) => (
+                <a class="accordion-leaf" href={projectUrl(post.id)}> {post.data.title} </a>
+              ))}
+            </div>
+          ))}
+        </div>
+      </Fragment>
+    ))
+  }
 
   <div class="navigation-category accordion">Trip Reports</div>
   <div class="trips accordion-sub">
@@ -127,14 +114,9 @@ for (const entry of tripEntries) {
   </div>
 
   <div>
-    <a class="navigation-category" href="/books/">Selected Library</a>
-  </div>
-
-  <div>
     <a class="navigation-category accordion">Photo Roll</a>
     <div class="photo-roll accordion-sub">
       <a class="accordion-leaf" href="/gallery/film/"> Film </a>
-      <a class="accordion-leaf" href="/gallery/life/"> Life </a>
       <a class="accordion-leaf" href="/gallery/adventures/"> Adventures </a>
       <a class="accordion-leaf" href="/gallery/paragliding/"> Paragliding </a>
     </div>
