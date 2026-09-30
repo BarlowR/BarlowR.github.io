@@ -1,0 +1,31 @@
+---
+/**
+ * XC task to KML converter at `/xctaskkml/`.
+ *
+ * Formerly the "XCTSK Tools" project post at
+ * `/projects/flying-better/xctsk-tools/`; it is a standalone utility rather
+ * than a write-up, so it lives at a short top-level URL instead of under the
+ * projects collection. The parsing/export logic is in
+ * `public/assets/js/xctsk-analysis-tooling.js`, loaded as a classic script
+ * because the button's inline `onclick` needs `processFileTsk` on `window`.
+ */
+import Base from '../layouts/Base.astro';
+---
+
+<Base
+  title="XC Task to KML"
+  description="Convert paragliding competition .xctsk task files into KML with turnpoint cylinders and course lines."
+>
+  <h2>XC Task to KML</h2>
+
+  <h4>Create KML tasks from .xctsk files</h4>
+  <input type="file" id="fileInputTsk" accept=".xctsk" />
+  <button id="processBtnTsk" onclick="processFileTsk()" disabled>Process Task</button>
+
+  <div id="outputTsk"></div>
+
+  <script is:inline src="/assets/js/xctsk-analysis-tooling.js"></script>
+
+  <br />
+  <a href="https://github.com/BarlowR/igc-tools">GitHub Repo here</a>.
+</Base>
